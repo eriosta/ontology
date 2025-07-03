@@ -1,0 +1,662 @@
+Primary Sponsor,Collaborators,Trial Description,Drug Alias,DO,Phase,Drug Platform Technology,Target Antigen,Antigen Strategy,Target Class,Mechanism of Action,Payload,Payload Class,Linker,DAR,Route of Admin,ADC Structural Classification,Trial Design,Number of Arms,Comparator Arm,Combo Therapy Status,Primary Endpoint,Line of Therapy,Trial Geographies,Enrollment Size,Trial Status,Biomarker Strategy,Diagnostic Assay,Companion Diagnostic partner,FPI,Enrollment Completion Date,Primary Completion Date,Projected Readouts,Regulatory Submission Dates,Regulatory Designations,Launch Date,Launch Region,Funding Rounds,Licensing or Commercial Partnerships,Competitors,Efficacy,Durability,Safety,chembl_matched_alias,chembl_id,chembl_name,chembl_target
+Mabwell (Shanghai Bioscience),,,['7MW-3711'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mabwell (Shanghai Bioscience),,,['9MW-2921'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+AbbVie,,First‑in‑Human Phase I (NCT03639194),['ABBV-011'],,,"Monospecific IgG1 ADC, genetically conjugated via stochastic or site-specific linker technology",c‑Met (MET receptor tyrosine kinase),Monospecific ADC,Adizutecan (a topoisomerase I inhibitor),"ntibody binds c‑Met, internalized, releases topoisomerase I inhibitor for cytotoxicity, with possible bystander effects",Adizutecan (a topoisomerase I inhibitor),Single payload ADC,Cleavable (designed to release payload intracellularly; typical for Top1i ADCs),4.0,IV Q3W,IgG1–calicheamicin ADC,,,,,,,,,,,,,,,,,,,,,,,,,,,ABBV-011,CHEMBL4297572,ABBV-3373,TNF-alpha
+AbbVie,,,['ABBV-319'],"Leukemia, Chronic lymphocytic",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ABBV-319,CHEMBL4297572,ABBV-3373,TNF-alpha
+AbbVie,,,['ABBV-319'],"Lymphoma, B-cell, diffuse large ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ABBV-319,CHEMBL4297572,ABBV-3373,TNF-alpha
+AbbVie,,,['ABBV-319'],"Lymphoma, follicular ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ABBV-319,CHEMBL4297572,ABBV-3373,TNF-alpha
+AbbVie,,,['ABBV-706'],CNS,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+AbbVie,,,['ABBV-969'],Prostate,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+AbbVie,,"NCT05029882 (Phase 1, dose-escalation + expansion)","['Telisotuzumab vedotin', 'ABBV‑400']","Advanced/metastatic NSCLC (EGFR WT), CRC, gastroesophageal adenocarcinoma, MET-amplified tumors",AbbVie pipeline (preclinical/early),"Monospecific IgG1 ADC, genetically conjugated via stochastic or site-specific linker technology",c‑Met (MET receptor tyrosine kinase),Monospecific ADC,Adizutecan (a topoisomerase I inhibitor),"ntibody binds c‑Met, internalized, releases topoisomerase I inhibitor for cytotoxicity, with possible bystander effects",Adizutecan (a topoisomerase I inhibitor),Single payload ADC,Cleavable (designed to release payload intracellularly; typical for Top1i ADCs),4.0,IV Q3W,IgG1–calicheamicin ADC,"Open-label, dose-escalation followed by expansion cohorts; later includes randomized Phase 2/3 studies","Multiple dose cohorts; expansion monotherapy and combination arms; upcoming randomized arms (e.g., vs Lonsurf+Bev)","None in initial, later arms include active comparators (e.g., Lonsurf + bevacizumab)","Monotherapy in Phase 1; planned combos with bevacizumab, budigalimab, osimertinib, fluoropyrimidines","Safety, tolerability, MTD/RP2D",Heavily pretreated/refractory solid tumors; new arms in earlier lines planned  ,US-centric with international expansion likely,367.0,"Phase 1 complete, multiple Phase 2/3 active/recruiting",MET protein expression by IHC (≥10% 3+ for CRC expansion); MET amplification also analyzed (ctDNA,MET IHC; ctDNA panels (GuardantINFINITY) in exploratory studies,N/a,Phase 1 started ~2022,Phase 1 ~2024; Phase 2/3 in progress,Phase 1 primary endpoints reached,ASCO/ESMO 2024; ASCO 2025 ongoing,,"No public Breakthrough, ODD, or Fast Track yet",,,N/a,N/a,,"ORR: NSCLC EGFR-WT: ~48% (2.4–3 mg/kg), CBR ~85% at median 6.8 mo follow-up; CRC MET‑high by IHC: 37.5%; MET-low: 14%; Overall across solid tumors: ORR ~63%, median PFS ~9 mo",Median PFS ~9 months; DOR immature but ongoing responders at data cutoff ,"Common AEs: Hematologic (anemia, neutropenia, thrombocytopenia), fatigue, nausea; ILD/pneumonitis rare class effect; Grade 3‑4: Hematologic ~35%; GI ~4%; Fatal TEAEs: ~17% (mostly disease progression; some infection, respiratory distress, pneumonitis)  ",Telisotuzumab vedotin,CHEMBL3990032,TELISOTUZUMAB VEDOTIN,Tubulin
+AbbVie,,,['ABV-706'],"Lung, small cell",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+AbbVie,,,['ABV-706'],"Neuroendocrine, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Hangzhou Adcoris Biopharma,,,['ACR-246'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Hangzhou Adcoris Biopharma,,,['ADC-2122'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Zhejiang Hisun Pharmaceutical,,,['ADC-2122'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Adcendo,,,['ADCE-T02'],Cervical,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Adcendo,,,['ADCE-T02'],Colorectal,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Adcendo,,,['ADCE-T02'],Head & neck,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Adcendo,,,['ADCE-T02'],"Lung, NSCLC",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Adcendo,,,['ADCE-T02'],Pancreatic,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Adcendo ApS,,,['ADCE‑D01'],uPARAP / —,Phase I/II in mesenchymal tumors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Chiome Biosceicne,,,['ADCT-701'],"Neuroendocrine, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+ADC Therapeutics,,,['ADCT-901'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+ADC Therapeutics,,,['ADCT‑241'],PSMA+ cancers,Preclinical → IND soon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+ADC Therapeutics,,,['ADCT‑241'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+ADC Therapeutics,,,['ADCT‑242'],Claudin-6+ solid tumors,Preclinical → IND soon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+ADC Therapeutics,,,['ADCT‑242'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Adcentrx Therapeutics,,,['ADRX-0405'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Adcentrx Therapeutics,,,['ADRX-0706'],Bladder,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ADRX-0706,CHEMBL4130229,VODOBATINIB,Tyrosine-protein kinase ABL
+Adcentrx Therapeutics,,,['ADRX-0706'],Breast,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ADRX-0706,CHEMBL4130229,VODOBATINIB,Tyrosine-protein kinase ABL
+Adcentrx Therapeutics,,,['ADRX-0706'],Cervical,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ADRX-0706,CHEMBL4130229,VODOBATINIB,Tyrosine-protein kinase ABL
+Adcentrx Therapeutics,,,['ADRX-0706'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ADRX-0706,CHEMBL4130229,VODOBATINIB,Tyrosine-protein kinase ABL
+Angiex,,,['AGX-101'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Akeso Biopharma,,,['AK-138D1'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AK-138D1,CHEMBL4297481,AK-106,
+Alentis Therapeutics,,,['ALE-P02'],Squamos cell,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Allink Biotherapeutics,,,['ALK-201'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Allink Biotherapeutics,,,['ALK-202'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Alteogen,,,['ALT-P7 (NeoadenⓇ)'],,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Biohaven,,,['AMB-302'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Multitude Therapeutics,,,['AMT-116'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Multitude Therapeutics,,,['AMT-151'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Multitude Therapeutics,,,['AMT-253'],Melanoma,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Multitude Therapeutics,,,['AMT-253'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Multitude Therapeutics,,,['AMT-562'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+J&J,,,['Anvatabart opadotin'],Breast,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Anvatabart opadotin,CHEMBL4297892,ANVATABART OPADOTIN,Tubulin
+J&J,,,['Anvatabart opadotin'],"Gastrointestinal, stomach",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Anvatabart opadotin,CHEMBL4297892,ANVATABART OPADOTIN,Tubulin
+J&J,,,['Anvatabart opadotin'],Gastro-oesophageal junction,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Anvatabart opadotin,CHEMBL4297892,ANVATABART OPADOTIN,Tubulin
+Zhejiang Pharmaceutical Co.,,,['Anvatabart opadotin'],Breast,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Anvatabart opadotin,CHEMBL4297892,ANVATABART OPADOTIN,Tubulin
+Zhejiang Pharmaceutical Co.,,,['Anvatabart opadotin'],"Gastrointestinal, stomach",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Anvatabart opadotin,CHEMBL4297892,ANVATABART OPADOTIN,Tubulin
+Zhejiang Pharmaceutical Co.,,,['Anvatabart opadotin'],Gastro-oesophageal junction,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Anvatabart opadotin,CHEMBL4297892,ANVATABART OPADOTIN,Tubulin
+Zhejiang Pharmaceutical Co.,,,['ARX-305'],Nasopharyngeal,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Zhejiang Pharmaceutical Co.,,,['ARX-305'],Renal,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Zhejiang Pharmaceutical Co.,,,['ARX-305'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+ADC Therapeutics,,,['ASCT2-ADC (HuB14-PL2202)'],,Pre-clinical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Kirilys Therapeutics,,,['ASN-004'],Breast,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ASN-004,CHEMBL2109398,KB-004,Ephrin type-A receptor 3
+Kirilys Therapeutics,,,['ASN-004'],Colorectal,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ASN-004,CHEMBL2109398,KB-004,Ephrin type-A receptor 3
+Kirilys Therapeutics,,,['ASN-004'],Head & neck,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ASN-004,CHEMBL2109398,KB-004,Ephrin type-A receptor 3
+Kirilys Therapeutics,,,['ASN-004'],"Lung, NSCLC",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ASN-004,CHEMBL2109398,KB-004,Ephrin type-A receptor 3
+Kirilys Therapeutics,,,['ASN-004'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ASN-004,CHEMBL2109398,KB-004,Ephrin type-A receptor 3
+Telix Pharmaceuticals,,,['ATL-101'],Prostate,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Antengene,,,['ATN-022'],"Gastrointestinal, stomach",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ATN-022,CHEMBL4297456,ATN-161,Integrin alpha-5/beta-1
+Antengene,,,['ATN-022'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ATN-022,CHEMBL4297456,ATN-161,Integrin alpha-5/beta-1
+AstraZeneca,,,['AZD-0305'],Myeloma,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AZD-0305,CHEMBL3894518,AZD-8835,
+AstraZeneca,,,['AZD-0901'],"Gastrointestinal, stomach",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AZD-0901,CHEMBL3894518,AZD-8835,
+AstraZeneca,,,['AZD-0901'],Gastro-oesophageal junction,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AZD-0901,CHEMBL3894518,AZD-8835,
+AstraZeneca,,,['AZD-0901'],Pancreatic ,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AZD-0901,CHEMBL3894518,AZD-8835,
+AstraZeneca,,,['AZD-0901'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AZD-0901,CHEMBL3894518,AZD-8835,
+AstraZeneca,,,['AZD-5335'],"Lung, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+AstraZeneca,,,['AZD-5335'],Ovarian,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+AstraZeneca,,,['AZD-5335'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+AstraZeneca,,,['AZD-9592'],Colorectal,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AZD-9592,CHEMBL3894518,AZD-8835,
+AstraZeneca,,,['AZD-9592'],Head & neck,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AZD-9592,CHEMBL3894518,AZD-8835,
+AstraZeneca,,,['AZD-9592'],"Lung, NSCLC",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AZD-9592,CHEMBL3894518,AZD-8835,
+AstraZeneca,,,['AZD-9592'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AZD-9592,CHEMBL3894518,AZD-8835,
+AstraZeneca,,,['AZD-9829'],"Haemotological, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AZD-9829,CHEMBL3894518,AZD-8835,
+Shanghai Pharmaceuticals Holding,,,['B-006'],"Lymphoma, Hodgkin's",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Pharmaceuticals Holding,,,['B-006'],"Lymphoma, T-cell, peripheral",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Luye Pharma Group,,,['BA-1301'],"Gastrointestinal, stomach",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Luye Pharma Group,,,['BA-1301'],Gastro-oesophageal junction,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Luye Pharma Group,,,['BA-1301'],Pancreatic,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shandong Boan Biotechnology,,,['BA-1301'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shandong Boan Biotechnology,,,['BA-1302'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Bio-Thera Solutions,,,['BAT_8010'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Bio-Thera Solutions,,,['BAT-8006'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BAT-8006,CHEMBL302424,(TcN-BAT)nitridotechnetium complex of bis(aminoethanethiol),
+Bio-Thera Solutions,,,['BAT-8007'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BAT-8007,CHEMBL2109530,ASK-8007,Osteopontin
+Bio-Thera Solutions,,,['BAT-8008'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BAT-8008,CHEMBL302424,(TcN-BAT)nitridotechnetium complex of bis(aminoethanethiol),
+Bio-Thera Solutions,,,['BAT-8009'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BAT-8009,CHEMBL302424,(TcN-BAT)nitridotechnetium complex of bis(aminoethanethiol),
+Bliss Biopharmaceutical,,,['BB_1701'],Bladder,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BB_1701,CHEMBL5314978,BB-1701,
+Bliss Biopharmaceutical,,,['BB-1701'],Breast,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BB-1701,CHEMBL5314978,BB-1701,
+Bliss Biopharmaceutical,,,['BB-1705'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+BioCity Biopharma,,,['BB-1709'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Bliss Biopharmaceutical,,,['BB-1709'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Biocytogen,,,['BCG019'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Biocytogen,,,['BCG022'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+GSK,,,['Belantamab mafodotin'],Myeloma ,Registered,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Belantamab mafodotin,CHEMBL4298209,BELANTAMAB MAFODOTIN,Tumor necrosis factor receptor superfamily member 17
+BioNova Pharmaceuticals,,,['Bezetabart debotansine'],"Lymphoma, B-cell",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bezetabart debotansine,CHEMBL5314812,BEZETABART DEBOTANSINE,
+BioNova Pharmaceuticals,,,['Bezetabart debotansine'],"Lymphoma, Non-Hodkin's ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bezetabart debotansine,CHEMBL5314812,BEZETABART DEBOTANSINE,
+Sutro Biopharma,,,['Bezetabart debotansine'],"Llymphoma, B-cell, diffuse large",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bezetabart debotansine,CHEMBL5314812,BEZETABART DEBOTANSINE,
+Sutro Biopharma,,,['Bezetabart debotansine'],"Lymphoma, B-cell, marginal zone",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bezetabart debotansine,CHEMBL5314812,BEZETABART DEBOTANSINE,
+Sutro Biopharma,,,['Bezetabart debotansine'],"Lymphoma, follicular ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Bezetabart debotansine,CHEMBL5314812,BEZETABART DEBOTANSINE,
+Protheragen,,,['BioLink-018'],"Lymphoma, Non-Hodkin's ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M02D1'],"Lung, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M02D1'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M05D1'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M07D1'],Bladder,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M07D1'],Breast,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M07D1'],Cervical,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M07D1'],Endometrial,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M07D1'],Fallopian tube,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M07D1'],"Gastrointestinal, stomach",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M07D1'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M07D1'],Ovarian,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M07D1'],Peritoneal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M07D1'],Vaginal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M11D1'],"Leukaemia, acute myelogenous",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M17D1'],Breast,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M17D1'],"Gastrointestinal, stomach",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sichuan Biokin Pharmaceutical,,,['BL-M17D1'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Pfizer,,,['Brentuximab vedotin'],"Lymphoma, anaplastic large cell",Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Brentuximab vedotin,CHEMBL1742994,BRENTUXIMAB VEDOTIN,Tubulin
+Pfizer,,,['Brentuximab vedotin'],"Lymphoma, B-cell, diffuse large ",Registered,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Brentuximab vedotin,CHEMBL1742994,BRENTUXIMAB VEDOTIN,Tubulin
+Pfizer,,,['Brentuximab vedotin'],"Lymphoma, Hodgkin's",Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Brentuximab vedotin,CHEMBL1742994,BRENTUXIMAB VEDOTIN,Tubulin
+Pfizer,,,['Brentuximab vedotin'],"Lymphoma, Non-Hodkin's ",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Brentuximab vedotin,CHEMBL1742994,BRENTUXIMAB VEDOTIN,Tubulin
+Pfizer,,,['Brentuximab vedotin'],"Lymphoma, T-cell, cutaneous",Pre-registratin,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Brentuximab vedotin,CHEMBL1742994,BRENTUXIMAB VEDOTIN,Tubulin
+Pfizer,,,['Brentuximab vedotin'],"Lymphoma, T-cell, peripheral",Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Brentuximab vedotin,CHEMBL1742994,BRENTUXIMAB VEDOTIN,Tubulin
+Pfizer,,,['Brentuximab vedotin'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Brentuximab vedotin,CHEMBL1742994,BRENTUXIMAB VEDOTIN,Tubulin
+Pfizer,,,['Brentuximab vedotin'],"Lymphoma, anaplastic large cell",Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Brentuximab vedotin,CHEMBL1742994,BRENTUXIMAB VEDOTIN,Tubulin
+OBI Pharma,,,['BSI-992'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mabwell (Shanghai Bioscience),,,['Bulumtatug fuvedotin'],Bladder,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mabwell (Shanghai Bioscience),,,['Bulumtatug fuvedotin'],Breast,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mabwell (Shanghai Bioscience),,,['Bulumtatug fuvedotin'],Cervical,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mabwell (Shanghai Bioscience),,,['Bulumtatug fuvedotin'],Gastro-oesophageal junction,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mabwell (Shanghai Bioscience),,,['Bulumtatug fuvedotin'],Renal,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+ADC Therapeutics,,,['Camidanlumab tesirine'],"Lymphoma, Non-Hodkin's ",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Camidanlumab tesirine,CHEMBL4297871,CAMIDANLUMAB TESIRINE,Interleukin-2 receptor alpha chain
+Coherent Biopharma,,,['CBP-1018'],"Lung, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Coherent Biopharma,,,['CBP-1018'],Prostate,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Coherent Biopharma,,,['CBP-1018'],Renal,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Coherent Biopharma,,,['CBP-1018'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Keymed Biosciences,,,['CM-518D1'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+KeyMed/Lepu,,,['CMG901'],,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Pfizer,,,['Cofetuzumab pelidotin (PF‑06647020)'],PTK7,"Early‑stage breast, ovarian, NSCLC",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cofetuzumab pelidotin (PF‑06647020),CHEMBL3989983,COFETUZUMAB PELIDOTIN,
+CSPC Pharmaceutical,,,['CPO-301'],Breast,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+CSPC Pharmaceutical,,,['CPO-301'],Colorectal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+CSPC Pharmaceutical,,,['CPO-301'],"Lung, NSCLC",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Corbus Pharmaceuticals,,,['CRB-701'],Bladder,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+CSPC Pharmaceutical,,,['CRB-701'],Bladder,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+CSPC Pharmaceutical,,,['CRB-701'],Head & neck,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Cstone Pharmaceuticals,,,['CS-5001'],"Lymphoma, B-cell",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Cstone Pharmaceuticals,,,['CS-5001'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+CStone,,,['CS5007'],Unpublished,Preclinical → Clinical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+OnCusp Therapeutics,,,['CUSP-06'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+OnCusp Therapeutics,,,['CUSP-06'],Ovarian,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+CytomX Therapeutics,,,['CX-2051'],Colorectal,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+CytomX Therapeutics,,,['CX-2051'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Hangzhou DAC Biotech,,,['DAC-002'],Breast,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Hangzhou DAC Biotech,,,['DAC-002'],"Lung, small cell",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Junshi Biosciences,,,['DAC-002'],Breast,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Junshi Biosciences,,,['DAC-002'],"Lung, small cell",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+AstraZeneca,,,['Datopotamab deruxtecan (Dato-DXd)'],Breast,Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Datopotamab deruxtecan (Dato-DXd),CHEMBL4297939,DATOPOTAMAB DERUXTECAN,Tumor-associated calcium signal transducer 2
+AstraZeneca,,,['Datopotamab deruxtecan (Dato-DXd)'],"Lung, NSCLC",Pre-registration,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Datopotamab deruxtecan (Dato-DXd),CHEMBL4297939,DATOPOTAMAB DERUXTECAN,Tumor-associated calcium signal transducer 2
+AstraZeneca,,,['Datopotamab deruxtecan (Dato-DXd)'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Datopotamab deruxtecan (Dato-DXd),CHEMBL4297939,DATOPOTAMAB DERUXTECAN,Tumor-associated calcium signal transducer 2
+Duality,,,['DB-1303 (BNT323)'],,III ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Duality Biologics,,,['DB-1305'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Duality Biologics,,,['DB-1310'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+BioNTech,,,['DB-1311'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Duality Biologics,,,['DB-1311'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Duality Biologics,,,['DB-1311'],"Lung, small cell",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Duality Biologics,,,['DB-1311'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+BeiGene,,,['DB-1312'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+BeiGene,,,['DB-1312'],Breast,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Duality Biologics,,,['DB-1312'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Duality Biologics,,,['DB-1418'],,I/II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Duality Biologics,,,['DB-1419'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Pfizer,,,['Disitamab vedotin'],Bladder,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Disitamab vedotin,CHEMBL5095273,DISITAMAB VEDOTIN,
+Pfizer,,,['Disitamab vedotin'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Disitamab vedotin,CHEMBL5095273,DISITAMAB VEDOTIN,
+RemeGen,,,['Disitamab vedotin'],Bilary,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Disitamab vedotin,CHEMBL5095273,DISITAMAB VEDOTIN,
+RemeGen,,,['Disitamab vedotin'],Bladder,Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Disitamab vedotin,CHEMBL5095273,DISITAMAB VEDOTIN,
+RemeGen,,,['Disitamab vedotin'],Cervical,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Disitamab vedotin,CHEMBL5095273,DISITAMAB VEDOTIN,
+RemeGen,,,['Disitamab vedotin'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Disitamab vedotin,CHEMBL5095273,DISITAMAB VEDOTIN,
+Biocytogen,,,['DM-002'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,DM-002,CHEMBL1078556,PORICOIC ACID DM,
+Hangzhou highField Biopharma,,,['Doxorubicin'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Doxorubicin,CHEMBL53463,DOXORUBICIN,
+CSPC Pharmaceutical,,,['DP-303c'],Breast,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+CSPC Pharmaceutical,,,['DP-303c'],"Gastrointestinal, stomach",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+CSPC Pharmaceutical,,,['DP-303c'],Gastro-oesophageal junction,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Daiichi Sankyo,,,['DS-3939'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Daiichi Sankyo,,,['DS-9606'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,DS-9606,CHEMBL1631759,JADOMYCIN DS,
+Hangzhou DAC Biotech,,,['DX126-262'],Bladder,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Hangzhou DAC Biotech,,,['DX126-262'],Breast,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Hangzhou DAC Biotech,,,['DX126-262'],"Gastrointestinal, stomach",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Hangzhou DAC Biotech,,,['DXC-005'],Colorectal,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Hangzhou DAC Biotech,,,['DXC-005'],Pancreatic,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Hangzhou DAC Biotech,,,['DXC-005'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Hangzhou DAC Biotech,,,['DXC-006'],"Haemotological, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Hangzhou DAC Biotech,,,['DXC-006'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Hangzhou DAC Biotech,,,['DXC-007'],"Leukaemia, acute myelogenous",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Hangzhou DAC Biotech,,,['DXC-1002'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Hangzhou DAC,,,['DXC018'],HER2-positive solid tumors,Preclinical → Clinical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Hangzhou DAC Biotech,,,['DXC018'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Experimental Drug Development Centre (EDDC),,,['EBC‑129'],CEACAM5/6,"Phase I expansion in PDAC, GEA, etc.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mersana Therapeutics,,,['Emiltatug ledadotin'],Breast,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mersana Therapeutics,,,['Emiltatug ledadotin'],Endometrial,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mersana Therapeutics,,,['Emiltatug ledadotin'],Ovarian,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mersana Therapeutics,,,['Emiltatug ledadotin'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Astellas Pharma,,,['Enfortumab vedotin'],Bladder,Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Enfortumab vedotin,CHEMBL3301589,ENFORTUMAB VEDOTIN,Nectin-4
+Astellas Pharma,,,['Enfortumab vedotin'],Colorectal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Enfortumab vedotin,CHEMBL3301589,ENFORTUMAB VEDOTIN,Nectin-4
+Astellas Pharma,,,['Enfortumab vedotin'],Liver,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Enfortumab vedotin,CHEMBL3301589,ENFORTUMAB VEDOTIN,Nectin-4
+Astellas Pharma,,,['Enfortumab vedotin'],Renal,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Enfortumab vedotin,CHEMBL3301589,ENFORTUMAB VEDOTIN,Nectin-4
+Astellas Pharma,,,['Enfortumab vedotin'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Enfortumab vedotin,CHEMBL3301589,ENFORTUMAB VEDOTIN,Nectin-4
+Astellas Pharma,,,['Enfortumab vedotin'],Urethral,Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Enfortumab vedotin,CHEMBL3301589,ENFORTUMAB VEDOTIN,Nectin-4
+Pfizer,,,['Enfortumab vedotin'],Bladder,Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Enfortumab vedotin,CHEMBL3301589,ENFORTUMAB VEDOTIN,Nectin-4
+Pfizer,,,['Enfortumab vedotin'],Renal,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Enfortumab vedotin,CHEMBL3301589,ENFORTUMAB VEDOTIN,Nectin-4
+Pfizer,,,['Enfortumab vedotin'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Enfortumab vedotin,CHEMBL3301589,ENFORTUMAB VEDOTIN,Nectin-4
+Pfizer,,,['Enfortumab vedotin'],Urethral,Pre-registration,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Enfortumab vedotin,CHEMBL3301589,ENFORTUMAB VEDOTIN,Nectin-4
+CSPC Pharmaceutical,,,['EO-3021'],Gastro-oesophageal junction,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+CSPC Pharmaceutical,,,['EO-3021'],Pancreatic,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+CSPC Pharmaceutical ,,,['EO-3021'],"Gastrointestinal, stomach",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+ADC Therapeutics,,,['Epratuzumab tesirine'],"Leukaemia, acute lymphocytic",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Epratuzumab tesirine,CHEMBL4297872,EPRATUZUMAB-CYS-TESIRINE,
+Shanghai Escugen Biotech,,,['ESG-401'],Breast,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Escugen Biotech,,,['ESG-401'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Eli Lilly,,,['Etx-22'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Fudan-Zhangjiang,,,['F0002-ADC'],"Lymphoma, Hodgkin's",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Fudan-Zhangjiang,,,['F0002-ADC'],"Haemotological, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Eisai,,,['Farletuzumab ecteribulin'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Farletuzumab ecteribulin,CHEMBL4802212,FARLETUZUMAB ECTERIBULIN,
+Shanghai Fudan-Zhangjiang,,,['FDA-018'],Breast,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Fudan-Zhangjiang,,,['FDA-022'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDA-022,CHEMBL2109356,BIIB-022,Insulin-like growth factor I receptor
+FibroGen,,,['FG-3246'],Prostate,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+BeiGene,,,['FGFR2b ADC'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Fudan-Zhangjiang,,,['FZ-AD004'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FZ-AD004,CHEMBL558,MEXILETINE,
+Shanghai Fudan-Zhangjiang,,,['FZ-AD005'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FZ-AD005,CHEMBL558,MEXILETINE,
+Celldex Therapeutics,,,['Glembatumumab vedotin (CDX-011)'],GPNMB / MMAE,"Phase I/II – melanoma, breast cancer",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Glembatumumab vedotin (CDX-011),CHEMBL1743028,GLEMBATUMUMAB VEDOTIN,Transmembrane glycoprotein NMB
+Heidelberg Pharma,,,['HDP-101 (Patisiran vedotin)'],,I/IIa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HDP-101 (Patisiran vedotin),CHEMBL3989987,PATISIRAN,
+Heidelberg Pharma,,,['HDP-102'],,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Heidelberg Pharma,,,['HDP-103'],,Preclinical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+ADC Therapeutics,,,['HuB14‑VA‑PL2202'],ASCT2+ cancers,Preclinical → IND soon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Innovent Biologics,,,['IBI-354'],Peritoneal,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IBI-354,CHEMBL4594553,IBI-188,
+Innovent Biologics,,,['IBI-354'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IBI-354,CHEMBL4594553,IBI-188,
+Innovent,,,['IBI3026'],PD-L1-positive tumors,Phase I planned (2025),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Exelixis,,,['ICON-2'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ICON-2,CHEMBL299613,2-METHOXYESTRADIOL,
+Zymeworks,,,['ICON-2'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ICON-2,CHEMBL299613,2-METHOXYESTRADIOL,
+Daiichi Sankyo,,,['Ifinatamab deruxtecan'],"Lung, small cell",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ifinatamab deruxtecan,CHEMBL5095331,IFINATAMAB DERUXTECAN,
+Daiichi Sankyo,,,['Ifinatamab deruxtecan'],Gastro-oesophageal junction,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ifinatamab deruxtecan,CHEMBL5095331,IFINATAMAB DERUXTECAN,
+Daiichi Sankyo,,,['Ifinatamab deruxtecan'],Prostate,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ifinatamab deruxtecan,CHEMBL5095331,IFINATAMAB DERUXTECAN,
+Daiichi Sankyo,,,['Ifinatamab deruxtecan'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ifinatamab deruxtecan,CHEMBL5095331,IFINATAMAB DERUXTECAN,
+Merck & Co.,,,['Ifinatamab deruxtecan'],Colorectal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ifinatamab deruxtecan,CHEMBL5095331,IFINATAMAB DERUXTECAN,
+Fosun,,,['IKS014 (FS-1502)'],,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Iksuda Therapeutics,,,['IKS03'],,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Iksuda Therapeutics,,,['IKS04‑(CA242 ADC)'],,IND late 2025,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Immunome,,,['IM-1021'],Breast,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Immunome,,,['IM-1021'],"Lung, NSCLC",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Immunome,,,['IM-1021'],"Lymphoma, B-cell, diffuse large ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Immunome,,,['IM-1021'],"Lymphoma, follcular",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Immunome,,,['IM-1021'],"Lymphoma, mantle cell",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Immunome,,,['IM-1021'],"Lymphoma, Non-Hodkin's ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Immunome,,,['IM-1021'],Mesothelioma,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Immunome,,,['IM-1021'],Ovarian,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Immunome,,,['IM-1021'],Pancreatic,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Immunome,,,['IM-1021'],"Sarcoma, lipo",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Immunome,,,['IM-1021'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Immunome,,,['IM-1021'],Unspecified,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Zentalis Pharmaceuticals,,,['IM-1021'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Affinity Biopharma,,,['IMD2113'],EGFR/TROP2-positive tumors,Preclinical → Clinical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+AbbVie,,,['IMGN-151'],Endometrial,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IMGN-151,CHEMBL2109633,IMGN-388,Vitronectin receptor alpha
+AbbVie,,,['IMGN-151'],Fallopian tube,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IMGN-151,CHEMBL2109633,IMGN-388,Vitronectin receptor alpha
+AbbVie,,,['IMGN-151'],Ovarian,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IMGN-151,CHEMBL2109633,IMGN-388,Vitronectin receptor alpha
+AbbVie,,,['IMGN-151'],Peritoneal,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IMGN-151,CHEMBL2109633,IMGN-388,Vitronectin receptor alpha
+Inatherys,,,['INA-03'],"Leukaemia, acute lymphocytic",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,INA-03,CHEMBL5314916,ENT-03,
+Inatherys,,,['INA-03'],"Leukaemia, acute myelogenous",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,INA-03,CHEMBL5314916,ENT-03,
+Biotest Pharmaceuticals (Biotest AG),,,['Indatuximab ravtansine'],CD138,Myeloma trials ongoing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Indatuximab ravtansine,CHEMBL1743031,INDATUXIMAB RAVTANSINE,Syndecan-1
+Biotest Pharmaceuticals Corporation (aka Biotest AG),,,['Indatuximab ravtansine'],CD138 / DM4,"Myeloma (combo), TNBC, bladder cancers",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Indatuximab ravtansine,CHEMBL1743031,INDATUXIMAB RAVTANSINE,Syndecan-1
+Millennium Pharmaceuticals (Takeda),,,['Indusatumab vedotin (MLN‑0264 / TAK‑264)'],Guanylate cyclase‑C,Phase II GI cancers (paused),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Indusatumab vedotin (MLN‑0264 / TAK‑264),CHEMBL4298045,INDUSATUMAB VEDOTIN,Tubulin
+Pfizer,,,['Inotuzumab ozogamicin'],"Leukaemia, acute lymphocytic",Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Inotuzumab ozogamicin,CHEMBL2108611,INOTUZUMAB OZOGAMICIN,CD22
+Innate Pharma,,,['IPH-4502'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,IPH-4502,CHEMBL2109498,IPH-2101,Killer cell immunoglobulin-like receptor 2DL2
+Bristol-Myers Squibb,,,['Izalontamab brengitecan'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Izalontamab brengitecan,CHEMBL5314841,IZALONTAMAB BRENGITECAN,
+Sichuan Biokin Pharmaceutical,,,['Izalontamab brengitecan'],Biliary,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Izalontamab brengitecan,CHEMBL5314841,IZALONTAMAB BRENGITECAN,
+Sichuan Biokin Pharmaceutical,,,['Izalontamab brengitecan'],Bladder,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Izalontamab brengitecan,CHEMBL5314841,IZALONTAMAB BRENGITECAN,
+Sichuan Biokin Pharmaceutical,,,['Izalontamab brengitecan'],Breast,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Izalontamab brengitecan,CHEMBL5314841,IZALONTAMAB BRENGITECAN,
+Sichuan Biokin Pharmaceutical,,,['Izalontamab brengitecan'],Chordoma,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Izalontamab brengitecan,CHEMBL5314841,IZALONTAMAB BRENGITECAN,
+Sichuan Biokin Pharmaceutical,,,['Izalontamab brengitecan'],"Gastrointestinal, stomach",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Izalontamab brengitecan,CHEMBL5314841,IZALONTAMAB BRENGITECAN,
+Sichuan Biokin Pharmaceutical,,,['Izalontamab brengitecan'],Head & neck,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Izalontamab brengitecan,CHEMBL5314841,IZALONTAMAB BRENGITECAN,
+Sichuan Biokin Pharmaceutical,,,['Izalontamab brengitecan'],"Lung, NSCLC",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Izalontamab brengitecan,CHEMBL5314841,IZALONTAMAB BRENGITECAN,
+Sichuan Biokin Pharmaceutical,,,['Izalontamab brengitecan'],"Lung, small cell",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Izalontamab brengitecan,CHEMBL5314841,IZALONTAMAB BRENGITECAN,
+Sichuan Biokin Pharmaceutical,,,['Izalontamab brengitecan'],Nasopharyngeal,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Izalontamab brengitecan,CHEMBL5314841,IZALONTAMAB BRENGITECAN,
+Sichuan Biokin Pharmaceutical,,,['Izalontamab brengitecan'],Oesophageal,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Izalontamab brengitecan,CHEMBL5314841,IZALONTAMAB BRENGITECAN,
+AbbVie,,,['Izeltabart tapatansine'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Izeltabart tapatansine,CHEMBL5095346,IZELTABART TAPATANSINE,
+Novartis,,,['JBH-492'],"Leukaemia, chronic lymphocytic",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Novartis,,,['JBH-492'],"Lymphoma, Non-Hodkin's ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+J&J,,,['JNJ-8177'],Prostate,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,JNJ-8177,CHEMBL4297294,JNJ-42165279,Anandamide amidohydrolase
+J&J,,,['JNJ-8177'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,JNJ-8177,CHEMBL4297294,JNJ-42165279,Anandamide amidohydrolase
+Shanghai Junshi Biosciences,,,['JS-107'],"Gastrointestinal, stomach",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Junshi Biosciences,,,['JS-107'],Pancreatic,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Junshi Biosciences,,,['JS-107'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Suzhou Alphamab,,,['JSKN-003'],Breast,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Suzhou Alphamab,,,['JSKN-003'],Fallopian tube,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Suzhou Alphamab,,,['JSKN-003'],Ovarian,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Suzhou Alphamab,,,['JSKN-003'],Peritoneal,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Suzhou Alphamab,,,['JSKN-003'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Suzhou Alphamab,,,['JSKN-016'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Suzhou Alphamab,,,['JSKN-033'],Breast,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Suzhou Alphamab,,,['JSKN-033'],Ovarian,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Suzhou Alphamab,,,['JSKN-033'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Jiangsu Alphamab,,,['JSKN021'],EGFR/HER3-positive tumors,Preclinical → Clinical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Chengdu,,,['KH815'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Chengdu Kanghong,,,['KH815'],TROP2-positive solid tumors,Phase I planned,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Kyowa Kirin,,,['KK-2845'],"Leukaemia, acute myelogenous",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sihuan Pharmaceutical,,,['KM-501'],Breast,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sihuan Pharmaceutical,,,['KM-501'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Nippon Kayaku,,,['KS1/4-vinblastine'],"Lymphoma, Non-Hodkin's ",Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Nippon Kayaku,,,['KS1/4-vinblastine'],Teratoma,Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Novatim Immune Therapeutics (Zhejiang),,,['KY-0301'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Helix Bipoharma,,,['L-DOS-47'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Helix Bipoharma,,,['L-DOS-47'],Pancreatic,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+LigaChem Biosciences,,,['LCB-14'],Colorectal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+LigaChem Biosciences,,,['LCB-14'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+LigaChem Biosciences,,,['LCB-14'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Fosun Pharmaceutical,,,['LCB-14'],Breast,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Fosun Pharmaceutical,,,['LCB-14'],Colorectal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Fosun Pharmaceutical,,,['LCB-14'],"Gastrointestinal, stomach",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Fosun Pharmaceutical,,,['LCB-14'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Fosun Pharmaceutical,,,['LCB-14'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+J&J,,,['LCB-84'],"Haemotological, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+J&J,,,['LCB-84'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+LigaChem Biosciences,,,['LCB-84'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Bristol-Myers Squibb,,,['LM-302'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+LaNova Medicines,,,['LM-302'],Biliary,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+LaNova Medicines,,,['LM-302'],"Gastrointestinal, stomach",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+LaNova Medicines,,,['LM-302'],Gastro-oesophageal junction,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+LaNova Medicines,,,['LM-302'],Pancreatic,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+LaNova Medicines,,,['LM-302'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+LigaChem Biosciences,,,['LNCB-74'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+NextCure,,,['LNCB-74'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+ADC Therapeutics,,,['Loncastuximab tesirine'],"Lymphoma, B-cell, diffuse large ",Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Loncastuximab tesirine,CHEMBL4297778,LONCASTUXIMAB TESIRINE,B-lymphocyte antigen CD19
+ADC Therapeutics,,,['Loncastuximab tesirine'],"Lymphoma, B-cell, marginal zone",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Loncastuximab tesirine,CHEMBL4297778,LONCASTUXIMAB TESIRINE,B-lymphocyte antigen CD19
+ADC Therapeutics,,,['Loncastuximab tesirine'],"Lymphoma, follcular",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Loncastuximab tesirine,CHEMBL4297778,LONCASTUXIMAB TESIRINE,B-lymphocyte antigen CD19
+Mitsubishi Chemical,,,['Loncastuximab tesirine'],"Lymphoma, B-cell, diffuse large ",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Loncastuximab tesirine,CHEMBL4297778,LONCASTUXIMAB TESIRINE,B-lymphocyte antigen CD19
+Overland ADCT BioPharma,,,['Loncastuximab tesirine'],"Lymphoma, B-cell, diffuse large ",Pre-registration,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Loncastuximab tesirine,CHEMBL4297778,LONCASTUXIMAB TESIRINE,B-lymphocyte antigen CD19
+Overland ADCT BioPharma,,,['Loncastuximab tesirine'],"Lymphoma, mantle cell",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Loncastuximab tesirine,CHEMBL4297778,LONCASTUXIMAB TESIRINE,B-lymphocyte antigen CD19
+Sobi,,,['Loncastuximab tesirine'],"Lymphoma, B-cell, diffuse large ",Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Loncastuximab tesirine,CHEMBL4297778,LONCASTUXIMAB TESIRINE,B-lymphocyte antigen CD19
+Laboratoires Pierre Fabre,,,['Lonigutamab ugodotin'],IGF‑1R / MMAE,Phase I – advanced solid tumors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Lonigutamab ugodotin,CHEMBL5314990,LONIGUTAMAB,
+Eli Lilly,,,['LY-4052031'],Bladder,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Eli Lilly,,,['LY-4052031'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Merck & Co.,,,['M-3554'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Merck KGaA,,,['M-9140'],Colorectal,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M-9140,CHEMBL451147,RENIERAMYCIN M,
+Merck KGaA,,,['M-9140'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,M-9140,CHEMBL451147,RENIERAMYCIN M,
+Eli Lilly,,,['MBK-103'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mbrace Therapeutics,,,['MBRC-101'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+BioAtla,,,['Mecbotamab vedotin'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mecbotamab vedotin,CHEMBL5095312,MECBOTAMAB VEDOTIN,
+BioAtla,,,['Mecbotamab vedotin'],Ovarian,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mecbotamab vedotin,CHEMBL5095312,MECBOTAMAB VEDOTIN,
+BioAtla,,,['Mecbotamab vedotin'],Pancreatic,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mecbotamab vedotin,CHEMBL5095312,MECBOTAMAB VEDOTIN,
+BioAtla,,,['Mecbotamab vedotin'],Prostate,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mecbotamab vedotin,CHEMBL5095312,MECBOTAMAB VEDOTIN,
+BioAtla,,,['Mecbotamab vedotin'],"Sarcoma, osteo",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mecbotamab vedotin,CHEMBL5095312,MECBOTAMAB VEDOTIN,
+BioAtla,,,['Mecbotamab vedotin'],"Sarcoma, soft tissue",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mecbotamab vedotin,CHEMBL5095312,MECBOTAMAB VEDOTIN,
+BioAtla,,,['Mecbotamab vedotin'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mecbotamab vedotin,CHEMBL5095312,MECBOTAMAB VEDOTIN,
+MacroGenics,,,['MGC-026'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+MacroGenics,,,['MGC-028'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MGC-028,CHEMBL4790100,AKN-028,Tyrosine-protein kinase receptor FLT3
+Shanghai Minghui Pharmaceutical,,,['MHB-036C'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Shanghai Minghui Pharmaceutical,,,['MHB-088C'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Pfizer,,,['Micvotabart pelidotin (MICVO) (PYX-201)'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Micvotabart pelidotin (MICVO) (PYX-201),CHEMBL3989983,COFETUZUMAB PELIDOTIN,
+Pyxis Oncology,,,['Micvotabart pelidotin (MICVO) (PYX-201)'],Head & neck,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Micvotabart pelidotin (MICVO) (PYX-201),CHEMBL3989983,COFETUZUMAB PELIDOTIN,
+Pyxis Oncology,,,['Micvotabart pelidotin (MICVO) (PYX-201)'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Micvotabart pelidotin (MICVO) (PYX-201),CHEMBL3989983,COFETUZUMAB PELIDOTIN,
+AbbVie,,,['Mirvetuximab soravtansine (Elhare)'],Endometrial,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mirvetuximab soravtansine (Elhare),CHEMBL3545132,MIRVETUXIMAB SORAVTANSINE,Folate receptor alpha
+AbbVie,,,['Mirvetuximab soravtansine (Elhare)'],Fallopian tube,Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mirvetuximab soravtansine (Elhare),CHEMBL3545132,MIRVETUXIMAB SORAVTANSINE,Folate receptor alpha
+AbbVie,,,['Mirvetuximab soravtansine (Elhare)'],Ovarian,Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mirvetuximab soravtansine (Elhare),CHEMBL3545132,MIRVETUXIMAB SORAVTANSINE,Folate receptor alpha
+AbbVie,,,['Mirvetuximab soravtansine (Elhare)'],Peritoneal,Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mirvetuximab soravtansine (Elhare),CHEMBL3545132,MIRVETUXIMAB SORAVTANSINE,Folate receptor alpha
+AbbVie,,,['Mirvetuximab soravtansine (Elhare)'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mirvetuximab soravtansine (Elhare),CHEMBL3545132,MIRVETUXIMAB SORAVTANSINE,Folate receptor alpha
+Huadong medicine,,,['Mirvetuximab soravtansine (Elhare)'],Ovarian,Pre-registration,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mirvetuximab soravtansine (Elhare),CHEMBL3545132,MIRVETUXIMAB SORAVTANSINE,Folate receptor alpha
+Takeda,,,['Mirvetuximab soravtansine (Elhare)'],Ovarian,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mirvetuximab soravtansine (Elhare),CHEMBL3545132,MIRVETUXIMAB SORAVTANSINE,Folate receptor alpha
+Takeda,,,['Mirvetuximab soravtansine (Elhare)'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Mirvetuximab soravtansine (Elhare),CHEMBL3545132,MIRVETUXIMAB SORAVTANSINE,Folate receptor alpha
+Lepu Bipharma,,,['MRG-001'],"Lymphoma, Non-Hodkin's ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Lepu Bipharma,,,['MRG-003 (Becotatug vedotin)'],Biliary,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MRG-003 (Becotatug vedotin),CHEMBL5315031,MRG-003,
+Lepu Bipharma,,,['MRG-003 (Becotatug vedotin)'],"Gastrointestinal, stomach",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MRG-003 (Becotatug vedotin),CHEMBL5315031,MRG-003,
+Lepu Bipharma,,,['MRG-003 (Becotatug vedotin)'],Head & neck,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MRG-003 (Becotatug vedotin),CHEMBL5315031,MRG-003,
+Lepu Bipharma,,,['MRG-003 (Becotatug vedotin)'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MRG-003 (Becotatug vedotin),CHEMBL5315031,MRG-003,
+Lepu Bipharma,,,['MRG-003 (Becotatug vedotin)'],Nasopharyngeal,Pre-registration,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MRG-003 (Becotatug vedotin),CHEMBL5315031,MRG-003,
+Lepu Bipharma,,,['MRG-003 (Becotatug vedotin)'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MRG-003 (Becotatug vedotin),CHEMBL5315031,MRG-003,
+Lepu Bipharma,,,['MRG-004'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MRG-004,CHEMBL5315031,MRG-003,
+Lepu Bipharma,,,['MRG-006'],Liver,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Lepu Bipharma,,,['MRG-006'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Lepu Bipharma,,,['MRG-006'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Day One Bipharmaceuticals,,,['MTX-13'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mythic Therapeutics,,,['MYTX-011'],"Lung, NSCLC",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sorrento Therapeutics,,,"['Nab-paclitaxel, ADNAB']",Endometrial,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sorrento Therapeutics,,,"['Nab-paclitaxel, ADNAB']",Ovarian,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Debiopharm,,,['Naratuximab emtansine'],"Lymphoma, B-cell, diffuse large ",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Naratuximab emtansine,CHEMBL2109268,NARATUXIMAB EMTANSINE,Leukocyte antigen CD37
+Debiopharm,,,['Naratuximab emtansine'],"Lymphoma, follcular",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Naratuximab emtansine,CHEMBL2109268,NARATUXIMAB EMTANSINE,Leukocyte antigen CD37
+Debiopharm,,,['Naratuximab emtansine'],"Lymphoma, Non-Hodkin's ",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Naratuximab emtansine,CHEMBL2109268,NARATUXIMAB EMTANSINE,Leukocyte antigen CD37
+NewBio Therapeutics,,,['NBT-508'],"Lymphoma, B-cell",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Novacyte Therapeutics,,,['NC-18'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Iksuda Therapeutics,,,['NI-2201'],"Lymphoma, Non-Hodkin's ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Novelty Nobility,,,['NN-3201'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Agenus,,,['Oberotatug ravtansine'],Ovarian,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Oberotatug ravtansine,CHEMBL5314757,OBEROTATUG RAVTANSINE,
+Menarini Group,,,['Oberotatug ravtansine'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Oberotatug ravtansine,CHEMBL5314757,OBEROTATUG RAVTANSINE,
+Oxford BioTherapeutics,,,['Oberotatug ravtansine'],Adenoid cystic carcinoma,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Oberotatug ravtansine,CHEMBL5314757,OBEROTATUG RAVTANSINE,
+Oxford BioTherapeutics,,,['Oberotatug ravtansine'],Breast,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Oberotatug ravtansine,CHEMBL5314757,OBEROTATUG RAVTANSINE,
+Oxford BioTherapeutics,,,['Oberotatug ravtansine'],Endometrial,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Oberotatug ravtansine,CHEMBL5314757,OBEROTATUG RAVTANSINE,
+Oxford BioTherapeutics,,,['Oberotatug ravtansine'],"Gastrointestinal, stomach",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Oberotatug ravtansine,CHEMBL5314757,OBEROTATUG RAVTANSINE,
+Oxford BioTherapeutics,,,['Oberotatug ravtansine'],"Lung, NSCLC",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Oberotatug ravtansine,CHEMBL5314757,OBEROTATUG RAVTANSINE,
+Oxford BioTherapeutics,,,['Oberotatug ravtansine'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Oberotatug ravtansine,CHEMBL5314757,OBEROTATUG RAVTANSINE,
+InxMed,,,['OMTX-705'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Oncomatryx,,,['OMTX-705'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Oqory,,,['OQY-6129'],"Lung, NSCLC",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Oqory,,,['OQY-6129'],"Lung, small cell",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Oqory,,,['OQY-6129'],Myeloma,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Bristol-Myers Squibb,,,['ORM-6151'],"Leukaemia, acute myelogenous",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ORM-6151,CHEMBL4297312,ORM-12741,Alpha-2c adrenergic receptor
+Bristol-Myers Squibb,,,['ORM-6151'],Myelodysplastic syndrome,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ORM-6151,CHEMBL4297312,ORM-12741,Alpha-2c adrenergic receptor
+BioAtla,,,['Ozuriftamab vedotin'],Breast,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ozuriftamab vedotin,CHEMBL5095285,OZURIFTAMAB VEDOTIN,
+BioAtla,,,['Ozuriftamab vedotin'],Head & neck,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ozuriftamab vedotin,CHEMBL5095285,OZURIFTAMAB VEDOTIN,
+BioAtla,,,['Ozuriftamab vedotin'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ozuriftamab vedotin,CHEMBL5095285,OZURIFTAMAB VEDOTIN,
+BioAtla,,,['Ozuriftamab vedotin'],Melanoma,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ozuriftamab vedotin,CHEMBL5095285,OZURIFTAMAB VEDOTIN,
+BioAtla,,,['Ozuriftamab vedotin'],Ovarian,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ozuriftamab vedotin,CHEMBL5095285,OZURIFTAMAB VEDOTIN,
+BioAtla,,,['Ozuriftamab vedotin'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ozuriftamab vedotin,CHEMBL5095285,OZURIFTAMAB VEDOTIN,
+Himalaya Therapeutics,,,['Ozuriftamab vedotin'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ozuriftamab vedotin,CHEMBL5095285,OZURIFTAMAB VEDOTIN,
+Himalaya Therapeutics,,,['Ozuriftamab vedotin'],Melanoma,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ozuriftamab vedotin,CHEMBL5095285,OZURIFTAMAB VEDOTIN,
+Daiichi Sankyo,,,['Patritumab deruxtecan'],Breast,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Patritumab deruxtecan,CHEMBL4594611,PATRITUMAB DERUXTECAN,Receptor tyrosine-protein kinase erbB-3
+Daiichi Sankyo,,,['Patritumab deruxtecan'],"Gastrointestinal, stomach",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Patritumab deruxtecan,CHEMBL4594611,PATRITUMAB DERUXTECAN,Receptor tyrosine-protein kinase erbB-3
+Daiichi Sankyo,,,['Patritumab deruxtecan'],"Lung, NSCLC",Pre-registration,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Patritumab deruxtecan,CHEMBL4594611,PATRITUMAB DERUXTECAN,Receptor tyrosine-protein kinase erbB-3
+Daiichi Sankyo,,,['Patritumab deruxtecan'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Patritumab deruxtecan,CHEMBL4594611,PATRITUMAB DERUXTECAN,Receptor tyrosine-protein kinase erbB-3
+Merck,,,['Patritumab deruxtecan*'],HER3‑DXd,Late‑stage lung cancer (withdrawn),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Patritumab deruxtecan*,CHEMBL4594611,PATRITUMAB DERUXTECAN,Receptor tyrosine-protein kinase erbB-3
+AbbVie,,,['Pivekimab sunirine'],"Leukaemia, acute lymphocytic",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pivekimab sunirine,CHEMBL4297991,PIVEKIMAB SUNIRINE,
+AbbVie,,,['Pivekimab sunirine'],"Leukaemia, acute myelogenous",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pivekimab sunirine,CHEMBL4297991,PIVEKIMAB SUNIRINE,
+AbbVie,,,['Pivekimab sunirine'],"Neoplasm, blastic plasmacytoid dendritic cell",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pivekimab sunirine,CHEMBL4297991,PIVEKIMAB SUNIRINE,
+"ImmunoGen, Inc.",,,['Pivekimab sunirine (IMGN-632)'],CD123,Phase II BPDCN (breakthrough),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pivekimab sunirine (IMGN-632),CHEMBL4297991,PIVEKIMAB SUNIRINE,
+Roche,,,['Polatuzumab vedotin'],"Lymphoma, B-cell",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Polatuzumab vedotin,CHEMBL3301582,POLATUZUMAB VEDOTIN,B-cell antigen receptor complex-associated protein beta chain
+Roche,,,['Polatuzumab vedotin'],"Lymphoma, B-cell, diffuse large ",Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Polatuzumab vedotin,CHEMBL3301582,POLATUZUMAB VEDOTIN,B-cell antigen receptor complex-associated protein beta chain
+Roche,,,['Polatuzumab vedotin'],"Lymphoma, Non-Hodkin's ",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Polatuzumab vedotin,CHEMBL3301582,POLATUZUMAB VEDOTIN,B-cell antigen receptor complex-associated protein beta chain
+Genmab/ProfoundBio,,,['PRO1107'],,I/II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Genmab/ProfoundBio,,,['PRO1160'],,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Genmab/ProfoundBio,,,['PRO1286'],,Preclinical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+AstraZeneca,,,['Puxitatug samrotecan'],Biliary,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Puxitatug samrotecan,CHEMBL5314766,PUXITATUG SAMROTECAN,
+AstraZeneca,,,['Puxitatug samrotecan'],Breast,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Puxitatug samrotecan,CHEMBL5314766,PUXITATUG SAMROTECAN,
+AstraZeneca,,,['Puxitatug samrotecan'],Endometrial,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Puxitatug samrotecan,CHEMBL5314766,PUXITATUG SAMROTECAN,
+AstraZeneca,,,['Puxitatug samrotecan'],Ovarian,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Puxitatug samrotecan,CHEMBL5314766,PUXITATUG SAMROTECAN,
+AstraZeneca,,,['Puxitatug samrotecan'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Puxitatug samrotecan,CHEMBL5314766,PUXITATUG SAMROTECAN,
+Daiichi Sankyo,,,['Raludotatug deruxtecan'],Fallopian tube,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Raludotatug deruxtecan,CHEMBL5095329,RALUDOTATUG DERUXTECAN,
+Daiichi Sankyo,,,['Raludotatug deruxtecan'],"Gastrointestinal, stomach",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Raludotatug deruxtecan,CHEMBL5095329,RALUDOTATUG DERUXTECAN,
+Daiichi Sankyo,,,['Raludotatug deruxtecan'],Ovarian,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Raludotatug deruxtecan,CHEMBL5095329,RALUDOTATUG DERUXTECAN,
+Daiichi Sankyo,,,['Raludotatug deruxtecan'],Peritoneal,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Raludotatug deruxtecan,CHEMBL5095329,RALUDOTATUG DERUXTECAN,
+Daiichi Sankyo,,,['Raludotatug deruxtecan'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Raludotatug deruxtecan,CHEMBL5095329,RALUDOTATUG DERUXTECAN,
+RemeGen,,,['RC-108'],Biliary,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RC-108,CHEMBL451702,GINSENOSIDE RC,
+RemeGen,,,['RC-108'],Colorectal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RC-108,CHEMBL451702,GINSENOSIDE RC,
+RemeGen,,,['RC-108'],Gas,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RC-108,CHEMBL451702,GINSENOSIDE RC,
+RemeGen,,,['RC-108'],Liver,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RC-108,CHEMBL451702,GINSENOSIDE RC,
+RemeGen,,,['RC-108'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RC-108,CHEMBL451702,GINSENOSIDE RC,
+RemeGen,,,['RC-108'],Gastro-oesophageal junction,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RC-108,CHEMBL451702,GINSENOSIDE RC,
+RemeGen,,,['RC-108'],Pancreatic,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RC-108,CHEMBL451702,GINSENOSIDE RC,
+RemeGen,,,['RC-118'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RC-118,CHEMBL451702,GINSENOSIDE RC,
+RemeGen,,,['RC-88'],Cervical,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RC-88,CHEMBL451702,GINSENOSIDE RC,
+RemeGen,,,['RC-88'],Fallopian tube,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RC-88,CHEMBL451702,GINSENOSIDE RC,
+RemeGen,,,['RC-88'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RC-88,CHEMBL451702,GINSENOSIDE RC,
+RemeGen,,,['RC-88'],Ovarian,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RC-88,CHEMBL451702,GINSENOSIDE RC,
+RemeGen,,,['RC-88'],Peritoneal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RC-88,CHEMBL451702,GINSENOSIDE RC,
+RemeGen,,,['RC-88'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RC-88,CHEMBL451702,GINSENOSIDE RC,
+RemeGen,,,['RC-48'],,III ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RC-48,CHEMBL451702,GINSENOSIDE RC,
+Genmab,,,['Rinatabart sesutecan'],Breast,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Genmab,,,['Rinatabart sesutecan'],Endometrial,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Genmab,,,['Rinatabart sesutecan'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Genmab,,,['Rinatabart sesutecan'],Mesothelioma,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Genmab,,,['Rinatabart sesutecan'],Ovarian,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Genmab,,,['Rinatabart sesutecan'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+ProfoundBio,,,['Rinatabart Sesutecan (Rina‑S)\xa0'],"varian, endometrial, breast, NSCLC, and mesothelioma patients",Phase I/II ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Rinatabart Sesutecan (Rina‑S) ,CHEMBL297792,S-3304,
+Ryvu Therapeutics,,,['RVU305'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Servier,,,['S-227928'],"Leukaemia, acute myelogenous",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,S-227928,CHEMBL297792,S-3304,
+Servier,,,['S-227928'],"Leukaemia, chronic myelomonocytic",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,S-227928,CHEMBL297792,S-3304,
+Servier,,,['S-227928'],Myelodysplastic syndrome,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,S-227928,CHEMBL297792,S-3304,
+Everest Medicines,,,['Sacituzumab govitecan (Trodelvy)'],Bladder,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Everest Medicines,,,['Sacituzumab govitecan (Trodelvy)'],Breast,Registered,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Gilead Sciences,,,['Sacituzumab govitecan (Trodelvy)'],Cervical,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Gilead Sciences,,,['Sacituzumab govitecan (Trodelvy)'],Colorectal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Gilead Sciences,,,['Sacituzumab govitecan (Trodelvy)'],Endometrial,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Gilead Sciences,,,['Sacituzumab govitecan (Trodelvy)'],"Gastrointestinal, stomach",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Gilead Sciences,,,['Sacituzumab govitecan (Trodelvy)'],Head & neck,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Gilead Sciences,,,['Sacituzumab govitecan (Trodelvy)'],Liver,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Gilead Sciences,,,['Sacituzumab govitecan (Trodelvy)'],"Lung, NSCLC",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Gilead Sciences,,,['Sacituzumab govitecan (Trodelvy)'],"Lung, small cell",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Gilead Sciences,,,['Sacituzumab govitecan (Trodelvy)'],Gastro-oesophageal junction,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Gilead Sciences,,,['Sacituzumab govitecan (Trodelvy)'],Ovarian,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Gilead Sciences,,,['Sacituzumab govitecan (Trodelvy)'],Pancreatic,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Gilead Sciences,,,['Sacituzumab govitecan (Trodelvy)'],Prostate,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Gilead Sciences,,,['Sacituzumab govitecan (Trodelvy)'],Renal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Gilead Sciences,,,['Sacituzumab govitecan (Trodelvy)'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab govitecan (Trodelvy),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Kelun-Biotech,,,['Sacituzumab tetbirotan (SKB-264)'],,III ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab tetbirotan (SKB-264),CHEMBL3545262,SACITUZUMAB GOVITECAN,Tumor-associated calcium signal transducer 2
+Merck & Co.,,,['Sacituzumab tirumotecan'],Bladder,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab tirumotecan,CHEMBL5314875,SACITUZUMAB TIRUMOTECAN,
+Merck & Co.,,,['Sacituzumab tirumotecan'],Breast,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab tirumotecan,CHEMBL5314875,SACITUZUMAB TIRUMOTECAN,
+Merck & Co.,,,['Sacituzumab tirumotecan'],Cervical,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab tirumotecan,CHEMBL5314875,SACITUZUMAB TIRUMOTECAN,
+Merck & Co.,,,['Sacituzumab tirumotecan'],Endometrial,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab tirumotecan,CHEMBL5314875,SACITUZUMAB TIRUMOTECAN,
+Merck & Co.,,,['Sacituzumab tirumotecan'],"Gastrointestinal, stomach",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab tirumotecan,CHEMBL5314875,SACITUZUMAB TIRUMOTECAN,
+Merck & Co.,,,['Sacituzumab tirumotecan'],Gastro-oesophageal junction,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab tirumotecan,CHEMBL5314875,SACITUZUMAB TIRUMOTECAN,
+Merck & Co.,,,['Sacituzumab tirumotecan'],"Lung, NSCLC",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sacituzumab tirumotecan,CHEMBL5314875,SACITUZUMAB TIRUMOTECAN,
+Pfizer,,,['SAR-445953'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SAR-445953,CHEMBL2109635,SAR-566658,Mucin-1
+Sanofi,,,['SAR-445953'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SAR-445953,CHEMBL2109635,SAR-566658,Mucin-1
+Hangzhou Sumgen Biotech,,,['SG-2918'],Unspecified,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Pfizer,,,['SGN-35C'],"Lymphoma, anaplastic large cell",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SGN-35C,CHEMBL2109256,SGN-30,Tumor necrosis factor receptor superfamily member 8
+Pfizer,,,['SGN-35C'],"Lymphoma, B-cell, diffuse large ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SGN-35C,CHEMBL2109256,SGN-30,Tumor necrosis factor receptor superfamily member 8
+Pfizer,,,['SGN-35C'],"Lymphoma, Hodgkin's",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SGN-35C,CHEMBL2109256,SGN-30,Tumor necrosis factor receptor superfamily member 8
+Pfizer,,,['SGN-35C'],"Lymphoma, T-cell, peripheral",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SGN-35C,CHEMBL2109256,SGN-30,Tumor necrosis factor receptor superfamily member 8
+Pfizer,,,['SGN-35T'],"Lymphoma, anaplastic large cell",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SGN-35T,CHEMBL2109256,SGN-30,Tumor necrosis factor receptor superfamily member 8
+Pfizer,,,['SGN-35T'],"Lymphoma, B-cell, diffuse large ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SGN-35T,CHEMBL2109256,SGN-30,Tumor necrosis factor receptor superfamily member 8
+Pfizer,,,['SGN-35T'],"Lymphoma, Hodgkin's",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SGN-35T,CHEMBL2109256,SGN-30,Tumor necrosis factor receptor superfamily member 8
+Pfizer,,,['SGN-35T'],"Lymphoma, Non-Hodkin's ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SGN-35T,CHEMBL2109256,SGN-30,Tumor necrosis factor receptor superfamily member 8
+Pfizer,,,['SGN-35T'],"Lymphoma, T-cell, cutaneous",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SGN-35T,CHEMBL2109256,SGN-30,Tumor necrosis factor receptor superfamily member 8
+Pfizer,,,['SGN-35T'],"Lymphoma, T-cell, peripheral",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SGN-35T,CHEMBL2109256,SGN-30,Tumor necrosis factor receptor superfamily member 8
+Pfizer,,,['SGN-PDL1V'],Head & neck,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SGN-PDL1V,CHEMBL2109256,SGN-30,Tumor necrosis factor receptor superfamily member 8
+Pfizer,,,['SGN-PDL1V'],"Lung, NSCLC",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SGN-PDL1V,CHEMBL2109256,SGN-30,Tumor necrosis factor receptor superfamily member 8
+Pfizer,,,['SGN-PDL1V'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SGN-PDL1V,CHEMBL2109256,SGN-30,Tumor necrosis factor receptor superfamily member 8
+IDEAYA Biosciences,,,['SHR-4849'],"Neuroendocrine, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-4849,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Jiangsu Hengrui Pharmaceuticals,,,['SHR-4849'],"Lung, small cell",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-4849,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Jiangsu Hengrui Pharmaceuticals,,,['SHR-4849'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-4849,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Jiangsu Hengrui Pharmaceuticals,,,['SHR-A1904'],Gastro-oesophageal junction,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-A1904,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Jiangsu Hengrui Pharmaceuticals,,,['SHR-A1904'],"Solid, unspecified",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-A1904,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Jiangsu Hengrui Pharmaceuticals,,,['SHR-A1921'],Ovarian,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-A1921,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Jiangsu Hengrui Pharmaceuticals,,,['SHR-A1921'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-A1921,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Jiangsu Hengrui Pharmaceuticals,,,['SHR-A2009'],"Lung, NSCLC",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-A2009,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Jiangsu Hengrui Pharmaceuticals,,,['SHR-A2009'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-A2009,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Jiangsu Hengrui Pharmaceuticals,,,['SHR-A2102'],Bladder,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-A2102,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Jiangsu Hengrui Pharmaceuticals,,,['SHR-A2102'],Cervical,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-A2102,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Jiangsu Hengrui Pharmaceuticals,,,['SHR-A2102'],Endometrial,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-A2102,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Jiangsu Hengrui Pharmaceuticals,,,['SHR-A2102'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-A2102,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Jiangsu Hengrui Pharmaceuticals,,,['SHR-A2102'],Gastro-oesophageal junction,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-A2102,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Jiangsu Hengrui Pharmaceuticals,,,['SHR-A2102'],Ovarian,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-A2102,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Jiangsu Hengrui Pharmaceuticals,,,['SHR-A2102'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SHR-A2102,CHEMBL4297828,SHR-1316,Programmed cell death 1 ligand 1
+Suzhou Suncadia Biopharmaceuticals,,,['SHR‑1826'],,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+China National Pharmaceutical,,,['SIBP-A13'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Pfizer,,,['Sigvotatug vedotin'],"Lung, NSCLC",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Sigvotatug vedotin,CHEMBL5314879,SIGVOTATUG VEDOTIN,
+Simcere Pharmaceuticval Group,,,['SIM-0505'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Merck & Co.,,,['SKB-315'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Merck & Co.,,,['SKB-410'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Chengdu Kelingyuan Pharmaceutical Technology,,,['SMP-656'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+SOTIO Biotech,,,['SOT-109'],,Pre-Clinical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+SOTIO Biotech,,,['SOT102'],,Preclinical (IND planned ~Q4 2026),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sorrento Therapeutics,,,['STI-6129'],Myeloma,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,STI-6129,CHEMBL4802181,STI-6643,
+Sutro Biopharma,,,['STRO-003'],,Preclinical (IND planned 2025),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sutro Biopharma,,,['STRO-006'],,Pre-Clinical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sutro Biopharma,,,['STRO‑004'],,Preclinical; IND H2 2025,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,STRO‑004,CHEMBL4594500,STRO-001,
+Sutro Biopharma,,,['STRO‑004\xa0'],,Preclinical; IND H2 2025,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,STRO‑004 ,CHEMBL4594500,STRO-001,
+Byondis,,,['SYD-3521'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Byondis,,,['SYD-4413'],"Leukaemia, acute myelogenous",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Byondis,,,['SYD-4413'],Myelodysplastic syndrome,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+CSPC Pharmaceutical,,,['SYS-6005'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Radiance Biopharma,,,['SYS-6005'],"Haemotological, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+CSPC Pharmaceutical,,,['SYS-6040'],"Lung, small cell",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+CSPC Pharmaceutical,,,['SYS-6040'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Tallac Therapeutics,,,['TAC-001'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Tenboron,,,['TB-0010'],Head & neck,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TB-0010,CHEMBL2109410,TB-402,Coagulation factor VIII
+AbbVie,,,['Telisotuzumab adizutecan'],Colorectal,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Telisotuzumab adizutecan,CHEMBL3545419,TELISOTUZUMAB,Hepatocyte growth factor receptor
+AbbVie,,,['Telisotuzumab adizutecan'],"Gastrointestinal, stomach",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Telisotuzumab adizutecan,CHEMBL3545419,TELISOTUZUMAB,Hepatocyte growth factor receptor
+AbbVie,,,['Telisotuzumab adizutecan'],Gastro-oesophageal junction,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Telisotuzumab adizutecan,CHEMBL3545419,TELISOTUZUMAB,Hepatocyte growth factor receptor
+AbbVie,,,['Telisotuzumab adizutecan'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Telisotuzumab adizutecan,CHEMBL3545419,TELISOTUZUMAB,Hepatocyte growth factor receptor
+AbbVie,,,['Telisotuzumab adizutecan'],Oesophageal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Telisotuzumab adizutecan,CHEMBL3545419,TELISOTUZUMAB,Hepatocyte growth factor receptor
+AbbVie,,,['Telisotuzumab adizutecan'],"Lung, NSCLC",Pre-registration,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Telisotuzumab adizutecan,CHEMBL3545419,TELISOTUZUMAB,Hepatocyte growth factor receptor
+Tagworks Pharmaveuticals,,,['TGW-101'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Genmab,,,['Tisotumab vedotin'],Bladder,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tisotumab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Genmab,,,['Tisotumab vedotin'],Cervical,Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tisotumab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Genmab,,,['Tisotumab vedotin'],Endometrial,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tisotumab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Genmab,,,['Tisotumab vedotin'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tisotumab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Genmab,,,['Tisotumab vedotin'],Oesophageal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tisotumab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Genmab,,,['Tisotumab vedotin'],Ovarian,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tisotumab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Genmab,,,['Tisotumab vedotin'],Prostate,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tisotumab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Genmab,,,['Tisotumab vedotin'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Tisotumab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Phrontline Biopharma,,,['TJ102'],CDH6/FRα-positive tumors,Preclinical → Clinical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+TORL Biotherapeutics,,,['TORL-1-23'],Ovarian,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TORL-1-23,CHEMBL22016,ABLUKAST,
+TORL Biotherapeutics,,,['TORL-2-307'],"Gastrointestinal, stomach",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+TORL Biotherapeutics,,,['TORL-2-307'],Gastro-oesophageal junction,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+TORL Biotherapeutics,,,['TORL-2-307'],Pancreatic,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+TORL Biotherapeutics,,,['TORL-2-307'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+TORL Biotherapeutics,,,['TORL-3-600'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+TORL Biotherapeutics,,,['TORL-4-5--'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TORL-4-5--,CHEMBL291338,"3,3',4',5-TETRACHLOROSALICYLANILIDE",
+Sino Biopharmaceutical,,,['TQB-2102'],Biliary,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sino Biopharmaceutical,,,['TQB-2102'],Breast,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sino Biopharmaceutical,,,['TQB-2102'],Fallopian tube,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sino Biopharmaceutical,,,['TQB-2102'],Ovarian,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sino Biopharmaceutical,,,['TQB-2102'],Peritoneal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Sino Biopharmaceutical,,,['TQB-2103'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Alteogen,,,['Trastuzumab'],Breast,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab,CHEMBL1201585,TRASTUZUMAB,Receptor protein-tyrosine kinase erbB-2
+Alteogen,,,['Trastuzumab'],"Gastrointestinal, stomach",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab,CHEMBL1201585,TRASTUZUMAB,Receptor protein-tyrosine kinase erbB-2
+Sichuan Kelun Pharmaceutical,,,['Trastuzumab Botidotin'],Breast,Pre-registration,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab Botidotin,CHEMBL5314782,TRASTUZUMAB BOTIDOTIN,
+Sichuan Kelun Pharmaceutical,,,['Trastuzumab Botidotin'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab Botidotin,CHEMBL5314782,TRASTUZUMAB BOTIDOTIN,
+Kelun-Biotech,,,['Trastuzumab botisine (A166)'],,III ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab botisine (A166),CHEMBL1201585,TRASTUZUMAB,Receptor protein-tyrosine kinase erbB-2
+AstraZeneca,,,['Trastuzumab deruxtecan'],Biliary,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab deruxtecan,CHEMBL4297844,TRASTUZUMAB DERUXTECAN,Receptor protein-tyrosine kinase erbB-2
+AstraZeneca,,,['Trastuzumab deruxtecan'],Bladder,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab deruxtecan,CHEMBL4297844,TRASTUZUMAB DERUXTECAN,Receptor protein-tyrosine kinase erbB-2
+AstraZeneca,,,['Trastuzumab deruxtecan'],Breast,Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab deruxtecan,CHEMBL4297844,TRASTUZUMAB DERUXTECAN,Receptor protein-tyrosine kinase erbB-2
+AstraZeneca,,,['Trastuzumab deruxtecan'],Colorectal,Registered,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab deruxtecan,CHEMBL4297844,TRASTUZUMAB DERUXTECAN,Receptor protein-tyrosine kinase erbB-2
+AstraZeneca,,,['Trastuzumab deruxtecan'],Endometrial,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab deruxtecan,CHEMBL4297844,TRASTUZUMAB DERUXTECAN,Receptor protein-tyrosine kinase erbB-2
+AstraZeneca,,,['Trastuzumab deruxtecan'],"Gastrointestinal, stomach",Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab deruxtecan,CHEMBL4297844,TRASTUZUMAB DERUXTECAN,Receptor protein-tyrosine kinase erbB-2
+AstraZeneca,,,['Trastuzumab deruxtecan'],Gastro-oesophageal junction,Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab deruxtecan,CHEMBL4297844,TRASTUZUMAB DERUXTECAN,Receptor protein-tyrosine kinase erbB-2
+AstraZeneca,,,['Trastuzumab deruxtecan'],"Lung, NSCLC",Registered,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab deruxtecan,CHEMBL4297844,TRASTUZUMAB DERUXTECAN,Receptor protein-tyrosine kinase erbB-2
+AstraZeneca,,,['Trastuzumab deruxtecan'],Ovarian,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab deruxtecan,CHEMBL4297844,TRASTUZUMAB DERUXTECAN,Receptor protein-tyrosine kinase erbB-2
+AstraZeneca,,,['Trastuzumab deruxtecan'],Pancreatic,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab deruxtecan,CHEMBL4297844,TRASTUZUMAB DERUXTECAN,Receptor protein-tyrosine kinase erbB-2
+AstraZeneca,,,['Trastuzumab deruxtecan'],"Solid, unspecified",Registered,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab deruxtecan,CHEMBL4297844,TRASTUZUMAB DERUXTECAN,Receptor protein-tyrosine kinase erbB-2
+Byondis,,,['Trastuzumab duocarmazine'],Breast,Pre-registration,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab duocarmazine,CHEMBL4298178,TRASTUZUMAB DUOCARMAZINE,Receptor protein-tyrosine kinase erbB-2
+Byondis,,,['Trastuzumab duocarmazine'],Endometrial,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab duocarmazine,CHEMBL4298178,TRASTUZUMAB DUOCARMAZINE,Receptor protein-tyrosine kinase erbB-2
+AbbVie,,,['Trastuzumab emtansine'],Breast,Launched,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab emtansine,CHEMBL1743082,TRASTUZUMAB EMTANSINE,Receptor protein-tyrosine kinase erbB-2
+BioNTech,,,['Trastuzumab pamirtecan'],Breast,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab pamirtecan,CHEMBL1201585,TRASTUZUMAB,Receptor protein-tyrosine kinase erbB-2
+BioNTech,,,['Trastuzumab pamirtecan'],Endometrial,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab pamirtecan,CHEMBL1201585,TRASTUZUMAB,Receptor protein-tyrosine kinase erbB-2
+Jiangsu Hengrui Pharmaceuticals,,,['Trastuzumab rezetecan'],Biliary,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab rezetecan,CHEMBL5314712,TRASTUZUMAB REZETECAN,
+Jiangsu Hengrui Pharmaceuticals,,,['Trastuzumab rezetecan'],Breast,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab rezetecan,CHEMBL5314712,TRASTUZUMAB REZETECAN,
+Jiangsu Hengrui Pharmaceuticals,,,['Trastuzumab rezetecan'],Colorectal,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab rezetecan,CHEMBL5314712,TRASTUZUMAB REZETECAN,
+Jiangsu Hengrui Pharmaceuticals,,,['Trastuzumab rezetecan'],Endometrial,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab rezetecan,CHEMBL5314712,TRASTUZUMAB REZETECAN,
+Jiangsu Hengrui Pharmaceuticals,,,['Trastuzumab rezetecan'],Fallopian tube,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab rezetecan,CHEMBL5314712,TRASTUZUMAB REZETECAN,
+Jiangsu Hengrui Pharmaceuticals,,,['Trastuzumab rezetecan'],"Gastrointestinal, stomach",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab rezetecan,CHEMBL5314712,TRASTUZUMAB REZETECAN,
+Jiangsu Hengrui Pharmaceuticals,,,['Trastuzumab rezetecan'],Peritoneal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab rezetecan,CHEMBL5314712,TRASTUZUMAB REZETECAN,
+Jiangsu Hengrui Pharmaceuticals,,,['Trastuzumab rezetecan'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab rezetecan,CHEMBL5314712,TRASTUZUMAB REZETECAN,
+Jiangsu Hengrui Pharmaceuticals,,,['Trastuzumab rezetecan'],Vaginal,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab rezetecan,CHEMBL5314712,TRASTUZUMAB REZETECAN,
+Lepu Bipharma,,,['Trastuzumab vedotin'],Biliary,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab vedotin,CHEMBL5315030,TRASTUZUMAB VEDOTIN,
+Lepu Bipharma,,,['Trastuzumab vedotin'],Bladder,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab vedotin,CHEMBL5315030,TRASTUZUMAB VEDOTIN,
+Lepu Bipharma,,,['Trastuzumab vedotin'],Breast,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab vedotin,CHEMBL5315030,TRASTUZUMAB VEDOTIN,
+Lepu Bipharma,,,['Trastuzumab vedotin'],"Gastrointestinal, stomach",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab vedotin,CHEMBL5315030,TRASTUZUMAB VEDOTIN,
+Lepu Bipharma,,,['Trastuzumab vedotin'],Gastro-oesophageal junction,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab vedotin,CHEMBL5315030,TRASTUZUMAB VEDOTIN,
+Lepu Bipharma,,,['Trastuzumab vedotin'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Trastuzumab vedotin,CHEMBL5315030,TRASTUZUMAB VEDOTIN,
+TORL Biotherapeutics,,,['TROL-4-500'],Liver,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Triphase Accelerator,,,['TRPH-222'],"Lymphoma, B-cell, diffuse large ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRPH-222,CHEMBL4594508,TRPH-222,
+Triphase Accelerator,,,['TRPH-222'],"Lymphoma, Non-Hodkin's ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRPH-222,CHEMBL4594508,TRPH-222,
+Zhejiang Teruisi Biopharma,,,['TRS-005'],"Lymphoma, Non-Hodkin's ",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Tubulis,,,['TUB-040'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Tubulis,,,['TUB-040'],Ovarian,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Tubulis,,,['Tub‐030'],,Phase I/IIa—first patient dosed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Vincerx Pharma,,,['VIP-943'],"Leuaemia, acute lymphocytic",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Vincerx Pharma,,,['VIP-943'],"Leukaemia, acute myelogenous",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Vincerx Pharma,,,['VIP-943'],Myelodysplastic syndrome,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Exelixis,,,['XB-010'],Breast,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Exelixis,,,['XB-010'],"Gastrointestinal, stomach",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Exelixis,,,['XB-010'],Head & neck,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Exelixis,,,['XB-010'],"Lung, NSCLC",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Exelixis,,,['XB-010'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mersana Therapeutics,,,['XMT-2056'],Breast,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mersana Therapeutics,,,['XMT-2056'],Colorectal,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mersana Therapeutics,,,['XMT-2056'],"Gastrointestinal, stomach",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mersana Therapeutics,,,['XMT-2056'],"Lung, NSCLC",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Mersana Therapeutics,,,['XMT-2056'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Evopoint Biosciences,,,['XNW-28012'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Biocytogen,,,['YH-013'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Medilink Therapeutics ,,,['YL-201'],Nasopharyngeal,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Medilink Therapeutics ,,,['YL-201'],Prostate,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Medilink Therapeutics ,,,['YL-201'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Medilink Therapeutics ,,,['YL-201'],Breast,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Medilink Therapeutics ,,,['YL-202'],Breast,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Medilink Therapeutics ,,,['YL-202'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Medilink Therapeutics ,,,['YL-205'],"Solid, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Medilink Therapeutics ,,,['YL-211'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Merck & Co.,,,['Zilovertamab vedotin'],Bladder,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zilovertamab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Merck & Co.,,,['Zilovertamab vedotin'],Breast,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zilovertamab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Merck & Co.,,,['Zilovertamab vedotin'],"Gastrointestinal, stomach",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zilovertamab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Merck & Co.,,,['Zilovertamab vedotin'],"Haemotological, unspecified",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zilovertamab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Merck & Co.,,,['Zilovertamab vedotin'],"Leuaemia, acute lymphocytic",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zilovertamab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Merck & Co.,,,['Zilovertamab vedotin'],"Leukaemia, chronic lymphocytic",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zilovertamab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Merck & Co.,,,['Zilovertamab vedotin'],"Lung, NSCLC",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zilovertamab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Merck & Co.,,,['Zilovertamab vedotin'],"Lymphoma, B-cell, diffuse large ",III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zilovertamab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Merck & Co.,,,['Zilovertamab vedotin'],"Lymphoma, mantle cell",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zilovertamab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Merck & Co.,,,['Zilovertamab vedotin'],Neuroblastoma,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zilovertamab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Merck & Co.,,,['Zilovertamab vedotin'],Ovarian,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zilovertamab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Merck & Co.,,,['Zilovertamab vedotin'],"Sarcvoma, Ewing's",II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Zilovertamab vedotin,CHEMBL4297841,TISOTUMAB VEDOTIN,Tubulin
+Medlink Therapeutics,,,['ZL-1310'],"Lung, NSCLC",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Zymeworks,,,['ZW-191'],Endometrial,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Zymeworks,,,['ZW-191'],"Lung, NSCLC",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Zymeworks,,,['ZW-191'],Ovarian,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Zymeworks,,,['ZW-191'],"Solid, unspecified",I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Zymeworks,,,['ZW-220'],,Pre-Clinical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+Zymeworks,,,['ZW-251'],,Pre-Clinical,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+,,,['SH-A1811'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+,,,['MRG-002'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+,,,"['Vic-trastuzumab duocarmazine', 'SYD-985']",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Vic-trastuzumab duocarmazine,CHEMBL4298178,TRASTUZUMAB DUOCARMAZINE,Receptor protein-tyrosine kinase erbB-2
+,,,['ARX788'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARX788,CHEMBL4297892,ANVATABART OPADOTIN,Tubulin
+,,,['BSI730'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+,,,['YH-012'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA
+,,,['GenSci139'],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,NA,NA,NA

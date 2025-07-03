@@ -1,0 +1,620 @@
+,DO,doid_synonyms
+0,"Solid, unspecified",['Solid']
+1,"Solid, unspecified",['Solid']
+3,"Leukemia, Chronic lymphocytic","['B Cell Chronic Lymphocytic Leukemia', 'Chronic Lymphocytic Leukemia (CLL)', 'Chronic lymphatic leukemia', 'Chronic B-Cell Lymphocytic Leukemia', 'Chronic lymphocytic leukemia, NOS', 'chronic lymphocytic leukemia', 'B Cell Lymphocytic Leukemia', 'Chronic lymphocytic leukemia', 'B-Cell Lymphocytic Leukemia', 'Chronic Lymphocytic Leukemia', 'Hematopoeitic - Chronic Lymphocytic Leukemia (CLL)', 'B-Cell Chronic Lymphoid Leukemia', 'B-Cell Chronic Lymphocytic Leukemia', 'B Cell CLL', 'B-Cell CLL', 'BCLL', 'CLL']"
+4,"Lymphoma, B-cell, diffuse large ","['Diffuse large B-cell lymphoma', 'Diffuse Large B-Cell Lymphoma (DLBCL)', 'Non-follicular (diffuse) lymphoma, unspecified, unspecified site', 'Diffuse Large B-Cell Lymphoma', 'diffuse large B-cell lymphoma', 'Diffuse large B-cell lymphoma, unspecified site', 'DLBCL']"
+5,"Lymphoma, follicular ","['Follicle Center Lymphoma', 'Follicular lymphoma', 'Follicular Centre Cell Lymphoma', 'follicular lymphoma', 'Lymphoma, Follicular Centre Cell', 'Follicular lymphoma, unspecified, unspecified site', 'Follicular Lymphoma', ""Follicular Non-Hodgkin's Lymphoma"", 'Follicular Non-Hodgkin Lymphoma', 'LYMPHOMA, FOLLICULAR, MALIGNANT']"
+6,CNS,"['CNS 2b', 'CNS2b']"
+7,Prostate,"['Prostatic structure (body structure)', 'GLAND, PROSTATE', 'Prostate gland', 'prostate gland', 'male prostate', 'PROSTATE GLAND', 'Genital System, Male, Prostate', 'Prostate Gland', 'Prostatic Gland', 'Prostate', 'prostate']"
+8,"Advanced/metastatic NSCLC (EGFR WT), CRC, gastroesophageal adenocarcinoma, MET-amplified tumors",['Advanced Gastroesophageal Junction Adenocarcinoma']
+9,"Lung, small cell","['Small Cell Neuroendocrine Carcinoma of Lung', 'Lung Small Cell Carcinoma', 'Small Cell Lung Cancer', 'Lung Small Cell Neuroendocrine Carcinoma', 'Small cell lung cancer', 'Oat Cell Carcinoma of the Lung', 'Oat Cell Lung Carcinoma', 'Lung Oat Cell Carcinoma', 'Small Cell Lung Carcinoma', 'Small Cell Carcinoma of Lung', 'Small Cell Carcinoma of the Lung', 'small cell lung cancer', 'Small Cell Neuroendocrine Carcinoma of the Lung', 'Oat Cell Carcinoma of Lung', 'SCLC']"
+10,"Neuroendocrine, unspecified","['Mixed Neuroendocrine Non-Neuroendocrine Neoplasm', 'MINEN', 'MiNEN']"
+11,"Solid, unspecified",['Solid']
+12,"Solid, unspecified",['Solid']
+13,"Solid, unspecified",['Solid']
+14,Cervical,"['Cervical', 'cervical']"
+15,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+16,Head & neck,"['HEAD AND NECK', 'Head and Neck', 'Head & Neck', 'H and N']"
+17,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+18,Pancreatic,"['Pancreatic', 'pancreatic']"
+19,uPARAP / —,"['MRC2 wt Allele', 'Mannose Receptor, C type 2 wt Allele', 'CD280', 'CLEC13E', 'ENDO180', 'KIAA0709', 'UPARAP']"
+20,"Neuroendocrine, unspecified","['Mixed Neuroendocrine Non-Neuroendocrine Neoplasm', 'MINEN', 'MiNEN']"
+21,"Solid, unspecified",['Solid']
+22,PSMA+ cancers,['PSMA Peptide']
+24,Claudin-6+ solid tumors,"['CLDN-6', 'CLDN6', 'Claudin 6', 'Claudin-6', 'Skullin']"
+26,"Solid, unspecified",['Solid']
+27,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+28,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+29,Cervical,"['Cervical', 'cervical']"
+30,"Solid, unspecified",['Solid']
+31,"Solid, unspecified",['Solid']
+32,"Solid, unspecified",['Solid']
+33,Squamos cell,"['Normal Cell', 'Cell', 'Cell Type', 'Cell Types', 'Cells', 'Cellular', 'cell', '{Cells}']"
+34,"Solid, unspecified",['Solid']
+35,"Solid, unspecified",['Solid']
+37,"Solid, unspecified",['Solid']
+38,"Solid, unspecified",['Solid']
+39,"Solid, unspecified",['Solid']
+40,Melanoma,"['Melanoma, NOS', 'MELANOMA, MALIGNANT', 'Malignant Melanoma', 'Melanoma', 'melanoma']"
+41,"Solid, unspecified",['Solid']
+42,"Solid, unspecified",['Solid']
+43,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+44,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+45,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+46,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+47,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+48,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+49,Nasopharyngeal,['Nasopharyngeal Teratoma']
+50,Renal,['Renal']
+51,"Solid, unspecified",['Solid']
+53,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+54,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+55,Head & neck,"['HEAD AND NECK', 'Head and Neck', 'Head & Neck', 'H and N']"
+56,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+57,"Solid, unspecified",['Solid']
+58,Prostate,"['Prostatic structure (body structure)', 'GLAND, PROSTATE', 'Prostate gland', 'prostate gland', 'male prostate', 'PROSTATE GLAND', 'Genital System, Male, Prostate', 'Prostate Gland', 'Prostatic Gland', 'Prostate', 'prostate']"
+59,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+60,"Solid, unspecified",['Solid']
+61,Myeloma,"['Multiple Myeloma', 'Plasma Cell Myeloma', 'multiple myeloma', 'Multiple myeloma', 'Kahler disease', 'Myeloma, NOS', 'Multiple Myeloma/Plasma Cell Myeloma', 'MYELOMA, PLASMA CELL, MALIGNANT', 'Plasma cell myeloma', 'plasma cell myeloma', 'Myelomatosis', 'myelomatosis', 'Plasma Cell Myeloma/Multiple Myeloma', 'Myeloma', 'myeloma']"
+62,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+63,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+64,Pancreatic ,"['Pancreatic', 'pancreatic']"
+65,"Solid, unspecified",['Solid']
+66,"Lung, unspecified","['Lung structure (body structure)', 'Respiratory System, Lung', 'LUNG', 'Lung', 'Lung, NOS', 'Lungs', 'lung', 'pulmo']"
+67,Ovarian,"['Ovarian', 'ovarian']"
+68,"Solid, unspecified",['Solid']
+69,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+70,Head & neck,"['HEAD AND NECK', 'Head and Neck', 'Head & Neck', 'H and N']"
+71,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+72,"Solid, unspecified",['Solid']
+73,"Haemotological, unspecified","['Not Assigned', 'Not Specified', 'Unspecified', 'UNSPECIFIED', 'None Specified', 'unspecified']"
+74,"Lymphoma, Hodgkin's","['stage II Subdiaphragmatic Hodgkin Lymphoma', 'stage I Subdiaphragmatic Hodgkin Lymphoma', 'Hodgkins lymphoma', ""Hodgkin's sarcoma"", 'Hodgkin lymphoma', 'Hodgkin disease', 'HL']"
+75,"Lymphoma, T-cell, peripheral",[]
+76,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+77,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+78,Pancreatic,"['Pancreatic', 'pancreatic']"
+79,"Solid, unspecified",['Solid']
+80,"Solid, unspecified",['Solid']
+81,"Solid, unspecified",['Solid']
+82,"Solid, unspecified",['Solid']
+83,"Solid, unspecified",['Solid']
+84,"Solid, unspecified",['Solid']
+85,"Solid, unspecified",['Solid']
+86,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+87,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+88,"Solid, unspecified",['Solid']
+89,"Solid, unspecified",['Solid']
+90,"Solid, unspecified",['Solid']
+93,Myeloma ,"['Multiple Myeloma', 'Plasma Cell Myeloma', 'multiple myeloma', 'Multiple myeloma', 'Kahler disease', 'Myeloma, NOS', 'Multiple Myeloma/Plasma Cell Myeloma', 'MYELOMA, PLASMA CELL, MALIGNANT', 'Plasma cell myeloma', 'plasma cell myeloma', 'Myelomatosis', 'myelomatosis', 'Plasma Cell Myeloma/Multiple Myeloma', 'Myeloma', 'myeloma']"
+94,"Lymphoma, B-cell",['B-cell lymphocytic neoplasm']
+95,"Lymphoma, Non-Hodkin's ","['non-Hodgkin lymphoma', ""Non-Hodgkin's Lymphoma (NHL)"", ""Non-Hodgkin's Lymphoma"", 'Non-Hodgkin lymphoma, unspecified site', 'Non-Hodgkin Lymphoma', 'Non-Hodgkin lymphoma, NOS', 'NHL', 'NHL, NOS']"
+96,"Llymphoma, B-cell, diffuse large","['Diffuse large B-cell lymphoma', 'Diffuse Large B-Cell Lymphoma (DLBCL)', 'Non-follicular (diffuse) lymphoma, unspecified, unspecified site', 'Diffuse Large B-Cell Lymphoma', 'diffuse large B-cell lymphoma', 'Diffuse large B-cell lymphoma, unspecified site', 'DLBCL']"
+97,"Lymphoma, B-cell, marginal zone","['marginal zone lymphoma', 'Marginal Zone B-Cell Lymphoma', 'Marginal zone lymphoma, NOS', 'marginal zone B-cell lymphoma', 'Marginal Zone Lymphoma', 'MZBCL', 'MZL']"
+98,"Lymphoma, follicular ","['Follicle Center Lymphoma', 'Follicular lymphoma', 'Follicular Centre Cell Lymphoma', 'follicular lymphoma', 'Lymphoma, Follicular Centre Cell', 'Follicular lymphoma, unspecified, unspecified site', 'Follicular Lymphoma', ""Follicular Non-Hodgkin's Lymphoma"", 'Follicular Non-Hodgkin Lymphoma', 'LYMPHOMA, FOLLICULAR, MALIGNANT']"
+99,"Lymphoma, Non-Hodkin's ","['non-Hodgkin lymphoma', ""Non-Hodgkin's Lymphoma (NHL)"", ""Non-Hodgkin's Lymphoma"", 'Non-Hodgkin lymphoma, unspecified site', 'Non-Hodgkin Lymphoma', 'Non-Hodgkin lymphoma, NOS', 'NHL', 'NHL, NOS']"
+100,"Lung, unspecified","['Lung structure (body structure)', 'Respiratory System, Lung', 'LUNG', 'Lung', 'Lung, NOS', 'Lungs', 'lung', 'pulmo']"
+101,"Solid, unspecified",['Solid']
+102,"Solid, unspecified",['Solid']
+103,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+104,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+105,Cervical,"['Cervical', 'cervical']"
+106,Endometrial,"['Endometrial', 'endometrial']"
+107,Fallopian tube,"['mammalian oviduct', 'uterine tube', 'FALLOPIAN TUBE', 'Fallopian tube', 'Fallopian Tube, NOS', 'fallopian tube', 'Fallopian Tube', 'Fallopian Tubes', 'OVIDUCT', 'Oviduct']"
+108,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+109,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+110,Ovarian,"['Ovarian', 'ovarian']"
+111,Peritoneal,"['Peritoneal', 'peritoneal']"
+112,Vaginal,"['Vaginal', 'vaginal']"
+113,"Leukaemia, acute myelogenous","['myelogenous', 'Myelogenous']"
+114,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+115,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+116,"Solid, unspecified",['Solid']
+117,"Lymphoma, anaplastic large cell","['Ki-1 Lymphoma', 'NHL, anaplastic large cell lymphoma', 'CD30 Positive Anaplastic Large Cell Lymphoma', 'anaplastic large cell lymphoma', 'Anaplastic Large Cell Lymphoma', 'Anaplastic Large Cell Lymphoma, T Cell and Null Cell Type', 'Ki-1+ Anaplastic Large Cell Lymphoma', 'Anaplastic large cell lymphoma, CD30+', 'Anaplastic large cell lymphoma, NOS', 'ALCL', 'Ki-1+ ALCL']"
+118,"Lymphoma, B-cell, diffuse large ","['Diffuse large B-cell lymphoma', 'Diffuse Large B-Cell Lymphoma (DLBCL)', 'Non-follicular (diffuse) lymphoma, unspecified, unspecified site', 'Diffuse Large B-Cell Lymphoma', 'diffuse large B-cell lymphoma', 'Diffuse large B-cell lymphoma, unspecified site', 'DLBCL']"
+119,"Lymphoma, Hodgkin's","['stage II Subdiaphragmatic Hodgkin Lymphoma', 'stage I Subdiaphragmatic Hodgkin Lymphoma', 'Hodgkins lymphoma', ""Hodgkin's sarcoma"", 'Hodgkin lymphoma', 'Hodgkin disease', 'HL']"
+120,"Lymphoma, Non-Hodkin's ","['non-Hodgkin lymphoma', ""Non-Hodgkin's Lymphoma (NHL)"", ""Non-Hodgkin's Lymphoma"", 'Non-Hodgkin lymphoma, unspecified site', 'Non-Hodgkin Lymphoma', 'Non-Hodgkin lymphoma, NOS', 'NHL', 'NHL, NOS']"
+121,"Lymphoma, T-cell, cutaneous",['Canine Cutaneous T-Cell Lymphoma']
+122,"Lymphoma, T-cell, peripheral",[]
+123,"Solid, unspecified",['Solid']
+124,"Lymphoma, anaplastic large cell","['Ki-1 Lymphoma', 'NHL, anaplastic large cell lymphoma', 'CD30 Positive Anaplastic Large Cell Lymphoma', 'anaplastic large cell lymphoma', 'Anaplastic Large Cell Lymphoma', 'Anaplastic Large Cell Lymphoma, T Cell and Null Cell Type', 'Ki-1+ Anaplastic Large Cell Lymphoma', 'Anaplastic large cell lymphoma, CD30+', 'Anaplastic large cell lymphoma, NOS', 'ALCL', 'Ki-1+ ALCL']"
+125,"Solid, unspecified",['Solid']
+126,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+127,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+128,Cervical,"['Cervical', 'cervical']"
+129,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+130,Renal,['Renal']
+131,"Lymphoma, Non-Hodkin's ","['non-Hodgkin lymphoma', ""Non-Hodgkin's Lymphoma (NHL)"", ""Non-Hodgkin's Lymphoma"", 'Non-Hodgkin lymphoma, unspecified site', 'Non-Hodgkin Lymphoma', 'Non-Hodgkin lymphoma, NOS', 'NHL', 'NHL, NOS']"
+132,"Lung, unspecified","['Lung structure (body structure)', 'Respiratory System, Lung', 'LUNG', 'Lung', 'Lung, NOS', 'Lungs', 'lung', 'pulmo']"
+133,Prostate,"['Prostatic structure (body structure)', 'GLAND, PROSTATE', 'Prostate gland', 'prostate gland', 'male prostate', 'PROSTATE GLAND', 'Genital System, Male, Prostate', 'Prostate Gland', 'Prostatic Gland', 'Prostate', 'prostate']"
+134,Renal,['Renal']
+135,"Solid, unspecified",['Solid']
+136,"Solid, unspecified",['Solid']
+138,PTK7,"['PTK7 Protein Tyrosine Kinase 7 Gene', 'PTK7', 'PTK7 Gene']"
+139,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+140,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+141,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+142,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+143,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+144,Head & neck,"['HEAD AND NECK', 'Head and Neck', 'Head & Neck', 'H and N']"
+145,"Lymphoma, B-cell",['B-cell lymphocytic neoplasm']
+146,"Solid, unspecified",['Solid']
+147,Unpublished,[]
+148,"Solid, unspecified",['Solid']
+149,Ovarian,"['Ovarian', 'ovarian']"
+150,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+151,"Solid, unspecified",['Solid']
+152,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+153,"Lung, small cell","['Small Cell Neuroendocrine Carcinoma of Lung', 'Lung Small Cell Carcinoma', 'Small Cell Lung Cancer', 'Lung Small Cell Neuroendocrine Carcinoma', 'Small cell lung cancer', 'Oat Cell Carcinoma of the Lung', 'Oat Cell Lung Carcinoma', 'Lung Oat Cell Carcinoma', 'Small Cell Lung Carcinoma', 'Small Cell Carcinoma of Lung', 'Small Cell Carcinoma of the Lung', 'small cell lung cancer', 'Small Cell Neuroendocrine Carcinoma of the Lung', 'Oat Cell Carcinoma of Lung', 'SCLC']"
+154,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+155,"Lung, small cell","['Small Cell Neuroendocrine Carcinoma of Lung', 'Lung Small Cell Carcinoma', 'Small Cell Lung Cancer', 'Lung Small Cell Neuroendocrine Carcinoma', 'Small cell lung cancer', 'Oat Cell Carcinoma of the Lung', 'Oat Cell Lung Carcinoma', 'Lung Oat Cell Carcinoma', 'Small Cell Lung Carcinoma', 'Small Cell Carcinoma of Lung', 'Small Cell Carcinoma of the Lung', 'small cell lung cancer', 'Small Cell Neuroendocrine Carcinoma of the Lung', 'Oat Cell Carcinoma of Lung', 'SCLC']"
+156,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+157,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+158,"Solid, unspecified",['Solid']
+160,"Solid, unspecified",['Solid']
+161,"Solid, unspecified",['Solid']
+162,"Solid, unspecified",['Solid']
+163,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+164,"Lung, small cell","['Small Cell Neuroendocrine Carcinoma of Lung', 'Lung Small Cell Carcinoma', 'Small Cell Lung Cancer', 'Lung Small Cell Neuroendocrine Carcinoma', 'Small cell lung cancer', 'Oat Cell Carcinoma of the Lung', 'Oat Cell Lung Carcinoma', 'Lung Oat Cell Carcinoma', 'Small Cell Lung Carcinoma', 'Small Cell Carcinoma of Lung', 'Small Cell Carcinoma of the Lung', 'small cell lung cancer', 'Small Cell Neuroendocrine Carcinoma of the Lung', 'Oat Cell Carcinoma of Lung', 'SCLC']"
+165,"Solid, unspecified",['Solid']
+166,"Solid, unspecified",['Solid']
+167,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+168,"Solid, unspecified",['Solid']
+170,"Solid, unspecified",['Solid']
+171,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+172,"Solid, unspecified",['Solid']
+173,Bilary,[]
+174,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+175,Cervical,"['Cervical', 'cervical']"
+176,"Solid, unspecified",['Solid']
+177,"Solid, unspecified",['Solid']
+178,"Solid, unspecified",['Solid']
+179,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+180,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+181,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+182,"Solid, unspecified",['Solid']
+183,"Solid, unspecified",['Solid']
+184,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+185,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+186,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+187,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+188,Pancreatic,"['Pancreatic', 'pancreatic']"
+189,"Solid, unspecified",['Solid']
+190,"Haemotological, unspecified","['Not Assigned', 'Not Specified', 'Unspecified', 'UNSPECIFIED', 'None Specified', 'unspecified']"
+191,"Solid, unspecified",['Solid']
+192,"Leukaemia, acute myelogenous","['myelogenous', 'Myelogenous']"
+193,"Solid, unspecified",['Solid']
+194,HER2-positive solid tumors,"['ERBB2 Positive', 'HER2/Neu Positive', 'HER2 Positive', 'HER-2 Positive']"
+196,CEACAM5/6,"['Carcinoembryonic Antigen-Related Cell Adhesion Molecule 5 Positive', 'Carcinoembryonic Antigen Related Cell Adhesion Molecule 5 Positive', 'Carcinoembryonic Antigen CGM2 Positive', 'CEACAM5 Positive', 'CD66e Antigen Positive', 'CEA Positive', 'CD66e Positive', 'Meconium Antigen 100 Positive']"
+197,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+198,Endometrial,"['Endometrial', 'endometrial']"
+199,Ovarian,"['Ovarian', 'ovarian']"
+200,"Solid, unspecified",['Solid']
+201,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+202,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+203,Liver,"['Gastrointestinal Tract, Liver', 'Hepatic Body System', 'Liver structure (body structure)', 'Hepatic Organ System', 'Organ System, Hepatic', 'Body System, Hepatic', 'LIVER', 'Liver', 'liver']"
+204,Renal,['Renal']
+205,"Solid, unspecified",['Solid']
+206,Urethral,['Urethral']
+207,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+208,Renal,['Renal']
+209,"Solid, unspecified",['Solid']
+210,Urethral,['Urethral']
+211,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+212,Pancreatic,"['Pancreatic', 'pancreatic']"
+213,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+214,"Leukaemia, acute lymphocytic",['Childhood Acute Lymphoblastic Leukemia']
+215,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+216,"Solid, unspecified",['Solid']
+217,"Solid, unspecified",['Solid']
+218,"Lymphoma, Hodgkin's","['stage II Subdiaphragmatic Hodgkin Lymphoma', 'stage I Subdiaphragmatic Hodgkin Lymphoma', 'Hodgkins lymphoma', ""Hodgkin's sarcoma"", 'Hodgkin lymphoma', 'Hodgkin disease', 'HL']"
+219,"Haemotological, unspecified","['Not Assigned', 'Not Specified', 'Unspecified', 'UNSPECIFIED', 'None Specified', 'unspecified']"
+220,"Solid, unspecified",['Solid']
+221,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+222,"Solid, unspecified",['Solid']
+223,Prostate,"['Prostatic structure (body structure)', 'GLAND, PROSTATE', 'Prostate gland', 'prostate gland', 'male prostate', 'PROSTATE GLAND', 'Genital System, Male, Prostate', 'Prostate Gland', 'Prostatic Gland', 'Prostate', 'prostate']"
+224,"Solid, unspecified",['Solid']
+225,"Solid, unspecified",['Solid']
+226,"Solid, unspecified",['Solid']
+227,GPNMB / MMAE,"['Glycoprotein Nmb Gene', 'GPNMB', 'GPNMB Gene']"
+231,ASCT2+ cancers,"['Molecular Characterization Initiative for Childhood Cancers', 'Molecular Characterization Initiative', 'MCI']"
+232,Peritoneal,"['Peritoneal', 'peritoneal']"
+233,"Solid, unspecified",['Solid']
+234,PD-L1-positive tumors,"['PD-L1 Positive', 'PDCD1L1 Positive', 'B7-H Positive', 'PDL1 Positive', 'CD274 Molecule Positive', 'CD274 Positive', 'B7H1 Positive', 'B7 Homolog 1 Positive', 'Expression of PD-L1', 'Programmed Cell Death 1 Ligand 1 Positive', 'CD274 Antigen Positive', 'PDCD1LG1 Positive', 'PD-L1+', 'Positive']"
+235,"Solid, unspecified",['Solid']
+236,"Solid, unspecified",['Solid']
+237,"Lung, small cell","['Small Cell Neuroendocrine Carcinoma of Lung', 'Lung Small Cell Carcinoma', 'Small Cell Lung Cancer', 'Lung Small Cell Neuroendocrine Carcinoma', 'Small cell lung cancer', 'Oat Cell Carcinoma of the Lung', 'Oat Cell Lung Carcinoma', 'Lung Oat Cell Carcinoma', 'Small Cell Lung Carcinoma', 'Small Cell Carcinoma of Lung', 'Small Cell Carcinoma of the Lung', 'small cell lung cancer', 'Small Cell Neuroendocrine Carcinoma of the Lung', 'Oat Cell Carcinoma of Lung', 'SCLC']"
+238,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+239,Prostate,"['Prostatic structure (body structure)', 'GLAND, PROSTATE', 'Prostate gland', 'prostate gland', 'male prostate', 'PROSTATE GLAND', 'Genital System, Male, Prostate', 'Prostate Gland', 'Prostatic Gland', 'Prostate', 'prostate']"
+240,"Solid, unspecified",['Solid']
+241,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+245,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+246,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+247,"Lymphoma, B-cell, diffuse large ","['Diffuse large B-cell lymphoma', 'Diffuse Large B-Cell Lymphoma (DLBCL)', 'Non-follicular (diffuse) lymphoma, unspecified, unspecified site', 'Diffuse Large B-Cell Lymphoma', 'diffuse large B-cell lymphoma', 'Diffuse large B-cell lymphoma, unspecified site', 'DLBCL']"
+248,"Lymphoma, follcular","['Lymphoma (Hodgkin and Non-Hodgkin)', 'Malignant Lymphoma', 'Lymphomatous', 'Lymphoma, NOS', 'LYMPHOMA, MALIGNANT', ""Lymphoma (Hodgkin's and Non-Hodgkin's)"", 'Lymphoma', 'lymphoma']"
+249,"Lymphoma, mantle cell","['mantle cell lymphoma', 'Mantle cell lymphoma', 'Mantle Cell Lymphoma', 'Classical Mantle Cell Lymphoma', 'Mantle zone lymphoma', 'Mantle cell lymphoma, unspecified site', 'Mantle Zone Lymphoma', 'MCL']"
+250,"Lymphoma, Non-Hodkin's ","['non-Hodgkin lymphoma', ""Non-Hodgkin's Lymphoma (NHL)"", ""Non-Hodgkin's Lymphoma"", 'Non-Hodgkin lymphoma, unspecified site', 'Non-Hodgkin Lymphoma', 'Non-Hodgkin lymphoma, NOS', 'NHL', 'NHL, NOS']"
+251,Mesothelioma,"['Mesothelial Tumor', 'Mesothelial Neoplasm', 'Mesothelial Neoplasms', 'mesothelioma', 'Mesothelioma', 'Mesothelioma, NOS']"
+252,Ovarian,"['Ovarian', 'ovarian']"
+253,Pancreatic,"['Pancreatic', 'pancreatic']"
+254,"Sarcoma, lipo","['Sarcoma of the Soft Tissue and Bone', 'SARCOMA, MALIGNANT', 'Sarcoma, NOS', 'Mesenchymal tumor, malignant', 'Sarcoma, Not Otherwise Specified', 'Mesenchymal Tumor, Malignant', 'Sarcoma of Soft Tissue and Bone', 'SAR', 'Sarcoma', 'sarcoma']"
+255,"Solid, unspecified",['Solid']
+256,Unspecified,"['Not Assigned', 'Not Specified', 'Unspecified', 'UNSPECIFIED', 'None Specified', 'unspecified']"
+257,"Solid, unspecified",['Solid']
+258,EGFR/TROP2-positive tumors,"['ERBB1 Positive', 'Epidermal Growth Factor Receptor Positive', 'HER1 Positive', 'ERBB Positive', 'c-erbB1 Positive', 'EGFR Positive']"
+259,Endometrial,"['Endometrial', 'endometrial']"
+260,Fallopian tube,"['mammalian oviduct', 'uterine tube', 'FALLOPIAN TUBE', 'Fallopian tube', 'Fallopian Tube, NOS', 'fallopian tube', 'Fallopian Tube', 'Fallopian Tubes', 'OVIDUCT', 'Oviduct']"
+261,Ovarian,"['Ovarian', 'ovarian']"
+262,Peritoneal,"['Peritoneal', 'peritoneal']"
+263,"Leukaemia, acute lymphocytic",['Childhood Acute Lymphoblastic Leukemia']
+264,"Leukaemia, acute myelogenous","['myelogenous', 'Myelogenous']"
+265,CD138,"['Syndecan 1 Gene', 'CD138', 'SDC1', 'SDC1 Gene']"
+266,CD138 / DM4,"['Anti-CA6-DM4 Immunoconjugate SAR566658', 'SAR-566658', 'SAR566658', 'huDs6-DM4']"
+267,Guanylate cyclase‑C,"['Guanylate Cyclase', 'EC 4.6.1.2']"
+268,"Leukaemia, acute lymphocytic",['Childhood Acute Lymphoblastic Leukemia']
+269,"Solid, unspecified",['Solid']
+270,"Solid, unspecified",['Solid']
+271,Biliary,"['Biliary', 'biliary']"
+272,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+273,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+274,Chordoma,"['CHORDOMA, MALIGNANT', 'Chordoma, NOS', 'Chordoma', 'chordoma']"
+275,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+276,Head & neck,"['HEAD AND NECK', 'Head and Neck', 'Head & Neck', 'H and N']"
+277,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+278,"Lung, small cell","['Small Cell Neuroendocrine Carcinoma of Lung', 'Lung Small Cell Carcinoma', 'Small Cell Lung Cancer', 'Lung Small Cell Neuroendocrine Carcinoma', 'Small cell lung cancer', 'Oat Cell Carcinoma of the Lung', 'Oat Cell Lung Carcinoma', 'Lung Oat Cell Carcinoma', 'Small Cell Lung Carcinoma', 'Small Cell Carcinoma of Lung', 'Small Cell Carcinoma of the Lung', 'small cell lung cancer', 'Small Cell Neuroendocrine Carcinoma of the Lung', 'Oat Cell Carcinoma of Lung', 'SCLC']"
+279,Nasopharyngeal,['Nasopharyngeal Teratoma']
+280,Oesophageal,['Oesophageal adenocarcinoma']
+281,"Solid, unspecified",['Solid']
+282,"Leukaemia, chronic lymphocytic","['B Cell Chronic Lymphocytic Leukemia', 'Chronic Lymphocytic Leukemia (CLL)', 'Chronic lymphatic leukemia', 'Chronic B-Cell Lymphocytic Leukemia', 'Chronic lymphocytic leukemia, NOS', 'chronic lymphocytic leukemia', 'B Cell Lymphocytic Leukemia', 'Chronic lymphocytic leukemia', 'B-Cell Lymphocytic Leukemia', 'Chronic Lymphocytic Leukemia', 'Hematopoeitic - Chronic Lymphocytic Leukemia (CLL)', 'B-Cell Chronic Lymphoid Leukemia', 'B-Cell Chronic Lymphocytic Leukemia', 'B Cell CLL', 'B-Cell CLL', 'BCLL', 'CLL']"
+283,"Lymphoma, Non-Hodkin's ","['non-Hodgkin lymphoma', ""Non-Hodgkin's Lymphoma (NHL)"", ""Non-Hodgkin's Lymphoma"", 'Non-Hodgkin lymphoma, unspecified site', 'Non-Hodgkin Lymphoma', 'Non-Hodgkin lymphoma, NOS', 'NHL', 'NHL, NOS']"
+284,Prostate,"['Prostatic structure (body structure)', 'GLAND, PROSTATE', 'Prostate gland', 'prostate gland', 'male prostate', 'PROSTATE GLAND', 'Genital System, Male, Prostate', 'Prostate Gland', 'Prostatic Gland', 'Prostate', 'prostate']"
+285,"Solid, unspecified",['Solid']
+286,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+287,Pancreatic,"['Pancreatic', 'pancreatic']"
+288,"Solid, unspecified",['Solid']
+289,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+290,Fallopian tube,"['mammalian oviduct', 'uterine tube', 'FALLOPIAN TUBE', 'Fallopian tube', 'Fallopian Tube, NOS', 'fallopian tube', 'Fallopian Tube', 'Fallopian Tubes', 'OVIDUCT', 'Oviduct']"
+291,Ovarian,"['Ovarian', 'ovarian']"
+292,Peritoneal,"['Peritoneal', 'peritoneal']"
+293,"Solid, unspecified",['Solid']
+294,"Solid, unspecified",['Solid']
+295,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+296,Ovarian,"['Ovarian', 'ovarian']"
+297,"Solid, unspecified",['Solid']
+298,EGFR/HER3-positive tumors,"['ERBB1 Positive', 'Epidermal Growth Factor Receptor Positive', 'HER1 Positive', 'ERBB Positive', 'c-erbB1 Positive', 'EGFR Positive']"
+300,TROP2-positive solid tumors,['Complete Response in Solid Tumors']
+301,"Leukaemia, acute myelogenous","['myelogenous', 'Myelogenous']"
+302,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+303,"Solid, unspecified",['Solid']
+304,"Lymphoma, Non-Hodkin's ","['non-Hodgkin lymphoma', ""Non-Hodgkin's Lymphoma (NHL)"", ""Non-Hodgkin's Lymphoma"", 'Non-Hodgkin lymphoma, unspecified site', 'Non-Hodgkin Lymphoma', 'Non-Hodgkin lymphoma, NOS', 'NHL', 'NHL, NOS']"
+305,Teratoma,"['Teratoma, Not Otherwise Specified', 'Teratoma, NOS', 'Teratoma', 'teratoma']"
+306,"Solid, unspecified",['Solid']
+307,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+308,Pancreatic,"['Pancreatic', 'pancreatic']"
+309,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+310,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+311,"Solid, unspecified",['Solid']
+312,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+313,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+314,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+315,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+316,"Solid, unspecified",['Solid']
+317,"Haemotological, unspecified","['Not Assigned', 'Not Specified', 'Unspecified', 'UNSPECIFIED', 'None Specified', 'unspecified']"
+318,"Solid, unspecified",['Solid']
+319,"Solid, unspecified",['Solid']
+320,"Solid, unspecified",['Solid']
+321,Biliary,"['Biliary', 'biliary']"
+322,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+323,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+324,Pancreatic,"['Pancreatic', 'pancreatic']"
+325,"Solid, unspecified",['Solid']
+326,"Solid, unspecified",['Solid']
+327,"Solid, unspecified",['Solid']
+328,"Lymphoma, B-cell, diffuse large ","['Diffuse large B-cell lymphoma', 'Diffuse Large B-Cell Lymphoma (DLBCL)', 'Non-follicular (diffuse) lymphoma, unspecified, unspecified site', 'Diffuse Large B-Cell Lymphoma', 'diffuse large B-cell lymphoma', 'Diffuse large B-cell lymphoma, unspecified site', 'DLBCL']"
+329,"Lymphoma, B-cell, marginal zone","['marginal zone lymphoma', 'Marginal Zone B-Cell Lymphoma', 'Marginal zone lymphoma, NOS', 'marginal zone B-cell lymphoma', 'Marginal Zone Lymphoma', 'MZBCL', 'MZL']"
+330,"Lymphoma, follcular","['Lymphoma (Hodgkin and Non-Hodgkin)', 'Malignant Lymphoma', 'Lymphomatous', 'Lymphoma, NOS', 'LYMPHOMA, MALIGNANT', ""Lymphoma (Hodgkin's and Non-Hodgkin's)"", 'Lymphoma', 'lymphoma']"
+331,"Lymphoma, B-cell, diffuse large ","['Diffuse large B-cell lymphoma', 'Diffuse Large B-Cell Lymphoma (DLBCL)', 'Non-follicular (diffuse) lymphoma, unspecified, unspecified site', 'Diffuse Large B-Cell Lymphoma', 'diffuse large B-cell lymphoma', 'Diffuse large B-cell lymphoma, unspecified site', 'DLBCL']"
+332,"Lymphoma, B-cell, diffuse large ","['Diffuse large B-cell lymphoma', 'Diffuse Large B-Cell Lymphoma (DLBCL)', 'Non-follicular (diffuse) lymphoma, unspecified, unspecified site', 'Diffuse Large B-Cell Lymphoma', 'diffuse large B-cell lymphoma', 'Diffuse large B-cell lymphoma, unspecified site', 'DLBCL']"
+333,"Lymphoma, mantle cell","['mantle cell lymphoma', 'Mantle cell lymphoma', 'Mantle Cell Lymphoma', 'Classical Mantle Cell Lymphoma', 'Mantle zone lymphoma', 'Mantle cell lymphoma, unspecified site', 'Mantle Zone Lymphoma', 'MCL']"
+334,"Lymphoma, B-cell, diffuse large ","['Diffuse large B-cell lymphoma', 'Diffuse Large B-Cell Lymphoma (DLBCL)', 'Non-follicular (diffuse) lymphoma, unspecified, unspecified site', 'Diffuse Large B-Cell Lymphoma', 'diffuse large B-cell lymphoma', 'Diffuse large B-cell lymphoma, unspecified site', 'DLBCL']"
+335,IGF‑1R / MMAE,"['Insulin-Like Growth Factor 1 Receptor Inhibition', 'IGF-1R Inhibition', 'CD221 Inhibition', 'IGF1R Inhibition']"
+336,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+337,"Solid, unspecified",['Solid']
+338,"Solid, unspecified",['Solid']
+339,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+340,"Solid, unspecified",['Solid']
+341,"Solid, unspecified",['Solid']
+342,"Solid, unspecified",['Solid']
+343,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+344,Ovarian,"['Ovarian', 'ovarian']"
+345,Pancreatic,"['Pancreatic', 'pancreatic']"
+346,Prostate,"['Prostatic structure (body structure)', 'GLAND, PROSTATE', 'Prostate gland', 'prostate gland', 'male prostate', 'PROSTATE GLAND', 'Genital System, Male, Prostate', 'Prostate Gland', 'Prostatic Gland', 'Prostate', 'prostate']"
+347,"Sarcoma, osteo","['Sarcoma of the Soft Tissue and Bone', 'SARCOMA, MALIGNANT', 'Sarcoma, NOS', 'Mesenchymal tumor, malignant', 'Sarcoma, Not Otherwise Specified', 'Mesenchymal Tumor, Malignant', 'Sarcoma of Soft Tissue and Bone', 'SAR', 'Sarcoma', 'sarcoma']"
+348,"Sarcoma, soft tissue","['Non-Rhabdo. soft tissue sarcoma', 'Soft Tissue Sarcoma', 'Sarcoma of Soft Tissue', 'Non-Rhabdomyosarcoma soft tissue sarcoma, NOS', 'Soft tissue sarcoma', 'soft tissue sarcoma', 'Sarcoma of the Soft Tissue']"
+349,"Solid, unspecified",['Solid']
+350,"Solid, unspecified",['Solid']
+351,"Solid, unspecified",['Solid']
+352,"Solid, unspecified",['Solid']
+353,"Solid, unspecified",['Solid']
+354,"Solid, unspecified",['Solid']
+355,Head & neck,"['HEAD AND NECK', 'Head and Neck', 'Head & Neck', 'H and N']"
+356,"Solid, unspecified",['Solid']
+357,Endometrial,"['Endometrial', 'endometrial']"
+358,Fallopian tube,"['mammalian oviduct', 'uterine tube', 'FALLOPIAN TUBE', 'Fallopian tube', 'Fallopian Tube, NOS', 'fallopian tube', 'Fallopian Tube', 'Fallopian Tubes', 'OVIDUCT', 'Oviduct']"
+359,Ovarian,"['Ovarian', 'ovarian']"
+360,Peritoneal,"['Peritoneal', 'peritoneal']"
+361,"Solid, unspecified",['Solid']
+362,Ovarian,"['Ovarian', 'ovarian']"
+363,Ovarian,"['Ovarian', 'ovarian']"
+364,"Solid, unspecified",['Solid']
+365,"Lymphoma, Non-Hodkin's ","['non-Hodgkin lymphoma', ""Non-Hodgkin's Lymphoma (NHL)"", ""Non-Hodgkin's Lymphoma"", 'Non-Hodgkin lymphoma, unspecified site', 'Non-Hodgkin Lymphoma', 'Non-Hodgkin lymphoma, NOS', 'NHL', 'NHL, NOS']"
+366,Biliary,"['Biliary', 'biliary']"
+367,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+368,Head & neck,"['HEAD AND NECK', 'Head and Neck', 'Head & Neck', 'H and N']"
+369,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+370,Nasopharyngeal,['Nasopharyngeal Teratoma']
+371,"Solid, unspecified",['Solid']
+372,"Solid, unspecified",['Solid']
+373,Liver,"['Gastrointestinal Tract, Liver', 'Hepatic Body System', 'Liver structure (body structure)', 'Hepatic Organ System', 'Organ System, Hepatic', 'Body System, Hepatic', 'LIVER', 'Liver', 'liver']"
+374,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+375,"Solid, unspecified",['Solid']
+376,"Solid, unspecified",['Solid']
+377,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+378,Endometrial,"['Endometrial', 'endometrial']"
+379,Ovarian,"['Ovarian', 'ovarian']"
+380,"Lymphoma, B-cell, diffuse large ","['Diffuse large B-cell lymphoma', 'Diffuse Large B-Cell Lymphoma (DLBCL)', 'Non-follicular (diffuse) lymphoma, unspecified, unspecified site', 'Diffuse Large B-Cell Lymphoma', 'diffuse large B-cell lymphoma', 'Diffuse large B-cell lymphoma, unspecified site', 'DLBCL']"
+381,"Lymphoma, follcular","['Lymphoma (Hodgkin and Non-Hodgkin)', 'Malignant Lymphoma', 'Lymphomatous', 'Lymphoma, NOS', 'LYMPHOMA, MALIGNANT', ""Lymphoma (Hodgkin's and Non-Hodgkin's)"", 'Lymphoma', 'lymphoma']"
+382,"Lymphoma, Non-Hodkin's ","['non-Hodgkin lymphoma', ""Non-Hodgkin's Lymphoma (NHL)"", ""Non-Hodgkin's Lymphoma"", 'Non-Hodgkin lymphoma, unspecified site', 'Non-Hodgkin Lymphoma', 'Non-Hodgkin lymphoma, NOS', 'NHL', 'NHL, NOS']"
+383,"Lymphoma, B-cell",['B-cell lymphocytic neoplasm']
+384,"Solid, unspecified",['Solid']
+385,"Lymphoma, Non-Hodkin's ","['non-Hodgkin lymphoma', ""Non-Hodgkin's Lymphoma (NHL)"", ""Non-Hodgkin's Lymphoma"", 'Non-Hodgkin lymphoma, unspecified site', 'Non-Hodgkin Lymphoma', 'Non-Hodgkin lymphoma, NOS', 'NHL', 'NHL, NOS']"
+386,"Solid, unspecified",['Solid']
+387,Ovarian,"['Ovarian', 'ovarian']"
+388,"Solid, unspecified",['Solid']
+389,Adenoid cystic carcinoma,"['Adenoid cystic carcinoma', 'adenoid cystic cancer', 'Cylindroid Adenocarcinoma', 'Adenoid Cystic Carcinoma', 'Adenocystic carcinoma', 'Adenocystic Carcinoma']"
+390,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+391,Endometrial,"['Endometrial', 'endometrial']"
+392,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+393,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+394,"Solid, unspecified",['Solid']
+395,"Solid, unspecified",['Solid']
+396,"Solid, unspecified",['Solid']
+397,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+398,"Lung, small cell","['Small Cell Neuroendocrine Carcinoma of Lung', 'Lung Small Cell Carcinoma', 'Small Cell Lung Cancer', 'Lung Small Cell Neuroendocrine Carcinoma', 'Small cell lung cancer', 'Oat Cell Carcinoma of the Lung', 'Oat Cell Lung Carcinoma', 'Lung Oat Cell Carcinoma', 'Small Cell Lung Carcinoma', 'Small Cell Carcinoma of Lung', 'Small Cell Carcinoma of the Lung', 'small cell lung cancer', 'Small Cell Neuroendocrine Carcinoma of the Lung', 'Oat Cell Carcinoma of Lung', 'SCLC']"
+399,Myeloma,"['Multiple Myeloma', 'Plasma Cell Myeloma', 'multiple myeloma', 'Multiple myeloma', 'Kahler disease', 'Myeloma, NOS', 'Multiple Myeloma/Plasma Cell Myeloma', 'MYELOMA, PLASMA CELL, MALIGNANT', 'Plasma cell myeloma', 'plasma cell myeloma', 'Myelomatosis', 'myelomatosis', 'Plasma Cell Myeloma/Multiple Myeloma', 'Myeloma', 'myeloma']"
+400,"Leukaemia, acute myelogenous","['myelogenous', 'Myelogenous']"
+401,Myelodysplastic syndrome,"['myelodysplasia', 'Myelodysplasia', 'Myelodysplastic Neoplasm', 'Myelodysplastic Syndrome/Neoplasm', 'Oligoblastic Leukemia', 'smoldering leukemia', 'Dysmyelopoietic Syndrome', 'myelodysplastic syndromes', 'Myelodysplastic syndrome', 'Preleukemia', 'Myelodysplastic Syndrome', 'Myelodysplastic Syndromes', 'preleukemia', 'Smoldering Leukemia', 'MDN', 'MDS']"
+402,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+403,Head & neck,"['HEAD AND NECK', 'Head and Neck', 'Head & Neck', 'H and N']"
+404,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+405,Melanoma,"['Melanoma, NOS', 'MELANOMA, MALIGNANT', 'Malignant Melanoma', 'Melanoma', 'melanoma']"
+406,Ovarian,"['Ovarian', 'ovarian']"
+407,"Solid, unspecified",['Solid']
+408,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+409,Melanoma,"['Melanoma, NOS', 'MELANOMA, MALIGNANT', 'Malignant Melanoma', 'Melanoma', 'melanoma']"
+410,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+411,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+412,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+413,"Solid, unspecified",['Solid']
+414,HER3‑DXd,['HER3-targeting Agent']
+415,"Leukaemia, acute lymphocytic",['Childhood Acute Lymphoblastic Leukemia']
+416,"Leukaemia, acute myelogenous","['myelogenous', 'Myelogenous']"
+417,"Neoplasm, blastic plasmacytoid dendritic cell","['Blastic NK-Cell Lymphoma', 'Blastic Natural Killer Leukemia/Lymphoma', 'Agranular CD4+ CD56+ Hematodermic Neoplasm/Tumor', 'Blastic plasmacytoid dendritic cell neoplasm', 'Blastic NK Cell Lymphoma', 'CD4+/CD56+ Hematodermic Neoplasm', 'Monomorphic NK-Cell Lymphoma', 'Agranular CD4+ Natural Killer Cell Leukemia', 'Blastic NK-cell lymphoma', 'Blastic Plasmacytoid Dendritic Cell Neoplasm', 'BPDCN']"
+418,CD123,['CD123-targeting Agent']
+419,"Lymphoma, B-cell",['B-cell lymphocytic neoplasm']
+420,"Lymphoma, B-cell, diffuse large ","['Diffuse large B-cell lymphoma', 'Diffuse Large B-Cell Lymphoma (DLBCL)', 'Non-follicular (diffuse) lymphoma, unspecified, unspecified site', 'Diffuse Large B-Cell Lymphoma', 'diffuse large B-cell lymphoma', 'Diffuse large B-cell lymphoma, unspecified site', 'DLBCL']"
+421,"Lymphoma, Non-Hodkin's ","['non-Hodgkin lymphoma', ""Non-Hodgkin's Lymphoma (NHL)"", ""Non-Hodgkin's Lymphoma"", 'Non-Hodgkin lymphoma, unspecified site', 'Non-Hodgkin Lymphoma', 'Non-Hodgkin lymphoma, NOS', 'NHL', 'NHL, NOS']"
+425,Biliary,"['Biliary', 'biliary']"
+426,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+427,Endometrial,"['Endometrial', 'endometrial']"
+428,Ovarian,"['Ovarian', 'ovarian']"
+429,"Solid, unspecified",['Solid']
+430,Fallopian tube,"['mammalian oviduct', 'uterine tube', 'FALLOPIAN TUBE', 'Fallopian tube', 'Fallopian Tube, NOS', 'fallopian tube', 'Fallopian Tube', 'Fallopian Tubes', 'OVIDUCT', 'Oviduct']"
+431,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+432,Ovarian,"['Ovarian', 'ovarian']"
+433,Peritoneal,"['Peritoneal', 'peritoneal']"
+434,"Solid, unspecified",['Solid']
+435,Biliary,"['Biliary', 'biliary']"
+436,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+437,Gas,['Gas']
+438,Liver,"['Gastrointestinal Tract, Liver', 'Hepatic Body System', 'Liver structure (body structure)', 'Hepatic Organ System', 'Organ System, Hepatic', 'Body System, Hepatic', 'LIVER', 'Liver', 'liver']"
+439,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+440,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+441,Pancreatic,"['Pancreatic', 'pancreatic']"
+442,"Solid, unspecified",['Solid']
+443,Cervical,"['Cervical', 'cervical']"
+444,Fallopian tube,"['mammalian oviduct', 'uterine tube', 'FALLOPIAN TUBE', 'Fallopian tube', 'Fallopian Tube, NOS', 'fallopian tube', 'Fallopian Tube', 'Fallopian Tubes', 'OVIDUCT', 'Oviduct']"
+445,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+446,Ovarian,"['Ovarian', 'ovarian']"
+447,Peritoneal,"['Peritoneal', 'peritoneal']"
+448,"Solid, unspecified",['Solid']
+450,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+451,Endometrial,"['Endometrial', 'endometrial']"
+452,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+453,Mesothelioma,"['Mesothelial Tumor', 'Mesothelial Neoplasm', 'Mesothelial Neoplasms', 'mesothelioma', 'Mesothelioma', 'Mesothelioma, NOS']"
+454,Ovarian,"['Ovarian', 'ovarian']"
+455,"Solid, unspecified",['Solid']
+456,"varian, endometrial, breast, NSCLC, and mesothelioma patients",['Varian Eclipse']
+458,"Leukaemia, acute myelogenous","['myelogenous', 'Myelogenous']"
+459,"Leukaemia, chronic myelomonocytic","['Chronic myelomonocytic leukemia', 'chronic myelomonocytic leukemia', 'Chronic Myelomonocytic Leukemia (CMML)', 'Chronic Myelomonocytic Leukemia', 'CMML']"
+460,Myelodysplastic syndrome,"['myelodysplasia', 'Myelodysplasia', 'Myelodysplastic Neoplasm', 'Myelodysplastic Syndrome/Neoplasm', 'Oligoblastic Leukemia', 'smoldering leukemia', 'Dysmyelopoietic Syndrome', 'myelodysplastic syndromes', 'Myelodysplastic syndrome', 'Preleukemia', 'Myelodysplastic Syndrome', 'Myelodysplastic Syndromes', 'preleukemia', 'Smoldering Leukemia', 'MDN', 'MDS']"
+461,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+462,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+463,Cervical,"['Cervical', 'cervical']"
+464,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+465,Endometrial,"['Endometrial', 'endometrial']"
+466,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+467,Head & neck,"['HEAD AND NECK', 'Head and Neck', 'Head & Neck', 'H and N']"
+468,Liver,"['Gastrointestinal Tract, Liver', 'Hepatic Body System', 'Liver structure (body structure)', 'Hepatic Organ System', 'Organ System, Hepatic', 'Body System, Hepatic', 'LIVER', 'Liver', 'liver']"
+469,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+470,"Lung, small cell","['Small Cell Neuroendocrine Carcinoma of Lung', 'Lung Small Cell Carcinoma', 'Small Cell Lung Cancer', 'Lung Small Cell Neuroendocrine Carcinoma', 'Small cell lung cancer', 'Oat Cell Carcinoma of the Lung', 'Oat Cell Lung Carcinoma', 'Lung Oat Cell Carcinoma', 'Small Cell Lung Carcinoma', 'Small Cell Carcinoma of Lung', 'Small Cell Carcinoma of the Lung', 'small cell lung cancer', 'Small Cell Neuroendocrine Carcinoma of the Lung', 'Oat Cell Carcinoma of Lung', 'SCLC']"
+471,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+472,Ovarian,"['Ovarian', 'ovarian']"
+473,Pancreatic,"['Pancreatic', 'pancreatic']"
+474,Prostate,"['Prostatic structure (body structure)', 'GLAND, PROSTATE', 'Prostate gland', 'prostate gland', 'male prostate', 'PROSTATE GLAND', 'Genital System, Male, Prostate', 'Prostate Gland', 'Prostatic Gland', 'Prostate', 'prostate']"
+475,Renal,['Renal']
+476,"Solid, unspecified",['Solid']
+478,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+479,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+480,Cervical,"['Cervical', 'cervical']"
+481,Endometrial,"['Endometrial', 'endometrial']"
+482,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+483,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+484,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+485,"Solid, unspecified",['Solid']
+486,"Solid, unspecified",['Solid']
+487,Unspecified,"['Not Assigned', 'Not Specified', 'Unspecified', 'UNSPECIFIED', 'None Specified', 'unspecified']"
+488,"Lymphoma, anaplastic large cell","['Ki-1 Lymphoma', 'NHL, anaplastic large cell lymphoma', 'CD30 Positive Anaplastic Large Cell Lymphoma', 'anaplastic large cell lymphoma', 'Anaplastic Large Cell Lymphoma', 'Anaplastic Large Cell Lymphoma, T Cell and Null Cell Type', 'Ki-1+ Anaplastic Large Cell Lymphoma', 'Anaplastic large cell lymphoma, CD30+', 'Anaplastic large cell lymphoma, NOS', 'ALCL', 'Ki-1+ ALCL']"
+489,"Lymphoma, B-cell, diffuse large ","['Diffuse large B-cell lymphoma', 'Diffuse Large B-Cell Lymphoma (DLBCL)', 'Non-follicular (diffuse) lymphoma, unspecified, unspecified site', 'Diffuse Large B-Cell Lymphoma', 'diffuse large B-cell lymphoma', 'Diffuse large B-cell lymphoma, unspecified site', 'DLBCL']"
+490,"Lymphoma, Hodgkin's","['stage II Subdiaphragmatic Hodgkin Lymphoma', 'stage I Subdiaphragmatic Hodgkin Lymphoma', 'Hodgkins lymphoma', ""Hodgkin's sarcoma"", 'Hodgkin lymphoma', 'Hodgkin disease', 'HL']"
+491,"Lymphoma, T-cell, peripheral",[]
+492,"Lymphoma, anaplastic large cell","['Ki-1 Lymphoma', 'NHL, anaplastic large cell lymphoma', 'CD30 Positive Anaplastic Large Cell Lymphoma', 'anaplastic large cell lymphoma', 'Anaplastic Large Cell Lymphoma', 'Anaplastic Large Cell Lymphoma, T Cell and Null Cell Type', 'Ki-1+ Anaplastic Large Cell Lymphoma', 'Anaplastic large cell lymphoma, CD30+', 'Anaplastic large cell lymphoma, NOS', 'ALCL', 'Ki-1+ ALCL']"
+493,"Lymphoma, B-cell, diffuse large ","['Diffuse large B-cell lymphoma', 'Diffuse Large B-Cell Lymphoma (DLBCL)', 'Non-follicular (diffuse) lymphoma, unspecified, unspecified site', 'Diffuse Large B-Cell Lymphoma', 'diffuse large B-cell lymphoma', 'Diffuse large B-cell lymphoma, unspecified site', 'DLBCL']"
+494,"Lymphoma, Hodgkin's","['stage II Subdiaphragmatic Hodgkin Lymphoma', 'stage I Subdiaphragmatic Hodgkin Lymphoma', 'Hodgkins lymphoma', ""Hodgkin's sarcoma"", 'Hodgkin lymphoma', 'Hodgkin disease', 'HL']"
+495,"Lymphoma, Non-Hodkin's ","['non-Hodgkin lymphoma', ""Non-Hodgkin's Lymphoma (NHL)"", ""Non-Hodgkin's Lymphoma"", 'Non-Hodgkin lymphoma, unspecified site', 'Non-Hodgkin Lymphoma', 'Non-Hodgkin lymphoma, NOS', 'NHL', 'NHL, NOS']"
+496,"Lymphoma, T-cell, cutaneous",['Canine Cutaneous T-Cell Lymphoma']
+497,"Lymphoma, T-cell, peripheral",[]
+498,Head & neck,"['HEAD AND NECK', 'Head and Neck', 'Head & Neck', 'H and N']"
+499,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+500,"Solid, unspecified",['Solid']
+501,"Neuroendocrine, unspecified","['Mixed Neuroendocrine Non-Neuroendocrine Neoplasm', 'MINEN', 'MiNEN']"
+502,"Lung, small cell","['Small Cell Neuroendocrine Carcinoma of Lung', 'Lung Small Cell Carcinoma', 'Small Cell Lung Cancer', 'Lung Small Cell Neuroendocrine Carcinoma', 'Small cell lung cancer', 'Oat Cell Carcinoma of the Lung', 'Oat Cell Lung Carcinoma', 'Lung Oat Cell Carcinoma', 'Small Cell Lung Carcinoma', 'Small Cell Carcinoma of Lung', 'Small Cell Carcinoma of the Lung', 'small cell lung cancer', 'Small Cell Neuroendocrine Carcinoma of the Lung', 'Oat Cell Carcinoma of Lung', 'SCLC']"
+503,"Solid, unspecified",['Solid']
+504,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+505,"Solid, unspecified",['Solid']
+506,Ovarian,"['Ovarian', 'ovarian']"
+507,"Solid, unspecified",['Solid']
+508,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+509,"Solid, unspecified",['Solid']
+510,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+511,Cervical,"['Cervical', 'cervical']"
+512,Endometrial,"['Endometrial', 'endometrial']"
+513,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+514,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+515,Ovarian,"['Ovarian', 'ovarian']"
+516,"Solid, unspecified",['Solid']
+518,"Solid, unspecified",['Solid']
+519,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+520,"Solid, unspecified",['Solid']
+521,"Solid, unspecified",['Solid']
+522,"Solid, unspecified",['Solid']
+523,"Solid, unspecified",['Solid']
+526,Myeloma,"['Multiple Myeloma', 'Plasma Cell Myeloma', 'multiple myeloma', 'Multiple myeloma', 'Kahler disease', 'Myeloma, NOS', 'Multiple Myeloma/Plasma Cell Myeloma', 'MYELOMA, PLASMA CELL, MALIGNANT', 'Plasma cell myeloma', 'plasma cell myeloma', 'Myelomatosis', 'myelomatosis', 'Plasma Cell Myeloma/Multiple Myeloma', 'Myeloma', 'myeloma']"
+531,"Solid, unspecified",['Solid']
+532,"Leukaemia, acute myelogenous","['myelogenous', 'Myelogenous']"
+533,Myelodysplastic syndrome,"['myelodysplasia', 'Myelodysplasia', 'Myelodysplastic Neoplasm', 'Myelodysplastic Syndrome/Neoplasm', 'Oligoblastic Leukemia', 'smoldering leukemia', 'Dysmyelopoietic Syndrome', 'myelodysplastic syndromes', 'Myelodysplastic syndrome', 'Preleukemia', 'Myelodysplastic Syndrome', 'Myelodysplastic Syndromes', 'preleukemia', 'Smoldering Leukemia', 'MDN', 'MDS']"
+534,"Solid, unspecified",['Solid']
+535,"Haemotological, unspecified","['Not Assigned', 'Not Specified', 'Unspecified', 'UNSPECIFIED', 'None Specified', 'unspecified']"
+536,"Lung, small cell","['Small Cell Neuroendocrine Carcinoma of Lung', 'Lung Small Cell Carcinoma', 'Small Cell Lung Cancer', 'Lung Small Cell Neuroendocrine Carcinoma', 'Small cell lung cancer', 'Oat Cell Carcinoma of the Lung', 'Oat Cell Lung Carcinoma', 'Lung Oat Cell Carcinoma', 'Small Cell Lung Carcinoma', 'Small Cell Carcinoma of Lung', 'Small Cell Carcinoma of the Lung', 'small cell lung cancer', 'Small Cell Neuroendocrine Carcinoma of the Lung', 'Oat Cell Carcinoma of Lung', 'SCLC']"
+537,"Solid, unspecified",['Solid']
+538,"Solid, unspecified",['Solid']
+539,Head & neck,"['HEAD AND NECK', 'Head and Neck', 'Head & Neck', 'H and N']"
+540,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+541,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+542,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+543,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+544,Oesophageal,['Oesophageal adenocarcinoma']
+545,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+546,"Solid, unspecified",['Solid']
+547,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+548,Cervical,"['Cervical', 'cervical']"
+549,Endometrial,"['Endometrial', 'endometrial']"
+550,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+551,Oesophageal,['Oesophageal adenocarcinoma']
+552,Ovarian,"['Ovarian', 'ovarian']"
+553,Prostate,"['Prostatic structure (body structure)', 'GLAND, PROSTATE', 'Prostate gland', 'prostate gland', 'male prostate', 'PROSTATE GLAND', 'Genital System, Male, Prostate', 'Prostate Gland', 'Prostatic Gland', 'Prostate', 'prostate']"
+554,"Solid, unspecified",['Solid']
+555,CDH6/FRα-positive tumors,"['Cadherin 6 Gene', 'CDH6', 'CDH6 Gene']"
+556,Ovarian,"['Ovarian', 'ovarian']"
+557,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+558,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+559,Pancreatic,"['Pancreatic', 'pancreatic']"
+560,"Solid, unspecified",['Solid']
+561,"Solid, unspecified",['Solid']
+562,"Solid, unspecified",['Solid']
+563,Biliary,"['Biliary', 'biliary']"
+564,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+565,Fallopian tube,"['mammalian oviduct', 'uterine tube', 'FALLOPIAN TUBE', 'Fallopian tube', 'Fallopian Tube, NOS', 'fallopian tube', 'Fallopian Tube', 'Fallopian Tubes', 'OVIDUCT', 'Oviduct']"
+566,Ovarian,"['Ovarian', 'ovarian']"
+567,Peritoneal,"['Peritoneal', 'peritoneal']"
+568,"Solid, unspecified",['Solid']
+569,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+570,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+571,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+572,"Solid, unspecified",['Solid']
+574,Biliary,"['Biliary', 'biliary']"
+575,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+576,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+577,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+578,Endometrial,"['Endometrial', 'endometrial']"
+579,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+580,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+581,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+582,Ovarian,"['Ovarian', 'ovarian']"
+583,Pancreatic,"['Pancreatic', 'pancreatic']"
+584,"Solid, unspecified",['Solid']
+585,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+586,Endometrial,"['Endometrial', 'endometrial']"
+587,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+588,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+589,Endometrial,"['Endometrial', 'endometrial']"
+590,Biliary,"['Biliary', 'biliary']"
+591,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+592,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+593,Endometrial,"['Endometrial', 'endometrial']"
+594,Fallopian tube,"['mammalian oviduct', 'uterine tube', 'FALLOPIAN TUBE', 'Fallopian tube', 'Fallopian Tube, NOS', 'fallopian tube', 'Fallopian Tube', 'Fallopian Tubes', 'OVIDUCT', 'Oviduct']"
+595,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+596,Peritoneal,"['Peritoneal', 'peritoneal']"
+597,"Solid, unspecified",['Solid']
+598,Vaginal,"['Vaginal', 'vaginal']"
+599,Biliary,"['Biliary', 'biliary']"
+600,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+601,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+602,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+603,Gastro-oesophageal junction,"['Holliday Junction', 'Holliday Structure']"
+604,"Solid, unspecified",['Solid']
+605,Liver,"['Gastrointestinal Tract, Liver', 'Hepatic Body System', 'Liver structure (body structure)', 'Hepatic Organ System', 'Organ System, Hepatic', 'Body System, Hepatic', 'LIVER', 'Liver', 'liver']"
+606,"Lymphoma, B-cell, diffuse large ","['Diffuse large B-cell lymphoma', 'Diffuse Large B-Cell Lymphoma (DLBCL)', 'Non-follicular (diffuse) lymphoma, unspecified, unspecified site', 'Diffuse Large B-Cell Lymphoma', 'diffuse large B-cell lymphoma', 'Diffuse large B-cell lymphoma, unspecified site', 'DLBCL']"
+607,"Lymphoma, Non-Hodkin's ","['non-Hodgkin lymphoma', ""Non-Hodgkin's Lymphoma (NHL)"", ""Non-Hodgkin's Lymphoma"", 'Non-Hodgkin lymphoma, unspecified site', 'Non-Hodgkin Lymphoma', 'Non-Hodgkin lymphoma, NOS', 'NHL', 'NHL, NOS']"
+608,"Lymphoma, Non-Hodkin's ","['non-Hodgkin lymphoma', ""Non-Hodgkin's Lymphoma (NHL)"", ""Non-Hodgkin's Lymphoma"", 'Non-Hodgkin lymphoma, unspecified site', 'Non-Hodgkin Lymphoma', 'Non-Hodgkin lymphoma, NOS', 'NHL', 'NHL, NOS']"
+609,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+610,Ovarian,"['Ovarian', 'ovarian']"
+612,"Leuaemia, acute lymphocytic",['Childhood Acute Lymphoblastic Leukemia']
+613,"Leukaemia, acute myelogenous","['myelogenous', 'Myelogenous']"
+614,Myelodysplastic syndrome,"['myelodysplasia', 'Myelodysplasia', 'Myelodysplastic Neoplasm', 'Myelodysplastic Syndrome/Neoplasm', 'Oligoblastic Leukemia', 'smoldering leukemia', 'Dysmyelopoietic Syndrome', 'myelodysplastic syndromes', 'Myelodysplastic syndrome', 'Preleukemia', 'Myelodysplastic Syndrome', 'Myelodysplastic Syndromes', 'preleukemia', 'Smoldering Leukemia', 'MDN', 'MDS']"
+615,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+616,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+617,Head & neck,"['HEAD AND NECK', 'Head and Neck', 'Head & Neck', 'H and N']"
+618,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+619,"Solid, unspecified",['Solid']
+620,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+621,Colorectal,"['Colon or Rectum', 'Colorectal', 'colorectal']"
+622,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+623,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+624,"Solid, unspecified",['Solid']
+625,"Solid, unspecified",['Solid']
+626,"Solid, unspecified",['Solid']
+627,Nasopharyngeal,['Nasopharyngeal Teratoma']
+628,Prostate,"['Prostatic structure (body structure)', 'GLAND, PROSTATE', 'Prostate gland', 'prostate gland', 'male prostate', 'PROSTATE GLAND', 'Genital System, Male, Prostate', 'Prostate Gland', 'Prostatic Gland', 'Prostate', 'prostate']"
+629,"Solid, unspecified",['Solid']
+630,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+631,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+632,"Solid, unspecified",['Solid']
+633,"Solid, unspecified",['Solid']
+634,"Solid, unspecified",['Solid']
+635,Bladder,"['URINARY BLADDER', 'Urinary Bladder', 'vesica urinaria', 'urinary bladder', 'Urinary bladder structure (body structure)', 'Urinary System, Bladder', 'Bladder, NOS', 'BLADDER', 'Bladder', 'bladder']"
+636,Breast,"['Breast, NOS', 'Breast structure (body structure)', 'BREAST', 'Breast', 'Breasts', 'breast']"
+637,"Gastrointestinal, stomach","['Gastrointestinal Tract, Stomach', 'Stomach, NOS', 'Stomach structure (body structure)', 'Gastric', 'STOMACH', 'Stomach', 'stomach']"
+638,"Haemotological, unspecified","['Not Assigned', 'Not Specified', 'Unspecified', 'UNSPECIFIED', 'None Specified', 'unspecified']"
+639,"Leuaemia, acute lymphocytic",['Childhood Acute Lymphoblastic Leukemia']
+640,"Leukaemia, chronic lymphocytic","['B Cell Chronic Lymphocytic Leukemia', 'Chronic Lymphocytic Leukemia (CLL)', 'Chronic lymphatic leukemia', 'Chronic B-Cell Lymphocytic Leukemia', 'Chronic lymphocytic leukemia, NOS', 'chronic lymphocytic leukemia', 'B Cell Lymphocytic Leukemia', 'Chronic lymphocytic leukemia', 'B-Cell Lymphocytic Leukemia', 'Chronic Lymphocytic Leukemia', 'Hematopoeitic - Chronic Lymphocytic Leukemia (CLL)', 'B-Cell Chronic Lymphoid Leukemia', 'B-Cell Chronic Lymphocytic Leukemia', 'B Cell CLL', 'B-Cell CLL', 'BCLL', 'CLL']"
+641,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+642,"Lymphoma, B-cell, diffuse large ","['Diffuse large B-cell lymphoma', 'Diffuse Large B-Cell Lymphoma (DLBCL)', 'Non-follicular (diffuse) lymphoma, unspecified, unspecified site', 'Diffuse Large B-Cell Lymphoma', 'diffuse large B-cell lymphoma', 'Diffuse large B-cell lymphoma, unspecified site', 'DLBCL']"
+643,"Lymphoma, mantle cell","['mantle cell lymphoma', 'Mantle cell lymphoma', 'Mantle Cell Lymphoma', 'Classical Mantle Cell Lymphoma', 'Mantle zone lymphoma', 'Mantle cell lymphoma, unspecified site', 'Mantle Zone Lymphoma', 'MCL']"
+644,Neuroblastoma,"['Neuroblastoma', 'neuroblastoma', 'NEUROBLASTOMA, MALIGNANT', 'Neural Crest Tumor, Malignant', 'Neuroblastoma (Schwannian Stroma-Poor)', 'Neuroblastoma (Schwannian Stroma-poor)', 'Neuroblastoma, NOS', 'Neuroblastoma (NBL)']"
+645,Ovarian,"['Ovarian', 'ovarian']"
+646,"Sarcvoma, Ewing's","[""Ewing's sarcoma, metastatic""]"
+647,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+648,Endometrial,"['Endometrial', 'endometrial']"
+649,"Lung, NSCLC","['Marrow Infiltrating Lymphocytes-Non-Small Cell Lung Cancer', 'NSCLC-specific MILs', 'NSCLC-specific Marrow Infiltrating Lymphocytes', 'MILs-NSCLC']"
+650,Ovarian,"['Ovarian', 'ovarian']"
+651,"Solid, unspecified",['Solid']

@@ -11,9 +11,12 @@ from tqdm import tqdm
 # CONFIGURATION
 # ------------------------------------
 CONFIG = {
+    # this comes from: https://www.genenames.org/download/
     "HGNC_TSV": "hgnc_complete_set.tsv",
+    # input/output json
     "JSON_INPUT": "aacrArticle.json",
     "JSON_OUTPUT": "aacrArticle_hgnc.json",
+    # fuzzy matching cutoff
     "FUZZY_CUTOFF": 0.85
 }
 
@@ -40,8 +43,29 @@ def save_json(data, path, indent=2):
 # ------------------------------------
 def load_hgnc_data(tsv_path):
     df = pd.read_csv(tsv_path, sep="\t", low_memory=False)
-    return df
-    # return df[df["locus_type"] == "gene with protein product"]
+    # These loci either do not produce a protein product (as with all non-coding RNAs) or,
+    # in the case of pseudogenes, have lost the ability to encode functional proteins due to
+    # disabling mutations. Non-coding RNAs (including long non-coding RNAs, microRNAs, tRNAs,
+    # snoRNAs, snRNAs, ribosomal RNAs, Y RNAs, and vault RNAs) function at the RNA level and
+    # do not encode proteins, and thus cannot encode antigens, which are typically protein or
+    # peptide in nature. Pseudogenes and immunoglobulin/T cell receptor pseudogenes are
+    # specifically defined by their inability to produce functional protein products, and
+    # therefore cannot encode antigens either.
+    excluded_loci = [
+        "pseudogene",
+        "RNA, long non-coding",
+        "RNA, micro", 
+        "RNA, transfer",
+        "RNA, small nucleolar",
+        "immunoglobulin pseudogene",
+        "T cell receptor pseudogene",
+        "RNA, ribosomal",
+        "RNA, small nuclear",
+        "RNA, miscellaneous",
+        "RNA, Y",
+        "RNA, vault"
+    ]
+    return df[~df["locus_type"].isin(excluded_loci)]
 
 
 def build_hgnc_maps(hgnc_df):
@@ -81,15 +105,27 @@ def query_hgnc(symbol, symbol_map, alias_map, cutoff=0.85):
                 "hgnc_id": None,
                 "ensembl_gene_id": None,
                 "synonyms": [],
+                "locus_type": None,
+                "gene_group": [],
                 "status": "unknown"
             }
 
+    # Handle gene_group - convert to list and handle NaN values
+    gene_group_raw = row.get("gene_group")
+    if pd.isna(gene_group_raw) or gene_group_raw is None:
+        gene_group_list = []
+    else:
+        # Split by | and filter out empty strings
+        gene_group_list = [group.strip() for group in str(gene_group_raw).split("|") if group.strip()]
+    
     return {
         "input": symbol,
         "hgnc_symbol": row["symbol"],
         "hgnc_id": row["hgnc_id"],
         "ensembl_gene_id": row.get("ensembl_gene_id"),
         "synonyms": re.split(r"[|,]", str(row.get("alias_symbol", ""))),
+        "locus_type": row.get("locus_type"),
+        "gene_group": gene_group_list,
         "status": status
     }
 
@@ -154,7 +190,9 @@ def export_unknowns(minimal_data, output_path):
                         "linker": drug.get("linker"),
                         "phase": drug.get("phase"),
                         "targetAntigenCanonicalized": drug.get("targetAntigenCanonicalized"),
-                        "HGNC": hgnc_result
+                        "HGNC": hgnc_result,
+                        "locus_type": hgnc_result.get("locus_type"),
+                        "gene_group": hgnc_result.get("gene_group")
                     })
 
     unknown_output_path = output_path.replace(".json", "_unknowns.json")

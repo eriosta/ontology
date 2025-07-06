@@ -13,6 +13,8 @@ from tqdm import tqdm
 CONFIG = {
     # this comes from: https://www.genenames.org/download/
     "HGNC_TSV": "hgnc_complete_set.tsv",
+    # TACA 
+    "TACA_JSON": "taca.json",
     # input/output json
     "JSON_INPUT": "aacrArticle.json",
     "JSON_OUTPUT": "aacrArticle_hgnc.json",
@@ -38,32 +40,27 @@ def save_json(data, path, indent=2):
         json.dump(data, f, indent=indent)
 
 
+def expand_antigen_name(name):
+    """
+    Splits strings like "Folate Receptor Alpha (FRα)" into ["Folate Receptor Alpha", "FRα"]
+    Returns a list with just the name if no parentheses.
+    """
+    match = re.match(r"^(.*?)\s*\((.*?)\)$", name)
+    if match:
+        outside, inside = match.groups()
+        return [outside.strip(), inside.strip()]
+    return [name.strip()]
+
+
 # ------------------------------------
 # HGNC PROCESSING
 # ------------------------------------
 def load_hgnc_data(tsv_path):
     df = pd.read_csv(tsv_path, sep="\t", low_memory=False)
-    # These loci either do not produce a protein product (as with all non-coding RNAs) or,
-    # in the case of pseudogenes, have lost the ability to encode functional proteins due to
-    # disabling mutations. Non-coding RNAs (including long non-coding RNAs, microRNAs, tRNAs,
-    # snoRNAs, snRNAs, ribosomal RNAs, Y RNAs, and vault RNAs) function at the RNA level and
-    # do not encode proteins, and thus cannot encode antigens, which are typically protein or
-    # peptide in nature. Pseudogenes and immunoglobulin/T cell receptor pseudogenes are
-    # specifically defined by their inability to produce functional protein products, and
-    # therefore cannot encode antigens either.
     excluded_loci = [
-        "pseudogene",
-        "RNA, long non-coding",
-        "RNA, micro", 
-        "RNA, transfer",
-        "RNA, small nucleolar",
-        "immunoglobulin pseudogene",
-        "T cell receptor pseudogene",
-        "RNA, ribosomal",
-        "RNA, small nuclear",
-        "RNA, miscellaneous",
-        "RNA, Y",
-        "RNA, vault"
+        "pseudogene", "RNA, long non-coding", "RNA, micro", "RNA, transfer", "RNA, small nucleolar",
+        "immunoglobulin pseudogene", "T cell receptor pseudogene", "RNA, ribosomal", "RNA, small nuclear",
+        "RNA, miscellaneous", "RNA, Y", "RNA, vault"
     ]
     return df[~df["locus_type"].isin(excluded_loci)]
 
@@ -80,7 +77,7 @@ def build_hgnc_maps(hgnc_df):
     return symbol_map, alias_map
 
 
-def query_hgnc(symbol, symbol_map, alias_map, cutoff=0.85):
+def query_hgnc(symbol, symbol_map, alias_map, cutoff=0.85, original=None):
     cleaned = normalize_symbol(symbol)
 
     if cleaned in symbol_map:
@@ -110,14 +107,9 @@ def query_hgnc(symbol, symbol_map, alias_map, cutoff=0.85):
                 "status": "unknown"
             }
 
-    # Handle gene_group - convert to list and handle NaN values
     gene_group_raw = row.get("gene_group")
-    if pd.isna(gene_group_raw) or gene_group_raw is None:
-        gene_group_list = []
-    else:
-        # Split by | and filter out empty strings
-        gene_group_list = [group.strip() for group in str(gene_group_raw).split("|") if group.strip()]
-    
+    gene_group_list = [g.strip() for g in str(gene_group_raw).split("|") if g.strip()] if pd.notna(gene_group_raw) else []
+
     return {
         "input": symbol,
         "hgnc_symbol": row["symbol"],
@@ -129,6 +121,40 @@ def query_hgnc(symbol, symbol_map, alias_map, cutoff=0.85):
         "status": status
     }
 
+
+# ------------------------------------
+# TACA PROCESSING
+# ------------------------------------
+def query_taca(symbol, taca_db, cutoff=0.85):
+    candidates = []
+    for family in taca_db:
+        for subtype in family["subtypes"]:
+            ratio = difflib.SequenceMatcher(None, symbol.lower(), subtype.lower()).ratio()
+            if ratio >= cutoff:
+                candidates.append({
+                    "input": symbol,
+                    "matched_subtype": subtype,
+                    "matched_family": family["family"],
+                    "references": family.get("references", []),
+                    "score": ratio
+                })
+    if candidates:
+        # Return the best match
+        best = sorted(candidates, key=lambda x: -x["score"])[0]
+        return {
+            "input": best["input"],
+            "hgnc_symbol": None,
+            "hgnc_id": None,
+            "ensembl_gene_id": None,
+            "synonyms": [],
+            "locus_type": "TACA",
+            "gene_group": [best["matched_family"]],
+            "status": "taca_match",
+            "taca_subtype": best["matched_subtype"],
+            "references": best["references"]
+        }
+    else:
+        return None
 
 # ------------------------------------
 # JSON PROCESSING
@@ -176,6 +202,7 @@ def reduce_json(data):
         minimal_data.append(reduced_entry)
     return minimal_data
 
+
 def export_unknowns(minimal_data, output_path):
     unknowns = []
     for entry in minimal_data:
@@ -198,8 +225,8 @@ def export_unknowns(minimal_data, output_path):
     unknown_output_path = output_path.replace(".json", "_unknowns.json")
     print(f"🛠️  Writing {len(unknowns)} unknown entries to {unknown_output_path}")
     save_json(unknowns, unknown_output_path)
-    
-    
+
+
 # ------------------------------------
 # MAIN EXECUTION
 # ------------------------------------
@@ -207,6 +234,9 @@ def main():
     print("🔄 Loading HGNC data...")
     hgnc_df = load_hgnc_data(CONFIG["HGNC_TSV"])
     symbol_map, alias_map = build_hgnc_maps(hgnc_df)
+    
+    print("🔄 Loading TACA data...")
+    taca_db = load_json(CONFIG["TACA_JSON"])["TACA_classifications"]
 
     print("📥 Loading input JSON...")
     data = load_json(CONFIG["JSON_INPUT"])
@@ -216,10 +246,30 @@ def main():
     print(f"✅ Found {len(unique_antigens)} unique antigens")
 
     print("🔍 Querying HGNC...")
-    hgnc_results = {
-        ag: query_hgnc(ag, symbol_map, alias_map, CONFIG["FUZZY_CUTOFF"])
-        for ag in tqdm(unique_antigens, desc="HGNC Lookup")
-    }
+    hgnc_results = {}
+    for ag in tqdm(unique_antigens, desc="HGNC Lookup"):
+        candidates = expand_antigen_name(ag)
+        if not candidates:
+            candidates = [ag]
+
+        # Optional debug print
+        print(f"🔎 Trying: {ag} → {candidates}")
+
+        best_result = None
+        for candidate in candidates:
+            result = query_hgnc(candidate, symbol_map, alias_map, CONFIG["FUZZY_CUTOFF"], original=ag)
+            if result["status"] != "unknown":
+                best_result = result
+                break
+
+        if not best_result:
+            best_result = query_hgnc(ag, symbol_map, alias_map, CONFIG["FUZZY_CUTOFF"], original=ag)
+            if best_result["status"] == "unknown":
+                taca_result = query_taca(ag, taca_db, 0.50)
+                if taca_result:
+                    best_result = taca_result
+
+        hgnc_results[ag] = best_result
 
     print("🧩 Enriching JSON with HGNC results...")
     enriched_data = enrich_json(data, hgnc_results)
@@ -230,7 +280,6 @@ def main():
 
     print(f"💾 Writing output to {CONFIG['JSON_OUTPUT']}")
     save_json(minimal_data, CONFIG["JSON_OUTPUT"])
-
     print("🎉 Done!")
 
 
@@ -239,5 +288,3 @@ def main():
 # ------------------------------------
 if __name__ == "__main__":
     main()
-
-

@@ -1,0 +1,111 @@
+{
+    "TACA_classifications": [
+      {
+        "family": "Truncated O-glycans",
+        "subtypes": ["Tn antigen (CD175)", "sialyl-Tn (STn)", "Thomsen-Friedenreich (TF, T antigen)"],
+        "references": ["1", "2", "3", "4"]
+      },
+      {
+        "family": "Lewis antigens",
+        "subtypes": [
+          "Lewis a (Lea)",
+          "Lewis b (Leb)", 
+          "Lewis x (Lex/SSEA-1)",
+          "Lewis y (Ley)",
+          "sialyl-Lewis a (sLea/CA19-9)",
+          "sialyl-Lewis x (sLex/CD15s)"
+        ],
+        "references": ["1", "2", "3", "4"]
+      },
+      {
+        "family": "Gangliosides",
+        "subtypes": ["GD2", "GD3", "GM2", "GM3", "fucosyl-GM1", "Neu5GcGM3", "O-acetyl-GD2"],
+        "references": ["1", "2", "3", "5"]
+      },
+      {
+        "family": "Globo-series glycans",
+        "subtypes": ["Globo H", "SSEA-3", "SSEA-4"],
+        "references": ["1", "2", "3", "5"]
+      },
+      {
+        "family": "Blood group antigens",
+        "subtypes": ["Blood group A", "Blood group B", "H"],
+        "references": ["2"]
+      },
+      {
+        "family": "Disialylated glycosphingolipids",
+        "subtypes": ["Disialylgalactosylgloboside"],
+        "references": ["2"]
+      },
+      {
+        "family": "Bisected/branched N-glycans",
+        "subtypes": ["Bisecting GlcNAc", "β1-6 branched N-glycans"],
+        "references": ["2"]
+      },
+      {
+        "family": "Polysialic acid",
+        "subtypes": ["Polysialic acid"],
+        "references": ["1", "3"]
+      },
+      {
+        "family": "Galactosylgloboside family",
+        "subtypes": ["Galactosylgloboside (GalGb4)"],
+        "references": ["2"]
+      },
+      {
+        "family": "Mucin-type glycoepitopes",
+        "subtypes": ["MUC1-Tn", "MUC1-sTn", "MUC1-TF", "MUC1-Lewis antigens"],
+        "references": ["4", "6"]
+      }
+    ],
+    "references": [
+      {
+        "id": "1",
+        "title": "Cancer Vaccines and Carbohydrate Epitopes",
+        "authors": "Heimburg-Molinaro J, Lum M, Vijay G, et al",
+        "journal": "Vaccine",
+        "year": 2011,
+        "doi": "10.1016/j.vaccine.2011.09.009"
+      },
+      {
+        "id": "2",
+        "title": "Tumor-Associated Carbohydrate Antigens Defining Tumor Malignancy: Basis for Development of Anti-Cancer Vaccines",
+        "authors": "Hakomori S",
+        "journal": "Advances in Experimental Medicine and Biology",
+        "year": 2001,
+        "doi": "10.1007/978-1-4615-1267-7_24"
+      },
+      {
+        "id": "3",
+        "title": "Targeting Tumor Glycans for Cancer Therapy: Successes, Limitations, and Perspectives",
+        "authors": "Berois N, Pittini A, Osinaga E",
+        "journal": "Cancers",
+        "year": 2022,
+        "doi": "10.3390/cancers14030645"
+      },
+      {
+        "id": "4",
+        "title": "Tumor-Associated Carbohydrate Antigens of MUC1 - Implication in Cancer Development",
+        "authors": "Radziejewska I",
+        "journal": "Biomedicine & Pharmacotherapy",
+        "year": 2024,
+        "doi": "10.1016/j.biopha.2024.116619"
+      },
+      {
+        "id": "5",
+        "title": "Carbohydrate Targets for CAR T Cells in Solid Childhood Cancers",
+        "authors": "Rossig C, Kailayangiri S, Jamitzky S, Altvater B",
+        "journal": "Frontiers in Oncology",
+        "year": 2018,
+        "doi": "10.3389/fonc.2018.00513"
+      },
+      {
+        "id": "6",
+        "title": "Recent Advances in Tumor Associated Carbohydrate Antigen Based Chimeric Antigen Receptor T Cells and Bispecific Antibodies for Anti-Cancer Immunotherapy",
+        "authors": "Rashidijahanabad Z, Huang X",
+        "journal": "Seminars in Immunology",
+        "year": 2020,
+        "doi": "10.1016/j.smim.2020.101390"
+      }
+    ]
+  }

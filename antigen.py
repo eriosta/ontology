@@ -175,12 +175,51 @@ def enrich_json(data, hgnc_lookup_results):
     for entry in data:
         for drug in entry.get("extractedDrugs", []):
             ag = drug.get("targetAntigenCanonicalized")
-            if isinstance(ag, str):
-                drug["HGNC"] = [hgnc_lookup_results.get(ag)]
-            elif isinstance(ag, list):
-                drug["HGNC"] = [hgnc_lookup_results.get(a) for a in ag if isinstance(a, str)]
-    return data
+            match_results = []
 
+            if isinstance(ag, str):
+                results = [hgnc_lookup_results.get(ag)]
+            elif isinstance(ag, list):
+                results = [hgnc_lookup_results.get(a) for a in ag if isinstance(a, str)]
+            else:
+                results = []
+
+            for result in results:
+                if not result:
+                    continue
+
+                status = result.get("status")
+                is_match = status != "unknown"
+                match_entry = {
+                    "input": result.get("input"),
+                    "is_match": is_match,
+                    "match_type": None,
+                    "HGNC": None,
+                    "TACA": None
+                }
+
+                if status == "taca_match":
+                    match_entry["match_type"] = "TACA"
+                    match_entry["TACA"] = {
+                        "subtype": result.get("taca_subtype"),
+                        "family": ", ".join(result.get("gene_group", [])) if result.get("gene_group") else None
+                    }
+                elif is_match:
+                    match_entry["match_type"] = "HGNC"
+                    match_entry["HGNC"] = {
+                        "symbol": result.get("hgnc_symbol"),
+                        "hgnc_id": result.get("hgnc_id"),
+                        "ensembl_gene_id": result.get("ensembl_gene_id"),
+                        "synonyms": result.get("synonyms"),
+                        "locus": result.get("locus_type"),
+                        "family": ", ".join(result.get("gene_group", [])) if result.get("gene_group") else None
+                    }
+
+                match_results.append(match_entry)
+
+            drug["targetOntology"] = match_results
+
+    return data
 
 def reduce_json(data):
     minimal_data = []
@@ -197,7 +236,7 @@ def reduce_json(data):
                 "linker": drug.get("linker"),
                 "phase": drug.get("phase"),
                 "targetAntigenCanonicalized": drug.get("targetAntigenCanonicalized"),
-                "HGNC": drug.get("HGNC")
+                "targetOntology": drug.get("targetOntology")
             })
         minimal_data.append(reduced_entry)
     return minimal_data
@@ -251,10 +290,7 @@ def main():
         candidates = expand_antigen_name(ag)
         if not candidates:
             candidates = [ag]
-
-        # Optional debug print
-        print(f"🔎 Trying: {ag} → {candidates}")
-
+            
         best_result = None
         for candidate in candidates:
             result = query_hgnc(candidate, symbol_map, alias_map, CONFIG["FUZZY_CUTOFF"], original=ag)

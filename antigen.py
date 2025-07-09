@@ -1,5 +1,4 @@
-# TO-DO: Use GlyTouCan, UniCarbKB / GlyGen, or MeSH (Medical Subject Headings) to standardize the glycan antigens
-# HGNC is for genes encoding protein products
+# antigen.py
 
 import json
 import pandas as pd

@@ -1,67 +1,72 @@
-import requests
-import pandas as pd
+from owlready2 import get_ontology, ThingClass
+from collections import defaultdict
 import json
-from tqdm import tqdm
-import os
 
-# Load and clean dataframe
-df = pd.read_csv("ADC drugs and trials_Apr2025.xlsx - OG List.csv", header=1)
-df = df.iloc[:, 1:]
+ONTOLOGY_URL = "https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/doid.owl"
+CANCER_ROOT = "DOID:162"
+CELLULAR_PROLIF_ROOT = "DOID:14566"
+ORGAN_SYSTEM_CANCER = "DOID:0050686"
 
-# --- BioPortal Config ---
+print("🔄 Loading ontology...")
+onto = get_ontology(ONTOLOGY_URL).load()
 
-BIOPORTAL_API_KEY = os.environ.get("BIOPORTAL_API_KEY")
-BIOPORTAL_SEARCH_URL = "https://data.bioontology.org/search"
+label_map = {}
+parent_map = defaultdict(list)
+child_map = defaultdict(list)
 
-# --- Clean disease names ---
-def clean_disease_name(name):
-    return str(name).strip().lower()
+print("🔍 Indexing ontology...")
+for cls in onto.classes():
+    if "DOID_" not in cls.name:
+        continue
+    curie = "DOID:" + cls.name.split("_")[-1]
+    label_map[curie] = cls.label.first() or cls.name
 
-# --- Query BioPortal for disease term ---
-def query_doid_bioportal(disease_term):
-    params = {
-        "q": disease_term,
-        "ontologies": "DOID,NCIT",
-        "require_exact_match": "false",
-        "apikey": BIOPORTAL_API_KEY
+    for parent in cls.is_a:
+        if isinstance(parent, ThingClass) and hasattr(parent, "name") and "DOID_" in parent.name:
+            parent_curie = "DOID:" + parent.name.split("_")[-1]
+            parent_map[curie].append(parent_curie)
+            child_map[parent_curie].append(curie)
+
+# ✅ Step: Recursive path tracing
+def trace_paths_to_root(curie, path=None):
+    path = [curie] + (path or [])
+    parents = parent_map.get(curie, [])
+    if not parents:
+        return [path]
+    paths = []
+    for p in parents:
+        paths.extend(trace_paths_to_root(p, path))
+    return paths
+
+# ✅ Step: Find leaf nodes (no children)
+print("🌿 Finding leaf nodes in cancer subtree...")
+leaf_nodes = []
+for curie in label_map:
+    # is leaf and in cancer lineage
+    if curie not in child_map:
+        paths = trace_paths_to_root(curie)
+        if any(CANCER_ROOT in p and CELLULAR_PROLIF_ROOT in p and ORGAN_SYSTEM_CANCER in p for p in paths):
+            leaf_nodes.append(curie)
+
+print(f"🌿 Found {len(leaf_nodes)} cancer leaf terms")
+
+# ✅ Step: Construct dictionary from leaves
+leaf_hierarchy = {}
+for curie in leaf_nodes:
+    paths = trace_paths_to_root(curie)
+    paths = [p for p in paths if CANCER_ROOT in p and CELLULAR_PROLIF_ROOT in p and ORGAN_SYSTEM_CANCER in p]
+    if not paths:
+        continue
+    label_paths = [[label_map.get(c, c) for c in path] for path in paths]
+    leaf_hierarchy[curie] = {
+        "label": label_map[curie],
+        "paths_to_root": paths,
+        "label_paths_to_root": label_paths
     }
-    try:
-        response = requests.get(BIOPORTAL_SEARCH_URL, params=params, timeout=10)
-        if response.status_code == 200:
-            data = response.json()
-            if data["collection"]:
-                match = data["collection"][0]
-                return {
-                    "input": disease_term,
-                    "label": match.get("prefLabel"),
-                    "ontology": match.get("links", {}).get("ontology"),
-                    "match_id": match.get("@id"),
-                    "synonyms": match.get("synonym", []),
-                    "status": "canonical"
-                }
-    except Exception:
-        pass
 
-    return {
-        "input": disease_term,
-        "label": None,
-        "ontology": None,
-        "match_id": None,
-        "synonyms": [],
-        "status": "unknown"
-    }
+# ✅ Step: Save result
+output_file = "doid_cancer_leaf_paths.json"
+with open(output_file, "w") as f:
+    json.dump(leaf_hierarchy, f, indent=2)
 
-# --- Apply to unique DO entries ---
-unique_diseases = df['DO'].dropna().unique()
-doid_results = {
-    d: query_doid_bioportal(clean_disease_name(d))
-    for d in tqdm(unique_diseases, desc="Querying BioPortal DOID/NCIT")
-}
-
-# --- Map back to dataframe ---
-df['doid_label'] = df['DO'].map(lambda x: doid_results.get(x, {}).get('label'))
-df['doid_match_id'] = df['DO'].map(lambda x: doid_results.get(x, {}).get('match_id'))
-df['doid_ontology'] = df['DO'].map(lambda x: doid_results.get(x, {}).get('ontology'))
-df['doid_synonyms'] = df['DO'].map(lambda x: doid_results.get(x, {}).get('synonyms'))
-
-df[['DO','doid_synonyms']].dropna().to_csv("do.csv")
+print(f"✅ Saved {len(leaf_hierarchy)} leaf nodes to {output_file}")

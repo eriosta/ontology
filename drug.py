@@ -163,3 +163,31 @@ with open("chembl_drug_dictionary.json", "w") as f:
     json.dump(chembl_dict, f, indent=2)
 
 print(f"✅ Saved {len(chembl_dict)} unique ADC drugs to chembl_drug_dictionary.json")
+
+# --- Update input JSON with ChEMBL fields ---
+for entry in data:
+    for drug in entry.get("extractedDrugs", []):
+        name = drug.get("drugName")
+        aliases = drug.get("drugAlias") or []
+        if isinstance(aliases, str):
+            aliases = [aliases]
+        all_aliases = list(set(aliases + [name])) if name else aliases
+
+        match = None
+        for alias in all_aliases:
+            for chembl_id, result in chembl_dict.items():
+                if alias.upper() in result['All Aliases']:
+                    match = result
+                    break
+            if match:
+                break
+
+        if match:
+            drug['drugNameChembl'] = match.get('Preferred Name')
+            drug['mechanismOfActionChembl'] = list({m.get('Mechanism of Action') for m in match.get('Mechanism of Action', []) if m.get('Mechanism of Action')})
+
+# --- Save updated JSON ---
+with open("aacrArticle_chembl_enriched.json", "w") as f:
+    json.dump(data, f, indent=2)
+
+print("✅ Saved enriched input JSON to aacrArticle_chembl_enriched.json")

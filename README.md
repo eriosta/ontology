@@ -1,208 +1,134 @@
-# 🧪 ADC Drug Ontology Normalization Pipeline
+# ADC Drug Name Cleaning & Ontology Normalization
 
-This project implements a comprehensive pipeline for normalizing ADC (Antibody-Drug Conjugate) drug data using multiple biomedical APIs to standardize drug names, target antigens, and disease indications.
+This project standardizes key biomedical fields in a dataset of Antibody-Drug Conjugates (ADCs). We integrate scraped clinical trial data with public biomedical ontologies (HGNC, ChEMBL, BioPortal, Disease Ontology) to construct clean, canonical dictionaries and enrich datasets for downstream analysis.
 
-## 📊 Data Source
-- **Input**: `ADC drugs and trials_Apr2025.xlsx - OG List.csv`
-- **Format**: CSV with header row (skipped during import)
 
----
+## 📌 Project Goals
 
-## 🧪 FIELD 1: Drug Name / Drug Alias
+- Normalize messy fields (e.g. drug name, antigen, disease indication)
+- Canonicalize to authoritative ontologies (HGNC, BioPortal, ChEMBL)
+- Generate modular dictionaries and apply them to real trial data
+- Preserve ontological hierarchies (esp. DOID) for structured reference
 
-**Goal:** Canonicalize drug names and retrieve comprehensive metadata including mechanism of action, indications, and target information.
 
-### ✅ Implemented API:
+## ✅ Progress Tracker by Task
 
-**[ChEMBL WebResource Client](https://chembl.gitbook.io/chembl-interface-documentation/web-services)** – Comprehensive drug database with full metadata.
+### **STEP 1: Identify Fields for Standardization**
 
-### 🔧 Key Features:
+Focus columns:
+- Drug Name / Drug Alias
+- Target Antigen
+- Cancer Indication (DO / NCIT)
+- Payload
+- Linker
+- Mechanism of Action
+- Company, Trial Design, Biomarker Strategy, etc.
 
-* **Comprehensive Drug Information**: ChEMBL ID, preferred names, synonyms, development phase
-* **Mechanism of Action**: Detailed MOA data with target information
-* **Drug Indications**: EFO and MeSH mappings for approved uses
-* **Target Metadata**: Full target information including UniProt and HGNC cross-references
-* **Drug Safety**: Withdrawal status, black box warnings, ATC classifications
-
-### 🛠️ Implementation:
-
-```python
-from chembl_webresource_client.new_client import new_client
-
-def fetch_full_chembl_data(drug_name):
-    # Search molecule
-    results = molecule_client.search(drug_name)
-    if not results:
-        return {'Found': False, ...}
-    
-    # Extract comprehensive metadata:
-    # - Molecule Info (ChEMBL ID, preferred name, max phase, etc.)
-    # - Mechanism of Action (MOA, action type, target info)
-    # - Drug Indications (EFO/MeSH mappings)
-    # - Target Metadata (UniProt, HGNC cross-references)
-```
-
-**Data Retrieved:**
-- **Molecule Info**: ChEMBL ID, preferred name, max phase, approval date, drug type
-- **Mechanism of Action**: MOA description, action type, target ChEMBL ID, disease efficacy
-- **Drug Indications**: EFO ID/term, MeSH ID/heading, max phase for indication
-- **Target Metadata**: Target components, UniProt accessions, HGNC symbols
+✅ **In Progress** — Columns identified; drug, antigen, and disease mapping underway
 
 ---
 
-## 🧬 FIELD 2: Target Antigen
+### **STEP 2: Enumerate Raw Terms**
 
-**Goal:** Normalize antigen targets (e.g., "TROP2", "HER2", "CD19") to canonical gene symbols with HGNC identifiers.
+✅ `drug.py`: expands and deduplicates drug aliases  
+✅ `disease.py`: extracts unique DO terms and queries BioPortal  
+⬜ Payloads, linkers, biomarkers, trial features pending
 
-### ✅ Implemented API:
 
-**[HGNC REST API](https://rest.genenames.org/)** – Official gene nomenclature database.
+### **STEP 3: Build Term Dictionaries**
 
-### 🔧 Key Features:
+✅ **Antigen Dictionary** via HGNC + TACA fallback  
+✅ **Drug Dictionary** via ChEMBL with all aliases (uppercased + deduplicated)  
+✅ **Disease Dictionary** via BioPortal (DOID/NCIT) with canonical labels and synonyms  
+✅ **DOID Hierarchy Tree** extracted from `doid.owl` using `owlready2`  
+⬜ Fuzzy matching & enrichment for payload/linker to be added
 
-* **Gene Symbol Standardization**: Maps aliases to approved HGNC symbols
-* **Cross-references**: Ensembl gene IDs, UniProt mappings
-* **Synonym Management**: Comprehensive alias symbol lists
-* **Status Tracking**: Canonical vs unknown status for quality control
 
-### 🛠️ Implementation:
+### **STEP 4: Apply Dictionaries to Dataset**
 
-```python
-HGNC_API = "https://rest.genenames.org/search/{}"
+✅ `drug.py`: adds `drugNameChembl` + `mechanismOfActionChembl` to input JSON  
+✅ `disease.py`: adds `cancerIndicationLabel`, `Ontology`, `MatchID`, `Synonyms`  
+✅ `antigen.py`: enriches each drug with HGNC/TACA ontology and match status  
+⬜ Remaining fields will be added (e.g., payload, biomarker, combo)
 
-def query_hgnc(symbol):
-    """Query HGNC API for symbol or alias"""
-    url = HGNC_API.format(symbol)
-    response = requests.get(url, headers={"Accept": "application/json"})
-    
-    # Returns: approved_symbol, hgnc_id, ensembl_gene_id, synonyms, status
-```
 
-**Data Retrieved:**
-- **Approved Symbol**: Official HGNC gene symbol
-- **HGNC ID**: Unique identifier in HGNC database
-- **Ensembl Gene ID**: Cross-reference to Ensembl
-- **Synonyms**: All known alias symbols
-- **Status**: "canonical" or "unknown" for quality tracking
+### **STEP 5: Flag Unknown or Ambiguous Terms**
 
----
+✅ `antigen.py`: status = `"unknown"` or `"taca_match"`  
+✅ `disease.py`: status = `"unknown"` for unmatched DO terms  
+✅ `drug.py`: filters for ADCs by molecule_type  
+⬜ General-purpose rule-based edge case tagging TBD
 
-## 🧾 FIELD 3: Disease Ontology (DO) / Indication
 
-**Goal:** Normalize indication terms to standardized disease ontologies (DOID, NCIt) with BioPortal integration.
 
-### ✅ Implemented API:
+### **STEP 6: Fuzzy Matching**
 
-**[BioPortal API](https://data.bioontology.org/)** – Multi-ontology search including DOID and NCIt.
+✅ `antigen.py`: fuzzy match via `difflib` on HGNC aliases  
+✅ `drug.py`: alias fallback + LRU cache to avoid redundant ChEMBL calls  
+⬜ Fuzzy matcher for other text fields to be added
 
-### 🔧 Key Features:
 
-* **Multi-ontology Search**: Simultaneous search across DOID and NCIt
-* **Fuzzy Matching**: Flexible matching for variant disease names
-* **Synonym Support**: Comprehensive disease term synonyms
-* **Ontology Tracking**: Source ontology identification
 
-### 🛠️ Implementation:
+### **STEP 7: Documentation**
 
-```python
-BIOPORTAL_SEARCH_URL = "https://data.bioontology.org/search"
+✅ This README (updated with all pipelines + deliverables)  
+✅ Modular, documented codebase across all scripts  
+⬜ `NOTES.md` to describe edge cases, fallback logic, and update guides
 
-def query_doid_bioportal(disease_term):
-    """Search BioPortal DOID/NCIt for disease"""
-    params = {
-        "q": disease_term,
-        "ontologies": "DOID,NCIT",
-        "require_exact_match": "false"
-    }
-    
-    # Returns: label, ontology, match_id, synonyms, status
-```
 
-**Data Retrieved:**
-- **Label**: Preferred disease term from ontology
-- **Ontology**: Source ontology (DOID or NCIt)
-- **Match ID**: Unique identifier in the ontology
-- **Synonyms**: Alternative disease terms
-- **Status**: "canonical" or "unknown" for quality tracking
 
----
+## 🧩 Codebase Overview
 
-## 🔄 Integration Plan Overview
+### `antigen.py`
+- Maps antigen names to HGNC or TACA references
+- Classifies each hit as canonical, alias match, fuzzy, or unknown
+- Output: `aacrArticle_hgnc.json`, plus minimal + unknown JSONs
 
-| Field           | API(s)                    | Output Entities                | Implementation Status |
-| --------------- | ------------------------- | ------------------------------ | -------------------- |
-| Drug Name/Alias | ChEMBL WebResource Client | ChEMBL ID, MOA, Indications, Targets | ✅ **Implemented** |
-| Target Antigen  | HGNC REST API             | HGNC ID, Gene Symbol, Synonyms | ✅ **Implemented** |
-| Indication (DO) | BioPortal API             | DOID, NCIt, UMLS CUI           | ✅ **Implemented** |
+### `disease.py`
+- Loads `doid.owl` with `owlready2`
+- Builds cancer-specific ancestor trees for all **leaf-level** disease terms
+- Traces complete `paths_to_root` (CURIE + label form)
+- Output: `doid_cancer_leaf_paths.json`
 
----
+### `drug.py`
+- Maps drug aliases to ChEMBL
+- Extracts:
+  - Preferred Name
+  - ChEMBL ID
+  - Mechanism of Action
+  - All Aliases (uppercased, deduplicated)
+- Filters for `Antibody drug conjugate` types only
+- Enriches each drug entry with `drugNameChembl` + `mechanismOfActionChembl`
+- Output: `chembl_drug_dictionary.json`, enriched JSON
 
-## 🧰 Data Pipeline Design
+## 🗂 Deliverables (In Progress)
 
-### 1. **Input Processing**
-```python
-df = pd.read_csv("ADC drugs and trials_Apr2025.xlsx - OG List.csv", header=1)
-```
+| Deliverable               | Format        | Status     |
+|---------------------------|---------------|------------|
+| Raw term lists            | Excel/CSV     | ✅ Partial |
+| Cleaned input JSON        | JSON          | ✅ Enriched |
+| Term dictionaries         | JSON / CSV    | ✅ Drug, Antigen, Disease |
+| DOID tree/hierarchy       | JSON          | ✅ Leaf paths exported |
+| Unknowns tagged           | JSON/CSV cols | ✅ Drug / Disease / Antigen |
+| Fuzzy match scripts       | Python        | ✅ Antigen, Drug |
+| Final documentation       | Markdown      | ✅ This README |
 
-### 2. **Multi-API Integration**
-- **ChEMBL**: Comprehensive drug metadata extraction
-- **HGNC**: Gene symbol standardization
-- **BioPortal**: Disease ontology mapping
 
-### 3. **Data Quality Control**
-- **Status Tracking**: Each field tagged as "canonical" or "unknown"
-- **Error Handling**: Graceful handling of API failures
-- **Comprehensive Metadata**: Rich context for each normalized entity
+## 🚀 Next Steps
 
-### 4. **Output Format**
-- **Structured Data**: JSON-like dictionaries with full metadata
-- **Cross-references**: Multiple identifier systems (ChEMBL, HGNC, DOID, NCIt)
-- **Quality Indicators**: Status flags for data validation
+1. Complete payload/linker/biomarker term dictionaries
+2. Apply fuzzy + rule-based logic for those fields
+3. Merge all cleaned values into master trial dataset
+4. Create filtering/ontology-based browser or dashboard
+5. Publish `NOTES.md` with edge cases, fallback rules, update pipeline
 
----
 
-## 🚀 Usage Examples
+## 🧠 Acknowledgments
 
-### Drug Name Processing
-```python
-drug_names = ["trastuzumab", "sacituzumab govitecan", "brentuximab vedotin"]
-chembl_data = [fetch_full_chembl_data(name) for name in drug_names]
-```
+This project integrates data from:
+- 🧬 [HGNC](https://www.genenames.org/)
+- 💊 [ChEMBL](https://www.ebi.ac.uk/chembl/)
+- 🧠 [BioPortal](https://bioportal.bioontology.org/) — DOID / NCIT
+- 🍬 TACA (Tumor-Associated Carbohydrate Antigen) glycan references
+- 🧾 [Disease Ontology (doid.owl)](https://github.com/DiseaseOntology/HumanDiseaseOntology)
 
-### Target Antigen Processing
-```python
-antigens = ["TROP2", "HER2", "CD19", "unknown antigen"]
-results = [query_hgnc(clean_target_antigen_name(ag)) for ag in antigens]
-```
-
-### Disease Indication Processing
-```python
-diseases = ["Triple Negative Breast Cancer", "NSCLC", "Bladder Ca"]
-results = [query_doid_bioportal(clean_disease_name(d)) for d in diseases]
-```
-
----
-
-## 📋 Dependencies
-
-```python
-# Required packages
-pandas
-chembl_webresource_client
-requests
-urllib
-json
-pprint
-```
-
----
-
-## 🔧 Configuration
-
-- **BioPortal API Key**: Set `BIOPORTAL_API_KEY` for enhanced BioPortal access
-- **ChEMBL Client**: No API key required for basic usage
-- **HGNC API**: No authentication required
-
----
-
-Would you like to extend this pipeline with additional features or integrate it with your specific ADC dataset?

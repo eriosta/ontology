@@ -1,29 +1,32 @@
-import pandas as pd
+# drug.py
+
+import json
 from chembl_webresource_client.new_client import new_client
 from tqdm import tqdm
 from functools import lru_cache
-import re
 
-# --- Load data ---
-df = pd.read_csv("ADC drugs and trials_Apr2025.xlsx - OG List.csv", header=1)
-df = df.iloc[:, 1:]
+# --- Load JSON input ---
+with open("aacrArticle.json", "r") as f:
+    data = json.load(f)
 
-# Step 1: Make sure Drug Alias is a list
-df['Drug Alias'] = df['Drug Alias'].apply(
-    lambda x: [x] if isinstance(x, str) else ([] if pd.isna(x) else x)
-)
+# Extract all unique drug aliases
+alias_to_entry = {}
 
-# Step 2: Append Drug Name to Drug Alias list
-df['Drug Alias'] = df.apply(
-    lambda row: list(set(row['Drug Alias'] + [row['Drug Name']])) if pd.notnull(row['Drug Name']) else row['Drug Alias'],
-    axis=1
-)
+for entry in data:
+    for drug in entry.get("extractedDrugs", []):
+        name = drug.get("drugName")
+        aliases = drug.get("drugAlias") or []
+        if isinstance(aliases, str):
+            aliases = [aliases]
+        all_aliases = list(set(aliases + [name])) if name else aliases
+        for alias in all_aliases:
+            if alias:
+                alias_to_entry[alias] = {
+                    "entry_id": entry.get("id"),
+                    "all_aliases": all_aliases
+                }
 
-# Step 3: Drop the original Drug Name column
-df.drop(columns=['Drug Name'], inplace=True)
-
-# Optional: Preview rows with aliases
-print(df[df['Drug Alias'].apply(len) > 0][['Drug Alias']])
+alias_list = sorted(alias_to_entry.keys())
 
 # --- Initialize ChEMBL clients ---
 molecule_client = new_client.molecule
@@ -43,6 +46,9 @@ def fetch_full_chembl_data(drug_name):
     mol_info = results[0]
     chembl_id = mol_info['molecule_chembl_id']
     molecule_details = molecule_client.get(chembl_id)
+
+    if molecule_details.get('molecule_type') != 'Antibody drug conjugate':
+        return None
 
     if not mol_info.get('pref_name') and molecule_details.get('max_phase') is None:
         return None
@@ -120,11 +126,12 @@ def fetch_full_chembl_data(drug_name):
         tid = m.get('target_chembl_id')
         if tid and tid in target_pref_name_map:
             primary_target_name = target_pref_name_map[tid]
-            break  # take the first found
+            break
 
     return {
-        'Input Name': drug_name,
-        'Found': True,
+        'ChEMBL ID': chembl_id,
+        'Preferred Name': mol_info.get('pref_name'),
+        'All Aliases': [],
         'Primary Target Name': primary_target_name,
         'Molecule Info': molecule_info,
         'Mechanism of Action': moas,
@@ -137,24 +144,22 @@ def fetch_full_chembl_data(drug_name):
 def fetch_full_chembl_data_cached(name):
     return fetch_full_chembl_data(name)
 
-# --- Create lookup columns for best-matching ChEMBL info ---
-best_matches = []
-for aliases in tqdm(df['Drug Alias'], desc="Matching aliases to ChEMBL"):
-    match = None
-    matched_alias = None
-    for alias in aliases:
-        result = fetch_full_chembl_data_cached(alias)
-        if result and result.get("Found"):
-            match = result
-            matched_alias = alias
-            break
-    best_matches.append((matched_alias, match))
+# --- Match aliases to ChEMBL ---
+chembl_dict = {}
+for alias in tqdm(alias_list, desc="Matching aliases to ChEMBL"):
+    result = fetch_full_chembl_data_cached(alias)
+    if result and result.get("ChEMBL ID"):
+        chembl_id = result["ChEMBL ID"]
+        if chembl_id not in chembl_dict:
+            result['All Aliases'] = [alias.upper()]
+            chembl_dict[chembl_id] = result
+        else:
+            if alias.upper() not in chembl_dict[chembl_id]['All Aliases']:
+                chembl_dict[chembl_id]['All Aliases'].append(alias.upper())
+                chembl_dict[chembl_id]['All Aliases'] = list(set(chembl_dict[chembl_id]['All Aliases']))
 
-# --- Unpack into new columns ---
-df['chembl_matched_alias'] = [alias for alias, _ in best_matches]
-df['chembl_id'] = [res['Molecule Info']['ChEMBL ID'] if res else "NA" for _, res in best_matches]
-df['chembl_name'] = [res['Molecule Info']['Preferred Name'] if res else "NA" for _, res in best_matches]
-df['chembl_target'] = [res.get('Primary Target Name', 'NA') if res else "NA" for _, res in best_matches]
+# --- Export cleaned dictionary ---
+with open("chembl_drug_dictionary.json", "w") as f:
+    json.dump(chembl_dict, f, indent=2)
 
-# --- Save result ---
-df.to_csv("chembl_data.csv", index=False)
+print(f"✅ Saved {len(chembl_dict)} unique ADC drugs to chembl_drug_dictionary.json")

@@ -159,10 +159,12 @@ for alias in tqdm(alias_list, desc="Matching aliases to ChEMBL"):
                 chembl_dict[chembl_id]['All Aliases'] = list(set(chembl_dict[chembl_id]['All Aliases']))
 
 # --- Export cleaned dictionary ---
-with open("chembl_drug_dictionary.json", "w") as f:
+import os
+os.makedirs("dictionaries/drug", exist_ok=True)
+with open("dictionaries/drug/chembl_drug_dictionary.json", "w") as f:
     json.dump(chembl_dict, f, indent=2)
 
-print(f"✅ Saved {len(chembl_dict)} unique ADC drugs to chembl_drug_dictionary.json")
+print(f"✅ Saved {len(chembl_dict)} unique ADC drugs to dictionaries/drug/chembl_drug_dictionary.json")
 
 # --- Update input JSON with ChEMBL fields ---
 for entry in data:
@@ -187,7 +189,7 @@ for entry in data:
             drug['mechanismOfActionChembl'] = list({m.get('Mechanism of Action') for m in match.get('Mechanism of Action', []) if m.get('Mechanism of Action')})
 
 # --- Save updated JSON ---
-with open("aacrArticle_chembl_enriched.json", "w") as f:
+with open("dictionaries/drug/aacrArticle_chembl_enriched.json", "w") as f:
     json.dump(data, f, indent=2)
 
-print("✅ Saved enriched input JSON to aacrArticle_chembl_enriched.json")
+print("✅ Saved enriched input JSON to dictionaries/drug/aacrArticle_chembl_enriched.json")

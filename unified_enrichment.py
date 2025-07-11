@@ -37,7 +37,7 @@ CONFIG = {
     "DICTIONARIES_FOLDER": "dictionaries",
     "SCRIPTS": {
         "antigen": "antigen.py",
-        "disease": "disease.py", 
+        "disease": "disease_enhanced.py", 
         "drug": "drug.py",
         "payload_linker": "payload_linker.py"
     },
@@ -104,57 +104,7 @@ class UnifiedEnrichmentPipeline:
             logger.error(f"❌ {script_name} failed: {e.stderr}")
             return False
     
-    def collect_dictionaries(self):
-        """Collect and organize all generated dictionaries"""
-        logger.info("📁 Collecting generated dictionaries...")
-        
-        # Dictionary mapping for file collection
-        dictionary_mapping = {
-            "antigen": {
-                "source": "aacrArticle_hgnc.json",
-                "unknowns": "aacrArticle_hgnc_unknowns.json",
-                "target": "dictionaries/antigen/"
-            },
-            "disease": {
-                "source": "doid_cancer_leaf_paths.json",
-                "target": "dictionaries/disease/"
-            },
-            "drug": {
-                "source": "chembl_drug_dictionary.json",
-                "target": "dictionaries/drug/"
-            },
-            "payload_linker": {
-                "payload_source": "chembl_payload_dictionary.json",
-                "linker_source": "chembl_linker_dictionary.json",
-                "target": "dictionaries/payload_linker/"
-            }
-        }
-        
-        # Move files to organized structure
-        for category, mapping in dictionary_mapping.items():
-            target_dir = Path(mapping["target"])
-            target_dir.mkdir(exist_ok=True)
-            
-            if category == "payload_linker":
-                # Handle payload and linker separately
-                for source_key in ["payload_source", "linker_source"]:
-                    source_file = mapping[source_key]
-                    if Path(source_file).exists():
-                        shutil.copy2(source_file, target_dir / Path(source_file).name)
-                        logger.info(f"📋 Moved {source_file} to {target_dir}")
-            else:
-                # Handle single source files
-                source_file = mapping["source"]
-                if Path(source_file).exists():
-                    shutil.copy2(source_file, target_dir / Path(source_file).name)
-                    logger.info(f"📋 Moved {source_file} to {target_dir}")
-                
-                # Handle unknowns if they exist
-                if "unknowns" in mapping:
-                    unknowns_file = mapping["unknowns"]
-                    if Path(unknowns_file).exists():
-                        shutil.copy2(unknowns_file, target_dir / Path(unknowns_file).name)
-                        logger.info(f"📋 Moved {unknowns_file} to {target_dir}")
+    # Removed collect_dictionaries method - dictionaries are now saved directly to organized folders
     
     def load_enriched_data(self):
         """Load and merge all enriched data files"""
@@ -166,7 +116,7 @@ class UnifiedEnrichmentPipeline:
         logger.info(f"✅ Loaded base data from {self.input_json}")
         
         # Merge antigen enrichments
-        antigen_file = "aacrArticle_hgnc.json"
+        antigen_file = "dictionaries/antigen/aacrArticle_hgnc.json"
         if Path(antigen_file).exists():
             with open(antigen_file, 'r') as f:
                 antigen_data = json.load(f)
@@ -174,20 +124,28 @@ class UnifiedEnrichmentPipeline:
             logger.info(f"✅ Merged antigen enrichments from {antigen_file}")
         
         # Merge drug enrichments
-        drug_file = "aacrArticle_chembl_enriched.json"
-        if Path(drug_file).exists():
+        drug_file = self.dictionaries_folder / "drug" / "aacrArticle_chembl_enriched.json"
+        if drug_file.exists():
             with open(drug_file, 'r') as f:
                 drug_data = json.load(f)
             self.merge_drug_enrichments(drug_data)
             logger.info(f"✅ Merged drug enrichments from {drug_file}")
         
         # Merge payload/linker enrichments
-        payload_linker_file = "aacrArticle_chembl_payload_linker_enriched.json"
-        if Path(payload_linker_file).exists():
+        payload_linker_file = self.dictionaries_folder / "payload_linker" / "aacrArticle_chembl_payload_linker_enriched.json"
+        if payload_linker_file.exists():
             with open(payload_linker_file, 'r') as f:
                 payload_linker_data = json.load(f)
             self.merge_payload_linker_enrichments(payload_linker_data)
             logger.info(f"✅ Merged payload/linker enrichments from {payload_linker_file}")
+        
+        # Merge disease enrichments
+        disease_file = self.dictionaries_folder / "disease" / "aacrArticle_disease_enriched.json"
+        if disease_file.exists():
+            with open(disease_file, 'r') as f:
+                disease_data = json.load(f)
+            self.merge_disease_enrichments(disease_data)
+            logger.info(f"✅ Merged disease enrichments from {disease_file}")
         
         return True
     
@@ -279,6 +237,31 @@ class UnifiedEnrichmentPipeline:
                         drug["linkerNameChembl"] = enrichments.get("linkerNameChembl")
                         drug["linkerOntology"] = enrichments.get("linkerOntology", [])
                         drug["linkerCanonicalized"] = enrichments.get("linkerCanonicalized", [])
+    
+    def merge_disease_enrichments(self, disease_data):
+        """Merge disease enrichments from disease_enhanced.py output"""
+        # Create a mapping from entry ID to disease enrichments
+        disease_map = {}
+        for entry in disease_data:
+            entry_id = entry.get("id")
+            if entry_id:
+                disease_map[entry_id] = {}
+                for drug in entry.get("extractedDrugs", []):
+                    drug_name = drug.get("drugName")
+                    if drug_name:
+                        disease_map[entry_id][drug_name] = {
+                            "diseaseOntology": drug.get("diseaseOntology", [])
+                        }
+        
+        # Merge into main data
+        for entry in self.enriched_data:
+            entry_id = entry.get("id")
+            if entry_id in disease_map:
+                for drug in entry.get("extractedDrugs", []):
+                    drug_name = drug.get("drugName")
+                    if drug_name in disease_map[entry_id]:
+                        enrichments = disease_map[entry_id][drug_name]
+                        drug["diseaseOntology"] = enrichments.get("diseaseOntology", [])
     
     def create_comprehensive_enrichment(self):
         """Create the final comprehensive enriched JSON with standardized structure"""
@@ -464,11 +447,31 @@ class UnifiedEnrichmentPipeline:
             "ncit_label": None,
             "synonyms": [],
             "hierarchy_path": [],
-            "match_status": "unknown"
+            "match_status": "unknown",
+            "all_diseases": []  # Store all diseases for multiple indications
         }
         
-        # This would be populated if disease.py creates enrichment
-        # For now, we'll leave it as placeholder
+        # Check if we have diseaseOntology enrichment
+        if "diseaseOntology" in drug and drug.get("diseaseOntology"):
+            disease_ontology_list = drug.get("diseaseOntology", [])
+            if disease_ontology_list:
+                # Store all diseases
+                disease_ontology["all_diseases"] = disease_ontology_list
+                
+                # Take the first disease as primary (most relevant)
+                first_disease = disease_ontology_list[0]
+                disease_ontology.update({
+                    "doid_id": first_disease.get("doid_id"),
+                    "doid_label": first_disease.get("doid_label"),
+                    "match_status": first_disease.get("match_status", "unknown"),
+                    "hierarchy_path": first_disease.get("hierarchy_paths", [])[0] if first_disease.get("hierarchy_paths") else []
+                })
+                
+                # Add expanded terms as synonyms
+                expanded_terms = first_disease.get("expanded_terms", [])
+                if expanded_terms:
+                    disease_ontology["synonyms"] = expanded_terms
+        
         return disease_ontology
     
     def get_payload_ontology(self, drug: Dict[str, Any], dictionaries: Dict[str, Any]) -> Dict[str, Any]:
@@ -536,8 +539,8 @@ class UnifiedEnrichmentPipeline:
                 logger.error(f"❌ Pipeline failed at {script_name} script")
                 return False
         
-        # Step 3: Collect dictionaries
-        self.collect_dictionaries()
+        # Step 3: Dictionaries are now saved directly to organized folders
+        logger.info("📁 Dictionaries saved directly to organized folders")
         
         # Step 4: Load enriched data
         if not self.load_enriched_data():

@@ -65,7 +65,9 @@ for curie in leaf_nodes:
     }
 
 # ✅ Step: Save result
-output_file = "doid_cancer_leaf_paths.json"
+import os
+os.makedirs("dictionaries/disease", exist_ok=True)
+output_file = "dictionaries/disease/doid_cancer_leaf_paths.json"
 with open(output_file, "w") as f:
     json.dump(leaf_hierarchy, f, indent=2)
 

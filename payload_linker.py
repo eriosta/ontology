@@ -9,7 +9,7 @@ from chembl_webresource_client.new_client import new_client
 # CONFIGURATION
 # ------------------
 INPUT_JSON = "aacrArticle.json"
-OUTPUT_JSON = "aacrArticle_chembl_payload_linker_enriched.json"
+OUTPUT_JSON = "dictionaries/payload_linker/aacrArticle_chembl_payload_linker_enriched.json"
 PAYLOAD_DICT_OUTPUT = "chembl_payload_dictionary.json"
 LINKER_DICT_OUTPUT = "chembl_linker_dictionary.json"
 
@@ -168,10 +168,13 @@ for linker in tqdm(linker_list, desc="Querying ChEMBL for linkers"):
 # ------------------
 # SAVE DICTIONARIES
 # ------------------
-with open(PAYLOAD_DICT_OUTPUT, "w") as f:
+import os
+os.makedirs("dictionaries/payload_linker", exist_ok=True)
+
+with open("dictionaries/payload_linker/chembl_payload_dictionary.json", "w") as f:
     json.dump(payload_dict, f, indent=2)
 
-with open(LINKER_DICT_OUTPUT, "w") as f:
+with open("dictionaries/payload_linker/chembl_linker_dictionary.json", "w") as f:
     json.dump(linker_dict, f, indent=2)
 
 # ------------------
@@ -237,6 +240,6 @@ for entry in data:
 with open(OUTPUT_JSON, "w") as f:
     json.dump(data, f, indent=2)
 
-print(f"\n✅ Saved {len(payload_dict)} unique payload mappings to {PAYLOAD_DICT_OUTPUT}")
-print(f"✅ Saved {len(linker_dict)} unique linker mappings to {LINKER_DICT_OUTPUT}")
+print(f"\n✅ Saved {len(payload_dict)} unique payload mappings to dictionaries/payload_linker/chembl_payload_dictionary.json")
+print(f"✅ Saved {len(linker_dict)} unique linker mappings to dictionaries/payload_linker/chembl_linker_dictionary.json")
 print(f"✅ Saved enriched JSON to {OUTPUT_JSON}")

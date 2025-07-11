@@ -260,7 +260,7 @@ def export_unknowns(minimal_data, output_path):
                         "gene_group": hgnc_result.get("gene_group")
                     })
 
-    unknown_output_path = output_path.replace(".json", "_unknowns.json")
+    unknown_output_path = f"dictionaries/antigen/{CONFIG['JSON_OUTPUT'].replace('.json', '_unknowns.json')}"
     print(f"🛠️  Writing {len(unknowns)} unknown entries to {unknown_output_path}")
     save_json(unknowns, unknown_output_path)
 
@@ -311,10 +311,10 @@ def main():
 
     print("📝 Reducing JSON for output...")
     minimal_data = reduce_json(enriched_data)
-    export_unknowns(minimal_data, CONFIG["JSON_OUTPUT"])
+    export_unknowns(minimal_data, f"dictionaries/antigen/{CONFIG['JSON_OUTPUT']}")
 
-    print(f"💾 Writing output to {CONFIG['JSON_OUTPUT']}")
-    save_json(minimal_data, CONFIG["JSON_OUTPUT"])
+    print(f"💾 Writing output to dictionaries/antigen/{CONFIG['JSON_OUTPUT']}")
+    save_json(minimal_data, f"dictionaries/antigen/{CONFIG['JSON_OUTPUT']}")
     print("🎉 Done!")
 
 

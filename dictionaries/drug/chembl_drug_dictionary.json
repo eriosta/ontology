@@ -1,0 +1,2467 @@
+{
+  "CHEMBL4297844": {
+    "ChEMBL ID": "CHEMBL4297844",
+    "Preferred Name": "TRASTUZUMAB DERUXTECAN",
+    "All Aliases": [
+      "TRASTUZUMAB-DERUXTECAN (T-DXD)",
+      "TRASTUZUMAB-DERUXTECAN",
+      "FAM-TRASTUZUMAB DERUXTECAN-NXKI (T-DXD)",
+      "TRASTUZUMAB DERUXTECAN (T-DXD)",
+      "ENHERTU",
+      "DATOPOTOMAB DERUXTECAN (DATO-DXD)",
+      "TRASTUZUMAB DERUXTECAN",
+      "TRASTUZUMAB-DERUXTECAN (T-DXD, DS-8201)",
+      "TRASTUZUMAB DERUXTECAN (ENHERTU)",
+      "TRASTUZUMAB DERUXTECAN (T-DXD, ENHERTU)",
+      "TRASTUZUMAB-DERUXTECAN (DXD)",
+      "MNC2-DERUXTECAN",
+      "DS8201"
+    ],
+    "Primary Target Name": "Receptor protein-tyrosine kinase erbB-2",
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL4297844",
+      "Preferred Name": "TRASTUZUMAB DERUXTECAN",
+      "Max Phase": "4.0",
+      "First Approval": 2019,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 1,
+      "ATC Codes": [],
+      "USAN Stem": "-mab; -tecan",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [
+      {
+        "Mechanism of Action": "Receptor protein-tyrosine kinase erbB-2 binding agent",
+        "Action Type": "BINDING AGENT",
+        "Target ChEMBL ID": "CHEMBL1824",
+        "Disease Efficacy": 1
+      },
+      {
+        "Mechanism of Action": "DNA topoisomerase I inhibitor",
+        "Action Type": "INHIBITOR",
+        "Target ChEMBL ID": "CHEMBL1781",
+        "Disease Efficacy": 1
+      }
+    ],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0000616",
+        "EFO Term": "neoplasm",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "EFO:0003869",
+        "EFO Term": "breast neoplasm",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "EFO:0004142",
+        "EFO Term": "colorectal neoplasm",
+        "MeSH ID": "D015179",
+        "MeSH Term": "Colorectal Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0009708",
+        "EFO Term": "metastasis",
+        "MeSH ID": "D009362",
+        "MeSH Term": "Neoplasm Metastasis",
+        "Max Phase for Indication": "1.0"
+      },
+      {
+        "EFO ID": "EFO:0003060",
+        "EFO Term": "non-small cell lung carcinoma",
+        "MeSH ID": "D002289",
+        "MeSH Term": "Carcinoma, Non-Small-Cell Lung",
+        "Max Phase for Indication": "3.0"
+      },
+      {
+        "EFO ID": "EFO:0008549",
+        "EFO Term": "digestive system neoplasm",
+        "MeSH ID": "D004067",
+        "MeSH Term": "Digestive System Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "MONDO:0007254",
+        "EFO Term": "breast cancer",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "EFO:0000305",
+        "EFO Term": "breast carcinoma",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "EFO:0000637",
+        "EFO Term": "osteosarcoma",
+        "MeSH ID": "D012516",
+        "MeSH Term": "Osteosarcoma",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0005842",
+        "EFO Term": "colorectal cancer",
+        "MeSH ID": "D015179",
+        "MeSH Term": "Colorectal Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "MONDO:0001056",
+        "EFO Term": "gastric cancer",
+        "MeSH ID": "D013274",
+        "MeSH Term": "Stomach Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0000503",
+        "EFO Term": "gastric adenocarcinoma",
+        "MeSH ID": "D013274",
+        "MeSH Term": "Stomach Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:1000984",
+        "EFO Term": "inflammatory breast carcinoma",
+        "MeSH ID": "D058922",
+        "MeSH Term": "Inflammatory Breast Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:1001951",
+        "EFO Term": "colorectal carcinoma",
+        "MeSH ID": "D015179",
+        "MeSH Term": "Colorectal Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "MONDO:0004992",
+        "EFO Term": "cancer",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "4.0"
+      }
+    ],
+    "Target Metadata": [
+      {
+        "Target ChEMBL ID": "CHEMBL1781",
+        "Pref Name": "DNA topoisomerase I",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P11387",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P11387",
+            "HGNC": null
+          }
+        ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL1824",
+        "Pref Name": "Receptor protein-tyrosine kinase erbB-2",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P04626",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0007166",
+            "HGNC": "cell surface receptor signaling pathway"
+          }
+        ]
+      }
+    ]
+  },
+  "CHEMBL4297939": {
+    "ChEMBL ID": "CHEMBL4297939",
+    "Preferred Name": "DATOPOTAMAB DERUXTECAN",
+    "All Aliases": [
+      "DATO-DXD",
+      "DATOPOTAMAB DERUXTECAN (DATO-DXD)",
+      "DATOPOTAMAB DERUXTECAN"
+    ],
+    "Primary Target Name": "Tumor-associated calcium signal transducer 2",
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL4297939",
+      "Preferred Name": "DATOPOTAMAB DERUXTECAN",
+      "Max Phase": "3.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-mab; -tecan",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [
+      {
+        "Mechanism of Action": "Tumor-associated calcium signal transducer 2 binding agent",
+        "Action Type": "BINDING AGENT",
+        "Target ChEMBL ID": "CHEMBL3856163",
+        "Disease Efficacy": 1
+      },
+      {
+        "Mechanism of Action": "DNA topoisomerase I inhibitor",
+        "Action Type": "INHIBITOR",
+        "Target ChEMBL ID": "CHEMBL1781",
+        "Disease Efficacy": 1
+      }
+    ],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0003060",
+        "EFO Term": "non-small cell lung carcinoma",
+        "MeSH ID": "D002289",
+        "MeSH Term": "Carcinoma, Non-Small-Cell Lung",
+        "Max Phase for Indication": "3.0"
+      },
+      {
+        "EFO ID": "MONDO:0007254",
+        "EFO Term": "breast cancer",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "3.0"
+      },
+      {
+        "EFO ID": "EFO:0003869",
+        "EFO Term": "breast neoplasm",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "3.0"
+      },
+      {
+        "EFO ID": "MONDO:0008903",
+        "EFO Term": "lung cancer",
+        "MeSH ID": "D008175",
+        "MeSH Term": "Lung Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0000616",
+        "EFO Term": "neoplasm",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "1.0"
+      },
+      {
+        "EFO ID": "EFO:0003968",
+        "EFO Term": "angiosarcoma",
+        "MeSH ID": "D006394",
+        "MeSH Term": "Hemangiosarcoma",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0005537",
+        "EFO Term": "triple-negative breast cancer",
+        "MeSH ID": "D064726",
+        "MeSH Term": "Triple Negative Breast Neoplasms",
+        "Max Phase for Indication": "2.0"
+      }
+    ],
+    "Target Metadata": [
+      {
+        "Target ChEMBL ID": "CHEMBL1781",
+        "Pref Name": "DNA topoisomerase I",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P11387",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P11387",
+            "HGNC": null
+          }
+        ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL3856163",
+        "Pref Name": "Tumor-associated calcium signal transducer 2",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P09758",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P09758",
+            "HGNC": null
+          }
+        ]
+      }
+    ]
+  },
+  "CHEMBL3301589": {
+    "ChEMBL ID": "CHEMBL3301589",
+    "Preferred Name": "ENFORTUMAB VEDOTIN",
+    "All Aliases": [
+      "PADCEV",
+      "ENFORTUMAB VEDOTIN-EJFV",
+      "ENFORTUMAB-VEDOTIN",
+      "ENFORTUMAB VEDOTIN"
+    ],
+    "Primary Target Name": "Nectin-4",
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL3301589",
+      "Preferred Name": "ENFORTUMAB VEDOTIN",
+      "Max Phase": "4.0",
+      "First Approval": 2019,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 1,
+      "ATC Codes": [],
+      "USAN Stem": "-dotin; -mab",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [
+      {
+        "Mechanism of Action": "Nectin-4 binding agent",
+        "Action Type": "BINDING AGENT",
+        "Target ChEMBL ID": "CHEMBL3712928",
+        "Disease Efficacy": 1
+      },
+      {
+        "Mechanism of Action": "Tubulin inhibitor",
+        "Action Type": "INHIBITOR",
+        "Target ChEMBL ID": "CHEMBL2095182",
+        "Disease Efficacy": 1
+      }
+    ],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0000616",
+        "EFO Term": "neoplasm",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "EFO:0008528",
+        "EFO Term": "urothelial carcinoma",
+        "MeSH ID": "D001749",
+        "MeSH Term": "Urinary Bladder Neoplasms",
+        "Max Phase for Indication": "3.0"
+      },
+      {
+        "EFO ID": "EFO:0003863",
+        "EFO Term": "urogenital neoplasm",
+        "MeSH ID": "D014565",
+        "MeSH Term": "Urogenital Neoplasms",
+        "Max Phase for Indication": "3.0"
+      },
+      {
+        "EFO ID": "MONDO:0001187",
+        "EFO Term": "urinary bladder cancer",
+        "MeSH ID": "D001749",
+        "MeSH Term": "Urinary Bladder Neoplasms",
+        "Max Phase for Indication": "3.0"
+      },
+      {
+        "EFO ID": "MONDO:0008315",
+        "EFO Term": "prostate cancer",
+        "MeSH ID": "D064129",
+        "MeSH Term": "Prostatic Neoplasms, Castration-Resistant",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0002517",
+        "EFO Term": "pancreatic ductal adenocarcinoma",
+        "MeSH ID": "D021441",
+        "MeSH Term": "Carcinoma, Pancreatic Ductal",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:1000601",
+        "EFO Term": "Transitional Cell Carcinoma",
+        "MeSH ID": "D002295",
+        "MeSH Term": "Carcinoma, Transitional Cell",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "MONDO:0004180",
+        "EFO Term": "benign urinary system neoplasm",
+        "MeSH ID": "D014571",
+        "MeSH Term": "Urologic Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "MONDO:0004992",
+        "EFO Term": "cancer",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "4.0"
+      }
+    ],
+    "Target Metadata": [
+      {
+        "Target ChEMBL ID": "CHEMBL2095182",
+        "Pref Name": "Tubulin",
+        "Target Type": "PROTEIN COMPLEX GROUP",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P68371",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003725",
+            "HGNC": "double-stranded RNA binding"
+          },
+          {
+            "Accession": "Q9H4B7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "P0DPH7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "P68366",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "Q13509",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q71U36",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0036126",
+            "HGNC": "sperm flagellum"
+          },
+          {
+            "Accession": "P04350",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q3ZCM7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "P07437",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0071895",
+            "HGNC": "odontoblast differentiation"
+          },
+          {
+            "Accession": "P68363",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003725",
+            "HGNC": "double-stranded RNA binding"
+          },
+          {
+            "Accession": "Q9BQE3",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005198",
+            "HGNC": "structural molecule activity"
+          },
+          {
+            "Accession": "Q6PEY2",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "Q13885",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q9BVA1",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q9BUF5",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          }
+        ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL3712928",
+        "Pref Name": "Nectin-4",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "Q96NY8",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "Q96NY8",
+            "HGNC": null
+          }
+        ]
+      }
+    ]
+  },
+  "CHEMBL1743082": {
+    "ChEMBL ID": "CHEMBL1743082",
+    "Preferred Name": "TRASTUZUMAB EMTANSINE",
+    "All Aliases": [
+      "TRASTUZUMAB EMTANSINE (T-DM1)",
+      "TRASTUZUMAB EMTANSINE (T-DM1, KADCYLA)",
+      "KADCYLA",
+      "TRASTUZUMAB-EMTANSINE",
+      "TRASTUZUMAB-EMTANSINE (DM1)",
+      "TRASTUZUMAB EMTANSINE",
+      "ADO-TRASTUZUMAB EMTANSINE (T-DM1)",
+      "TRASTUZUMAB-EMTANSINE (T-DM1)"
+    ],
+    "Primary Target Name": "Receptor protein-tyrosine kinase erbB-2",
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL1743082",
+      "Preferred Name": "TRASTUZUMAB EMTANSINE",
+      "Max Phase": "4.0",
+      "First Approval": 2013,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 1,
+      "ATC Codes": [],
+      "USAN Stem": "-mab; -tansine",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [
+      {
+        "Mechanism of Action": "Receptor protein-tyrosine kinase erbB-2 inhibitor",
+        "Action Type": "INHIBITOR",
+        "Target ChEMBL ID": "CHEMBL1824",
+        "Disease Efficacy": 1
+      },
+      {
+        "Mechanism of Action": "Tubulin inhibitor",
+        "Action Type": "INHIBITOR",
+        "Target ChEMBL ID": "CHEMBL2095182",
+        "Disease Efficacy": 1
+      }
+    ],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0000305",
+        "EFO Term": "breast carcinoma",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "EFO:0003060",
+        "EFO Term": "non-small cell lung carcinoma",
+        "MeSH ID": "D002289",
+        "MeSH Term": "Carcinoma, Non-Small-Cell Lung",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0000616",
+        "EFO Term": "neoplasm",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "EFO:0003869",
+        "EFO Term": "breast neoplasm",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "EFO:0009708",
+        "EFO Term": "metastasis",
+        "MeSH ID": "D009362",
+        "MeSH Term": "Neoplasm Metastasis",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "MONDO:0001056",
+        "EFO Term": "gastric cancer",
+        "MeSH ID": "D013274",
+        "MeSH Term": "Stomach Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "MONDO:0007254",
+        "EFO Term": "breast cancer",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "EFO:0001378",
+        "EFO Term": "multiple myeloma",
+        "MeSH ID": "D009101",
+        "MeSH Term": "Multiple Myeloma",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "MONDO:0004669",
+        "EFO Term": "salivary gland cancer",
+        "MeSH ID": "D012468",
+        "MeSH Term": "Salivary Gland Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "MONDO:0008170",
+        "EFO Term": "ovarian cancer",
+        "MeSH ID": "D010051",
+        "MeSH Term": "Ovarian Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:1000984",
+        "EFO Term": "inflammatory breast carcinoma",
+        "MeSH ID": "D058922",
+        "MeSH Term": "Inflammatory Breast Neoplasms",
+        "Max Phase for Indication": "3.0"
+      },
+      {
+        "EFO ID": "MONDO:0000521",
+        "EFO Term": "salivary gland carcinoma",
+        "MeSH ID": "D012468",
+        "MeSH Term": "Salivary Gland Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "MONDO:0011962",
+        "EFO Term": "endometrial cancer",
+        "MeSH ID": "D016889",
+        "MeSH Term": "Endometrial Neoplasms",
+        "Max Phase for Indication": "1.0"
+      },
+      {
+        "EFO ID": "EFO:1000294",
+        "EFO Term": "HER2 Positive Breast Carcinoma",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "MONDO:0004992",
+        "EFO Term": "cancer",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "4.0"
+      }
+    ],
+    "Target Metadata": [
+      {
+        "Target ChEMBL ID": "CHEMBL2095182",
+        "Pref Name": "Tubulin",
+        "Target Type": "PROTEIN COMPLEX GROUP",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P68371",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003725",
+            "HGNC": "double-stranded RNA binding"
+          },
+          {
+            "Accession": "Q9H4B7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "P0DPH7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "P68366",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "Q13509",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q71U36",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0036126",
+            "HGNC": "sperm flagellum"
+          },
+          {
+            "Accession": "P04350",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q3ZCM7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "P07437",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0071895",
+            "HGNC": "odontoblast differentiation"
+          },
+          {
+            "Accession": "P68363",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003725",
+            "HGNC": "double-stranded RNA binding"
+          },
+          {
+            "Accession": "Q9BQE3",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005198",
+            "HGNC": "structural molecule activity"
+          },
+          {
+            "Accession": "Q6PEY2",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "Q13885",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q9BVA1",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q9BUF5",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          }
+        ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL1824",
+        "Pref Name": "Receptor protein-tyrosine kinase erbB-2",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P04626",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0007166",
+            "HGNC": "cell surface receptor signaling pathway"
+          }
+        ]
+      }
+    ]
+  },
+  "CHEMBL2109399": {
+    "ChEMBL ID": "CHEMBL2109399",
+    "Preferred Name": "T-DM1",
+    "All Aliases": [
+      "T-DM1",
+      "T-PEG6-DM1",
+      "P-PEG6-DM1"
+    ],
+    "Primary Target Name": "Receptor protein-tyrosine kinase erbB-2",
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL2109399",
+      "Preferred Name": "T-DM1",
+      "Max Phase": "3.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": null,
+      "Indication Class": null
+    },
+    "Mechanism of Action": [
+      {
+        "Mechanism of Action": "Receptor protein-tyrosine kinase erbB-2 binding agent",
+        "Action Type": "BINDING AGENT",
+        "Target ChEMBL ID": "CHEMBL1824",
+        "Disease Efficacy": 1
+      }
+    ],
+    "Drug Indications": [
+      {
+        "EFO ID": "MONDO:0007254",
+        "EFO Term": "breast cancer",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "1.0"
+      }
+    ],
+    "Target Metadata": [
+      {
+        "Target ChEMBL ID": "CHEMBL1824",
+        "Pref Name": "Receptor protein-tyrosine kinase erbB-2",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P04626",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0007166",
+            "HGNC": "cell surface receptor signaling pathway"
+          }
+        ]
+      }
+    ]
+  },
+  "CHEMBL4298098": {
+    "ChEMBL ID": "CHEMBL4298098",
+    "Preferred Name": "TUSAMITAMAB RAVTANSINE",
+    "All Aliases": [
+      "SAR408701 (TUSAMITAMAB RAVTANSINE)"
+    ],
+    "Primary Target Name": "Carcinoembryonic antigen-related cell adhesion molecule 5",
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL4298098",
+      "Preferred Name": "TUSAMITAMAB RAVTANSINE",
+      "Max Phase": "3.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-mab; -tansine",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [
+      {
+        "Mechanism of Action": "Carcinoembryonic antigen-related cell adhesion molecule 5 binding agent",
+        "Action Type": "BINDING AGENT",
+        "Target ChEMBL ID": "CHEMBL3712881",
+        "Disease Efficacy": 1
+      },
+      {
+        "Mechanism of Action": "Tubulin inhibitor",
+        "Action Type": "INHIBITOR",
+        "Target ChEMBL ID": "CHEMBL2095182",
+        "Disease Efficacy": 1
+      }
+    ],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0000616",
+        "EFO Term": "neoplasm",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "1.0"
+      },
+      {
+        "EFO ID": "EFO:0003060",
+        "EFO Term": "non-small cell lung carcinoma",
+        "MeSH ID": "D002289",
+        "MeSH Term": "Carcinoma, Non-Small-Cell Lung",
+        "Max Phase for Indication": "3.0"
+      }
+    ],
+    "Target Metadata": [
+      {
+        "Target ChEMBL ID": "CHEMBL2095182",
+        "Pref Name": "Tubulin",
+        "Target Type": "PROTEIN COMPLEX GROUP",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P68371",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003725",
+            "HGNC": "double-stranded RNA binding"
+          },
+          {
+            "Accession": "Q9H4B7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "P0DPH7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "P68366",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "Q13509",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q71U36",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0036126",
+            "HGNC": "sperm flagellum"
+          },
+          {
+            "Accession": "P04350",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q3ZCM7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "P07437",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0071895",
+            "HGNC": "odontoblast differentiation"
+          },
+          {
+            "Accession": "P68363",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003725",
+            "HGNC": "double-stranded RNA binding"
+          },
+          {
+            "Accession": "Q9BQE3",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005198",
+            "HGNC": "structural molecule activity"
+          },
+          {
+            "Accession": "Q6PEY2",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "Q13885",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q9BVA1",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q9BUF5",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          }
+        ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL3712881",
+        "Pref Name": "Carcinoembryonic antigen-related cell adhesion molecule 5",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P06731",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P06731",
+            "HGNC": null
+          }
+        ]
+      }
+    ]
+  },
+  "CHEMBL3545262": {
+    "ChEMBL ID": "CHEMBL3545262",
+    "Preferred Name": "SACITUZUMAB GOVITECAN",
+    "All Aliases": [
+      "SACITUZUMAB GOVITECAN (SG)",
+      "SACITUZUMAB GOVITECAN",
+      "SACITUZUMAB-GOVITECAN"
+    ],
+    "Primary Target Name": "Tumor-associated calcium signal transducer 2",
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL3545262",
+      "Preferred Name": "SACITUZUMAB GOVITECAN",
+      "Max Phase": "4.0",
+      "First Approval": 2020,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 1,
+      "ATC Codes": [],
+      "USAN Stem": "-mab; -tecan",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [
+      {
+        "Mechanism of Action": "Tumor-associated calcium signal transducer 2 binding agent",
+        "Action Type": "BINDING AGENT",
+        "Target ChEMBL ID": "CHEMBL3856163",
+        "Disease Efficacy": 1
+      },
+      {
+        "Mechanism of Action": "DNA topoisomerase I inhibitor",
+        "Action Type": "INHIBITOR",
+        "Target ChEMBL ID": "CHEMBL1781",
+        "Disease Efficacy": 1
+      }
+    ],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0005537",
+        "EFO Term": "triple-negative breast cancer",
+        "MeSH ID": "D064726",
+        "MeSH Term": "Triple Negative Breast Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "EFO:0000519",
+        "EFO Term": "glioblastoma multiforme",
+        "MeSH ID": "D005909",
+        "MeSH Term": "Glioblastoma",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0008528",
+        "EFO Term": "urothelial carcinoma",
+        "MeSH ID": "D001749",
+        "MeSH Term": "Urinary Bladder Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:1001512",
+        "EFO Term": "endometrial carcinoma",
+        "MeSH ID": "D016889",
+        "MeSH Term": "Endometrial Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "MONDO:0007254",
+        "EFO Term": "breast cancer",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "MONDO:0008315",
+        "EFO Term": "prostate cancer",
+        "MeSH ID": "D064129",
+        "MeSH Term": "Prostatic Neoplasms, Castration-Resistant",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0003060",
+        "EFO Term": "non-small cell lung carcinoma",
+        "MeSH ID": "D002289",
+        "MeSH Term": "Carcinoma, Non-Small-Cell Lung",
+        "Max Phase for Indication": "3.0"
+      },
+      {
+        "EFO ID": "MONDO:0001187",
+        "EFO Term": "urinary bladder cancer",
+        "MeSH ID": "D001749",
+        "MeSH Term": "Urinary Bladder Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0000616",
+        "EFO Term": "neoplasm",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "EFO:0000702",
+        "EFO Term": "small cell lung carcinoma",
+        "MeSH ID": "D055752",
+        "MeSH Term": "Small Cell Lung Carcinoma",
+        "Max Phase for Indication": "1.0"
+      },
+      {
+        "EFO ID": "EFO:0003863",
+        "EFO Term": "urogenital neoplasm",
+        "MeSH ID": "D014565",
+        "MeSH Term": "Urogenital Neoplasms",
+        "Max Phase for Indication": "3.0"
+      },
+      {
+        "EFO ID": "EFO:0003869",
+        "EFO Term": "breast neoplasm",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "MONDO:0002974",
+        "EFO Term": "cervical cancer",
+        "MeSH ID": "D002583",
+        "MeSH Term": "Uterine Cervical Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "MONDO:0004669",
+        "EFO Term": "salivary gland cancer",
+        "MeSH ID": "D012468",
+        "MeSH Term": "Salivary Gland Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "MONDO:0004986",
+        "EFO Term": "urinary bladder carcinoma",
+        "MeSH ID": "D001749",
+        "MeSH Term": "Urinary Bladder Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "MONDO:0004992",
+        "EFO Term": "cancer",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "4.0"
+      }
+    ],
+    "Target Metadata": [
+      {
+        "Target ChEMBL ID": "CHEMBL1781",
+        "Pref Name": "DNA topoisomerase I",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P11387",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P11387",
+            "HGNC": null
+          }
+        ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL3856163",
+        "Pref Name": "Tumor-associated calcium signal transducer 2",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P09758",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P09758",
+            "HGNC": null
+          }
+        ]
+      }
+    ]
+  },
+  "CHEMBL4297987": {
+    "ChEMBL ID": "CHEMBL4297987",
+    "Preferred Name": "ENAPOTAMAB VEDOTIN",
+    "All Aliases": [
+      "ANTI-AXL ADC",
+      "TM4SF1-CMET MMAE BISPECIFIC ADC"
+    ],
+    "Primary Target Name": "Tubulin",
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL4297987",
+      "Preferred Name": "ENAPOTAMAB VEDOTIN",
+      "Max Phase": "2.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-dotin; -mab",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [
+      {
+        "Mechanism of Action": "Tubulin inhibitor",
+        "Action Type": "INHIBITOR",
+        "Target ChEMBL ID": "CHEMBL2095182",
+        "Disease Efficacy": 1
+      },
+      {
+        "Mechanism of Action": "Tyrosine-protein kinase receptor UFO binding agent",
+        "Action Type": "BINDING AGENT",
+        "Target ChEMBL ID": "CHEMBL4895",
+        "Disease Efficacy": 1
+      }
+    ],
+    "Drug Indications": [],
+    "Target Metadata": [
+      {
+        "Target ChEMBL ID": "CHEMBL4895",
+        "Pref Name": "Tyrosine-protein kinase receptor UFO",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P30530",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P30530",
+            "HGNC": null
+          }
+        ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL2095182",
+        "Pref Name": "Tubulin",
+        "Target Type": "PROTEIN COMPLEX GROUP",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P68371",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003725",
+            "HGNC": "double-stranded RNA binding"
+          },
+          {
+            "Accession": "Q9H4B7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "P0DPH7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "P68366",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "Q13509",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q71U36",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0036126",
+            "HGNC": "sperm flagellum"
+          },
+          {
+            "Accession": "P04350",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q3ZCM7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "P07437",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0071895",
+            "HGNC": "odontoblast differentiation"
+          },
+          {
+            "Accession": "P68363",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003725",
+            "HGNC": "double-stranded RNA binding"
+          },
+          {
+            "Accession": "Q9BQE3",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005198",
+            "HGNC": "structural molecule activity"
+          },
+          {
+            "Accession": "Q6PEY2",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "Q13885",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q9BVA1",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q9BUF5",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          }
+        ]
+      }
+    ]
+  },
+  "CHEMBL3990032": {
+    "ChEMBL ID": "CHEMBL3990032",
+    "Preferred Name": "TELISOTUZUMAB VEDOTIN",
+    "All Aliases": [
+      "TELISOTUZUMAB VEDOTIN (TELISO-V)",
+      "TELISOTUZUMAB-VEDOTIN"
+    ],
+    "Primary Target Name": "Tubulin",
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL3990032",
+      "Preferred Name": "TELISOTUZUMAB VEDOTIN",
+      "Max Phase": "3.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-dotin; -mab",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [
+      {
+        "Mechanism of Action": "Tubulin inhibitor",
+        "Action Type": "INHIBITOR",
+        "Target ChEMBL ID": "CHEMBL2095182",
+        "Disease Efficacy": 1
+      },
+      {
+        "Mechanism of Action": "Hepatocyte growth factor receptor binding agent",
+        "Action Type": "BINDING AGENT",
+        "Target ChEMBL ID": "CHEMBL3717",
+        "Disease Efficacy": 1
+      }
+    ],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0000708",
+        "EFO Term": "squamous cell lung carcinoma",
+        "MeSH ID": "D002294",
+        "MeSH Term": "Carcinoma, Squamous Cell",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0003060",
+        "EFO Term": "non-small cell lung carcinoma",
+        "MeSH ID": "D002289",
+        "MeSH Term": "Carcinoma, Non-Small-Cell Lung",
+        "Max Phase for Indication": "3.0"
+      },
+      {
+        "EFO ID": "MONDO:0004992",
+        "EFO Term": "cancer",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "1.0"
+      }
+    ],
+    "Target Metadata": [
+      {
+        "Target ChEMBL ID": "CHEMBL3717",
+        "Pref Name": "Hepatocyte growth factor receptor",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P08581",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0004714",
+            "HGNC": "transmembrane receptor protein tyrosine kinase activity"
+          }
+        ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL2095182",
+        "Pref Name": "Tubulin",
+        "Target Type": "PROTEIN COMPLEX GROUP",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P68371",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003725",
+            "HGNC": "double-stranded RNA binding"
+          },
+          {
+            "Accession": "Q9H4B7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "P0DPH7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "P68366",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "Q13509",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q71U36",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0036126",
+            "HGNC": "sperm flagellum"
+          },
+          {
+            "Accession": "P04350",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q3ZCM7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "P07437",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0071895",
+            "HGNC": "odontoblast differentiation"
+          },
+          {
+            "Accession": "P68363",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003725",
+            "HGNC": "double-stranded RNA binding"
+          },
+          {
+            "Accession": "Q9BQE3",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005198",
+            "HGNC": "structural molecule activity"
+          },
+          {
+            "Accession": "Q6PEY2",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "Q13885",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q9BVA1",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q9BUF5",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          }
+        ]
+      }
+    ]
+  },
+  "CHEMBL4594611": {
+    "ChEMBL ID": "CHEMBL4594611",
+    "Preferred Name": "PATRITUMAB DERUXTECAN",
+    "All Aliases": [
+      "PATRITUMAB DERUXTECAN",
+      "U3-1402"
+    ],
+    "Primary Target Name": "Receptor tyrosine-protein kinase erbB-3",
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL4594611",
+      "Preferred Name": "PATRITUMAB DERUXTECAN",
+      "Max Phase": "3.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-mab; -tecan",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [
+      {
+        "Mechanism of Action": "Receptor tyrosine-protein kinase erbB-3 binding agent",
+        "Action Type": "BINDING AGENT",
+        "Target ChEMBL ID": "CHEMBL5838",
+        "Disease Efficacy": 1
+      },
+      {
+        "Mechanism of Action": "DNA topoisomerase I inhibitor",
+        "Action Type": "INHIBITOR",
+        "Target ChEMBL ID": "CHEMBL1781",
+        "Disease Efficacy": 1
+      }
+    ],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0003060",
+        "EFO Term": "non-small cell lung carcinoma",
+        "MeSH ID": "D002289",
+        "MeSH Term": "Carcinoma, Non-Small-Cell Lung",
+        "Max Phase for Indication": "3.0"
+      },
+      {
+        "EFO ID": "MONDO:0007254",
+        "EFO Term": "breast cancer",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0000616",
+        "EFO Term": "neoplasm",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "1.0"
+      }
+    ],
+    "Target Metadata": [
+      {
+        "Target ChEMBL ID": "CHEMBL1781",
+        "Pref Name": "DNA topoisomerase I",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P11387",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P11387",
+            "HGNC": null
+          }
+        ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL5838",
+        "Pref Name": "Receptor tyrosine-protein kinase erbB-3",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P21860",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P21860",
+            "HGNC": null
+          }
+        ]
+      }
+    ]
+  },
+  "CHEMBL4298209": {
+    "ChEMBL ID": "CHEMBL4298209",
+    "Preferred Name": "BELANTAMAB MAFODOTIN",
+    "All Aliases": [
+      "BELANTAMAB MAFODOTIN"
+    ],
+    "Primary Target Name": "Tumor necrosis factor receptor superfamily member 17",
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL4298209",
+      "Preferred Name": "BELANTAMAB MAFODOTIN",
+      "Max Phase": "4.0",
+      "First Approval": 2020,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 1,
+      "ATC Codes": [],
+      "USAN Stem": "-dotin; -mab",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [
+      {
+        "Mechanism of Action": "Tumor necrosis factor receptor superfamily member 17 binding agent",
+        "Action Type": "BINDING AGENT",
+        "Target ChEMBL ID": "CHEMBL4523587",
+        "Disease Efficacy": 1
+      },
+      {
+        "Mechanism of Action": "Tubulin inhibitor",
+        "Action Type": "INHIBITOR",
+        "Target ChEMBL ID": "CHEMBL2095182",
+        "Disease Efficacy": 1
+      }
+    ],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0001378",
+        "EFO Term": "multiple myeloma",
+        "MeSH ID": "D009101",
+        "MeSH Term": "Multiple Myeloma",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "EFO:0000403",
+        "EFO Term": "diffuse large B-cell lymphoma",
+        "MeSH ID": "D016403",
+        "MeSH Term": "Lymphoma, Large B-Cell, Diffuse",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0000616",
+        "EFO Term": "neoplasm",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "MONDO:0019438",
+        "EFO Term": "AL amyloidosis",
+        "MeSH ID": "D028226",
+        "MeSH Term": "Amyloidosis, Familial",
+        "Max Phase for Indication": "2.0"
+      }
+    ],
+    "Target Metadata": [
+      {
+        "Target ChEMBL ID": "CHEMBL4523587",
+        "Pref Name": "Tumor necrosis factor receptor superfamily member 17",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "Q02223",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "Q02223",
+            "HGNC": null
+          }
+        ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL2095182",
+        "Pref Name": "Tubulin",
+        "Target Type": "PROTEIN COMPLEX GROUP",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P68371",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003725",
+            "HGNC": "double-stranded RNA binding"
+          },
+          {
+            "Accession": "Q9H4B7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "P0DPH7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "P68366",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "Q13509",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q71U36",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0036126",
+            "HGNC": "sperm flagellum"
+          },
+          {
+            "Accession": "P04350",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q3ZCM7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "P07437",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0071895",
+            "HGNC": "odontoblast differentiation"
+          },
+          {
+            "Accession": "P68363",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003725",
+            "HGNC": "double-stranded RNA binding"
+          },
+          {
+            "Accession": "Q9BQE3",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005198",
+            "HGNC": "structural molecule activity"
+          },
+          {
+            "Accession": "Q6PEY2",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "Q13885",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q9BVA1",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q9BUF5",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          }
+        ]
+      }
+    ]
+  },
+  "CHEMBL3989983": {
+    "ChEMBL ID": "CHEMBL3989983",
+    "Preferred Name": "COFETUZUMAB PELIDOTIN",
+    "All Aliases": [
+      "COFETUZUMAB PELIDOTIN"
+    ],
+    "Primary Target Name": null,
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL3989983",
+      "Preferred Name": "COFETUZUMAB PELIDOTIN",
+      "Max Phase": "2.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-dotin; -mab",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0003060",
+        "EFO Term": "non-small cell lung carcinoma",
+        "MeSH ID": "D002289",
+        "MeSH Term": "Carcinoma, Non-Small-Cell Lung",
+        "Max Phase for Indication": "1.0"
+      }
+    ],
+    "Target Metadata": []
+  },
+  "CHEMBL5095273": {
+    "ChEMBL ID": "CHEMBL5095273",
+    "Preferred Name": "DISITAMAB VEDOTIN",
+    "All Aliases": [
+      "DISITAMAB VEDOTIN"
+    ],
+    "Primary Target Name": null,
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL5095273",
+      "Preferred Name": "DISITAMAB VEDOTIN",
+      "Max Phase": "3.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-dotin; -mab",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0004142",
+        "EFO Term": "colorectal neoplasm",
+        "MeSH ID": "D015179",
+        "MeSH Term": "Colorectal Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0008528",
+        "EFO Term": "urothelial carcinoma",
+        "MeSH ID": "D001749",
+        "MeSH Term": "Urinary Bladder Neoplasms",
+        "Max Phase for Indication": "3.0"
+      },
+      {
+        "EFO ID": "EFO:1001951",
+        "EFO Term": "colorectal carcinoma",
+        "MeSH ID": "D015179",
+        "MeSH Term": "Colorectal Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "MONDO:0001056",
+        "EFO Term": "gastric cancer",
+        "MeSH ID": "D013274",
+        "MeSH Term": "Stomach Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "MONDO:0007254",
+        "EFO Term": "breast cancer",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "3.0"
+      }
+    ],
+    "Target Metadata": []
+  },
+  "CHEMBL4802212": {
+    "ChEMBL ID": "CHEMBL4802212",
+    "Preferred Name": "FARLETUZUMAB ECTERIBULIN",
+    "All Aliases": [
+      "FARLETUZUMAB ECTERIBULIN (FZEC)"
+    ],
+    "Primary Target Name": null,
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL4802212",
+      "Preferred Name": "FARLETUZUMAB ECTERIBULIN",
+      "Max Phase": "2.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-bulin; -mab",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0000616",
+        "EFO Term": "neoplasm",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "1.0"
+      },
+      {
+        "EFO ID": "EFO:0003060",
+        "EFO Term": "non-small cell lung carcinoma",
+        "MeSH ID": "D002289",
+        "MeSH Term": "Carcinoma, Non-Small-Cell Lung",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0003893",
+        "EFO Term": "ovarian neoplasm",
+        "MeSH ID": "D010051",
+        "MeSH Term": "Ovarian Neoplasms",
+        "Max Phase for Indication": "2.0"
+      }
+    ],
+    "Target Metadata": []
+  },
+  "CHEMBL4297778": {
+    "ChEMBL ID": "CHEMBL4297778",
+    "Preferred Name": "LONCASTUXIMAB TESIRINE",
+    "All Aliases": [
+      "LONCASTUXIMAB TESIRINE"
+    ],
+    "Primary Target Name": "B-lymphocyte antigen CD19",
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL4297778",
+      "Preferred Name": "LONCASTUXIMAB TESIRINE",
+      "Max Phase": "4.0",
+      "First Approval": 2021,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-mab",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [
+      {
+        "Mechanism of Action": "B-lymphocyte antigen CD19 binding agent",
+        "Action Type": "BINDING AGENT",
+        "Target ChEMBL ID": "CHEMBL3390821",
+        "Disease Efficacy": 1
+      },
+      {
+        "Mechanism of Action": "DNA cross-linking agent",
+        "Action Type": "CROSS-LINKING AGENT",
+        "Target ChEMBL ID": "CHEMBL2311221",
+        "Disease Efficacy": 1
+      }
+    ],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0000220",
+        "EFO Term": "acute lymphoblastic leukemia",
+        "MeSH ID": "D054198",
+        "MeSH Term": "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+        "Max Phase for Indication": "1.0"
+      },
+      {
+        "EFO ID": "EFO:0000403",
+        "EFO Term": "diffuse large B-cell lymphoma",
+        "MeSH ID": "D016403",
+        "MeSH Term": "Lymphoma, Large B-Cell, Diffuse",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "EFO:1001938",
+        "EFO Term": "B-cell non-Hodgkins lymphoma",
+        "MeSH ID": "D016393",
+        "MeSH Term": "Lymphoma, B-Cell",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "MONDO:0018906",
+        "EFO Term": "follicular lymphoma",
+        "MeSH ID": "D008224",
+        "MeSH Term": "Lymphoma, Follicular",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0000096",
+        "EFO Term": "neoplasm of mature B-cells",
+        "MeSH ID": "D008224",
+        "MeSH Term": "Lymphoma, Follicular",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0000309",
+        "EFO Term": "Burkitts lymphoma",
+        "MeSH ID": "D002051",
+        "MeSH Term": "Burkitt Lymphoma",
+        "Max Phase for Indication": "1.0"
+      },
+      {
+        "EFO ID": "EFO:0005952",
+        "EFO Term": "non-Hodgkins lymphoma",
+        "MeSH ID": "D008228",
+        "MeSH Term": "Lymphoma, Non-Hodgkin",
+        "Max Phase for Indication": "1.0"
+      },
+      {
+        "EFO ID": "EFO:0009441",
+        "EFO Term": "Waldenstrom macroglobulinemia",
+        "MeSH ID": "D008258",
+        "MeSH Term": "Waldenstrom Macroglobulinemia",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:1001469",
+        "EFO Term": "Mantle cell lymphoma",
+        "MeSH ID": "D020522",
+        "MeSH Term": "Lymphoma, Mantle-Cell",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0000616",
+        "EFO Term": "neoplasm",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "4.0"
+      }
+    ],
+    "Target Metadata": [
+      {
+        "Target ChEMBL ID": "CHEMBL2311221",
+        "Pref Name": "DNA",
+        "Target Type": "NUCLEIC-ACID",
+        "Organism": "Homo sapiens",
+        "Target Components": []
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL3390821",
+        "Pref Name": "B-lymphocyte antigen CD19",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P15391",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P15391",
+            "HGNC": null
+          }
+        ]
+      }
+    ]
+  },
+  "CHEMBL5095133": {
+    "ChEMBL ID": "CHEMBL5095133",
+    "Preferred Name": "LUVELTAMAB TAZEVIBULIN",
+    "All Aliases": [
+      "LUVELTAMAB TAZEVIBULIN"
+    ],
+    "Primary Target Name": null,
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL5095133",
+      "Preferred Name": "LUVELTAMAB TAZEVIBULIN",
+      "Max Phase": "2.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-bulin; -mab",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0000616",
+        "EFO Term": "neoplasm",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "1.0"
+      }
+    ],
+    "Target Metadata": []
+  },
+  "CHEMBL3545132": {
+    "ChEMBL ID": "CHEMBL3545132",
+    "Preferred Name": "MIRVETUXIMAB SORAVTANSINE",
+    "All Aliases": [
+      "MIRVETUXIMAB SORAVTANSINE-GYNX"
+    ],
+    "Primary Target Name": "Folate receptor alpha",
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL3545132",
+      "Preferred Name": "MIRVETUXIMAB SORAVTANSINE",
+      "Max Phase": "4.0",
+      "First Approval": 2022,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-mab; -tansine",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [
+      {
+        "Mechanism of Action": "Folate receptor alpha binding agent",
+        "Action Type": "BINDING AGENT",
+        "Target ChEMBL ID": "CHEMBL2121",
+        "Disease Efficacy": 1
+      },
+      {
+        "Mechanism of Action": "Tubulin inhibitor",
+        "Action Type": "INHIBITOR",
+        "Target ChEMBL ID": "CHEMBL2095182",
+        "Disease Efficacy": 1
+      }
+    ],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0000616",
+        "EFO Term": "neoplasm",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "1.0"
+      },
+      {
+        "EFO ID": "MONDO:0002158",
+        "EFO Term": "fallopian tube cancer",
+        "MeSH ID": "D005185",
+        "MeSH Term": "Fallopian Tube Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "MONDO:0007254",
+        "EFO Term": "breast cancer",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "1.0"
+      },
+      {
+        "EFO ID": "MONDO:0008170",
+        "EFO Term": "ovarian cancer",
+        "MeSH ID": "D010051",
+        "MeSH Term": "Ovarian Neoplasms",
+        "Max Phase for Indication": "1.0"
+      },
+      {
+        "EFO ID": "MONDO:0011962",
+        "EFO Term": "endometrial cancer",
+        "MeSH ID": "D016889",
+        "MeSH Term": "Endometrial Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0005537",
+        "EFO Term": "triple-negative breast cancer",
+        "MeSH ID": "D064726",
+        "MeSH Term": "Triple Negative Breast Neoplasms",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:1001100",
+        "EFO Term": "peritoneal neoplasm",
+        "MeSH ID": "D010534",
+        "MeSH Term": "Peritoneal Neoplasms",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "MONDO:0018364",
+        "EFO Term": "malignant epithelial tumor of ovary",
+        "MeSH ID": "D000077216",
+        "MeSH Term": "Carcinoma, Ovarian Epithelial",
+        "Max Phase for Indication": "4.0"
+      },
+      {
+        "EFO ID": "MONDO:0021092",
+        "EFO Term": "fallopian tube neoplasm",
+        "MeSH ID": "D005185",
+        "MeSH Term": "Fallopian Tube Neoplasms",
+        "Max Phase for Indication": "4.0"
+      }
+    ],
+    "Target Metadata": [
+      {
+        "Target ChEMBL ID": "CHEMBL2121",
+        "Pref Name": "Folate receptor alpha",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P15328",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P15328",
+            "HGNC": null
+          }
+        ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL2095182",
+        "Pref Name": "Tubulin",
+        "Target Type": "PROTEIN COMPLEX GROUP",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P68371",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003725",
+            "HGNC": "double-stranded RNA binding"
+          },
+          {
+            "Accession": "Q9H4B7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "P0DPH7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "P68366",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "Q13509",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q71U36",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0036126",
+            "HGNC": "sperm flagellum"
+          },
+          {
+            "Accession": "P04350",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q3ZCM7",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "P07437",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0071895",
+            "HGNC": "odontoblast differentiation"
+          },
+          {
+            "Accession": "P68363",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003725",
+            "HGNC": "double-stranded RNA binding"
+          },
+          {
+            "Accession": "Q9BQE3",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005198",
+            "HGNC": "structural molecule activity"
+          },
+          {
+            "Accession": "Q6PEY2",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0005200",
+            "HGNC": "structural constituent of cytoskeleton"
+          },
+          {
+            "Accession": "Q13885",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q9BVA1",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          },
+          {
+            "Accession": "Q9BUF5",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0003924",
+            "HGNC": "GTPase activity"
+          }
+        ]
+      }
+    ]
+  },
+  "CHEMBL4594576": {
+    "ChEMBL ID": "CHEMBL4594576",
+    "Preferred Name": "VOBRAMITAMAB DUOCARMAZINE",
+    "All Aliases": [
+      "VOBRAMITAMAB DUOCARMAZINE (VOBRA DUO)"
+    ],
+    "Primary Target Name": null,
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL4594576",
+      "Preferred Name": "VOBRAMITAMAB DUOCARMAZINE",
+      "Max Phase": "2.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Antibody drug conjugate",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-mab",
+      "Indication Class": null
+    },
+    "Mechanism of Action": [],
+    "Drug Indications": [
+      {
+        "EFO ID": "EFO:0003060",
+        "EFO Term": "non-small cell lung carcinoma",
+        "MeSH ID": "D002289",
+        "MeSH Term": "Carcinoma, Non-Small-Cell Lung",
+        "Max Phase for Indication": "1.0"
+      },
+      {
+        "EFO ID": "MONDO:0007254",
+        "EFO Term": "breast cancer",
+        "MeSH ID": "D001943",
+        "MeSH Term": "Breast Neoplasms",
+        "Max Phase for Indication": "1.0"
+      },
+      {
+        "EFO ID": "MONDO:0008315",
+        "EFO Term": "prostate cancer",
+        "MeSH ID": "D064129",
+        "MeSH Term": "Prostatic Neoplasms, Castration-Resistant",
+        "Max Phase for Indication": "2.0"
+      },
+      {
+        "EFO ID": "EFO:0000616",
+        "EFO Term": "neoplasm",
+        "MeSH ID": "D009369",
+        "MeSH Term": "Neoplasms",
+        "Max Phase for Indication": "2.0"
+      }
+    ],
+    "Target Metadata": []
+  }
+}

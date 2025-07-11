@@ -1,0 +1,93 @@
+{
+  "input_files": {
+    "main_json": "aacrArticle.json",
+    "hgnc_tsv": "hgnc_complete_set.tsv",
+    "taca_json": "taca.json"
+  },
+  "output_files": {
+    "final_enriched": "aacrArticle_fully_enriched.json",
+    "log_file": "enrichment_pipeline.log"
+  },
+  "directories": {
+    "dictionaries": "dictionaries",
+    "antigen_dict": "dictionaries/antigen",
+    "disease_dict": "dictionaries/disease", 
+    "drug_dict": "dictionaries/drug",
+    "payload_linker_dict": "dictionaries/payload_linker"
+  },
+  "scripts": {
+    "antigen": {
+      "path": "antigen.py",
+      "enabled": true,
+      "description": "Maps antigens to HGNC/TACA ontologies"
+    },
+    "disease": {
+      "path": "disease.py", 
+      "enabled": true,
+      "description": "Processes disease ontology and DOID hierarchy"
+    },
+    "drug": {
+      "path": "drug.py",
+      "enabled": true,
+      "description": "Enriches drug data with ChEMBL information"
+    },
+    "payload_linker": {
+      "path": "payload_linker.py",
+      "enabled": true,
+      "description": "Maps payloads and linkers to ChEMBL"
+    }
+  },
+  "data_structure": {
+    "ontology_fields": {
+      "drug": {
+        "chembl_id": null,
+        "preferred_name": null,
+        "max_phase": null,
+        "mechanism_of_action": [],
+        "targets": [],
+        "indications": [],
+        "match_status": "unknown"
+      },
+      "antigen": {
+        "hgnc_symbol": null,
+        "hgnc_id": null,
+        "ensembl_gene_id": null,
+        "synonyms": [],
+        "locus_type": null,
+        "gene_group": [],
+        "taca_subtype": null,
+        "taca_family": null,
+        "match_status": "unknown"
+      },
+      "disease": {
+        "doid_id": null,
+        "doid_label": null,
+        "ncit_id": null,
+        "ncit_label": null,
+        "synonyms": [],
+        "hierarchy_path": [],
+        "match_status": "unknown"
+      },
+      "payload": {
+        "chembl_id": null,
+        "preferred_name": null,
+        "max_phase": null,
+        "molecule_type": null,
+        "match_status": "unknown"
+      },
+      "linker": {
+        "chembl_id": null,
+        "preferred_name": null,
+        "max_phase": null,
+        "molecule_type": null,
+        "match_status": "unknown"
+      }
+    }
+  },
+  "settings": {
+    "fuzzy_cutoff": 0.85,
+    "enable_logging": true,
+    "create_backup": true,
+    "parallel_execution": false
+  }
+} 

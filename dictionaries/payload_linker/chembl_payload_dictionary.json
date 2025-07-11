@@ -1,0 +1,369 @@
+{
+  "CHEMBL3989759": {
+    "ChEMBL ID": "CHEMBL3989759",
+    "Preferred Name": "EXATECAN MESYLATE",
+    "All Aliases": [
+      "EXATECAN DERIVATIVE",
+      "EXATECAN DERIVATIVE DXD",
+      "EXATECAN (XTC)",
+      "DXD (EXATECAN DERIVATIVE)",
+      "EXATECAN"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL3989759",
+      "Preferred Name": "EXATECAN MESYLATE",
+      "Max Phase": "3.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-tecan",
+      "Indication Class": null
+    }
+  },
+  "CHEMBL1683590": {
+    "ChEMBL ID": "CHEMBL1683590",
+    "Preferred Name": "ERIBULIN",
+    "All Aliases": [
+      "ERIBULIN"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL1683590",
+      "Preferred Name": "ERIBULIN",
+      "Max Phase": "4.0",
+      "First Approval": 2010,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-bulin",
+      "Indication Class": null
+    }
+  },
+  "CHEMBL4297516": {
+    "ChEMBL ID": "CHEMBL4297516",
+    "Preferred Name": "LURBINECTEDIN",
+    "All Aliases": [
+      "LURBINECTEDIN"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL4297516",
+      "Preferred Name": "LURBINECTEDIN",
+      "Max Phase": "4.0",
+      "First Approval": 2020,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-ectedin",
+      "Indication Class": null
+    }
+  },
+  "CHEMBL1220": {
+    "ChEMBL ID": "CHEMBL1220",
+    "Preferred Name": "TINIDAZOLE",
+    "All Aliases": [
+      "PDUP5 (DUALITY UNIQUE PAYLOAD)"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL1220",
+      "Preferred Name": "TINIDAZOLE",
+      "Max Phase": "4.0",
+      "First Approval": 2004,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 1,
+      "ATC Codes": [],
+      "USAN Stem": "-nidazole",
+      "Indication Class": "Antiprotozoal"
+    }
+  },
+  "CHEMBL486961": {
+    "ChEMBL ID": "CHEMBL486961",
+    "Preferred Name": "ATRACTYLENOLIDE III",
+    "All Aliases": [
+      "RNA POLYMERASE II INHIBITOR (RNA POL III)"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL486961",
+      "Preferred Name": "ATRACTYLENOLIDE III",
+      "Max Phase": null,
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": null,
+      "Indication Class": null
+    }
+  },
+  "CHEMBL837": {
+    "ChEMBL ID": "CHEMBL837",
+    "Preferred Name": "7-ETHYL-10-HYDROXYCAMPTOTHECIN",
+    "All Aliases": [
+      "SN38"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL837",
+      "Preferred Name": "7-ETHYL-10-HYDROXYCAMPTOTHECIN",
+      "Max Phase": "2.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": null,
+      "Indication Class": null
+    }
+  },
+  "CHEMBL295989": {
+    "ChEMBL ID": "CHEMBL295989",
+    "Preferred Name": "TCO(PNAO)",
+    "All Aliases": [
+      "TCO-MODIFIED BIOTIN PROBE"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL295989",
+      "Preferred Name": "TCO(PNAO)",
+      "Max Phase": null,
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": null,
+      "Indication Class": null
+    }
+  },
+  "CHEMBL4802227": {
+    "ChEMBL ID": "CHEMBL4802227",
+    "Preferred Name": "ACTIVE ALKYLATING AGENT CANFOSFAMIDE",
+    "All Aliases": [
+      "ANTIMITOTIC AGENT",
+      "MICROTUBULE-DISRUPTING AGENT",
+      "NOVEL MICROTUBULE TARGETING AGENT (NOT AURISTATIN DERIVATIVES)"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL4802227",
+      "Preferred Name": "ACTIVE ALKYLATING AGENT CANFOSFAMIDE",
+      "Max Phase": "-1.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-fos-; -fosfamide",
+      "Indication Class": null
+    }
+  },
+  "CHEMBL1922094": {
+    "ChEMBL ID": "CHEMBL1922094",
+    "Preferred Name": "APITOLISIB",
+    "All Aliases": [
+      "APITOLISIB"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL1922094",
+      "Preferred Name": "APITOLISIB",
+      "Max Phase": "2.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": "-lisib",
+      "Indication Class": null
+    }
+  },
+  "CHEMBL65": {
+    "ChEMBL ID": "CHEMBL65",
+    "Preferred Name": "CAMPTOTHECIN",
+    "All Aliases": [
+      "CAMPTOTHECIN"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL65",
+      "Preferred Name": "CAMPTOTHECIN",
+      "Max Phase": "-1.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": null,
+      "Indication Class": null
+    }
+  },
+  "CHEMBL942": {
+    "ChEMBL ID": "CHEMBL942",
+    "Preferred Name": "BISACODYL",
+    "All Aliases": [
+      "CELL CYCLE REGULATING DRUG (NOVEL PAYLOAD)"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL942",
+      "Preferred Name": "BISACODYL",
+      "Max Phase": "4.0",
+      "First Approval": 2004,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": null,
+      "Indication Class": "Laxative"
+    }
+  },
+  "CHEMBL324631": {
+    "ChEMBL ID": "CHEMBL324631",
+    "Preferred Name": "PIPERIDINE BASED ANALOGUE OF COCAINE (STRUCTURAL MIX)",
+    "All Aliases": [
+      "CYTOLYSIN-BASED PAYLOAD"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL324631",
+      "Preferred Name": "PIPERIDINE BASED ANALOGUE OF COCAINE (STRUCTURAL MIX)",
+      "Max Phase": null,
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": null,
+      "Indication Class": null
+    }
+  },
+  "CHEMBL2348585": {
+    "ChEMBL ID": "CHEMBL2348585",
+    "Preferred Name": "DUOCARMYCIN SA",
+    "All Aliases": [
+      "DUOCARMYCIN"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL2348585",
+      "Preferred Name": "DUOCARMYCIN SA",
+      "Max Phase": null,
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": null,
+      "Indication Class": null
+    }
+  },
+  "CHEMBL514729": {
+    "ChEMBL ID": "CHEMBL514729",
+    "Preferred Name": "HEMIASTERLIN METHYL ESTER",
+    "All Aliases": [
+      "HEMIASTERLIN"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL514729",
+      "Preferred Name": "HEMIASTERLIN METHYL ESTER",
+      "Max Phase": null,
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": null,
+      "Indication Class": null
+    }
+  },
+  "CHEMBL378079": {
+    "ChEMBL ID": "CHEMBL378079",
+    "Preferred Name": "METHYLDITHIOACETYL MAYTANSINOID",
+    "All Aliases": [
+      "MAYTANSINOIDS",
+      "MAYTANSINOID"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL378079",
+      "Preferred Name": "METHYLDITHIOACETYL MAYTANSINOID",
+      "Max Phase": null,
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": null,
+      "Indication Class": null
+    }
+  },
+  "CHEMBL279754": {
+    "ChEMBL ID": "CHEMBL279754",
+    "Preferred Name": "DSB-120",
+    "All Aliases": [
+      "PYRROLOBENZODIAZEPINE (PBD)"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL279754",
+      "Preferred Name": "DSB-120",
+      "Max Phase": null,
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": null,
+      "Indication Class": null
+    }
+  },
+  "CHEMBL463763": {
+    "ChEMBL ID": "CHEMBL463763",
+    "Preferred Name": "TRIPTOLIDE",
+    "All Aliases": [
+      "TRIPTOLIDE"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL463763",
+      "Preferred Name": "TRIPTOLIDE",
+      "Max Phase": "3.0",
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": null,
+      "Indication Class": null
+    }
+  },
+  "CHEMBL1288708": {
+    "ChEMBL ID": "CHEMBL1288708",
+    "Preferred Name": "TUBULYSIN",
+    "All Aliases": [
+      "TUBULYSIN"
+    ],
+    "Molecule Info": {
+      "ChEMBL ID": "CHEMBL1288708",
+      "Preferred Name": "TUBULYSIN",
+      "Max Phase": null,
+      "First Approval": null,
+      "Drug Type": null,
+      "Molecule Type": "Small molecule",
+      "Withdrawn": false,
+      "Black Box Warning": 0,
+      "ATC Codes": [],
+      "USAN Stem": null,
+      "Indication Class": null
+    }
+  }
+}

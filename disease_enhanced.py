@@ -188,7 +188,7 @@ class DiseaseEnricher:
             fuzzy_matches = difflib.get_close_matches(
                 term.lower(), 
                 [label.lower() for label in all_labels], 
-                n=5, 
+                n=10,  # Increased to get more candidates
                 cutoff=CONFIG["FUZZY_CUTOFF"]
             )
             
@@ -197,7 +197,23 @@ class DiseaseEnricher:
                 for doid, label in self.doid_labels.items():
                     if label.lower() == match:
                         score = difflib.SequenceMatcher(None, term.lower(), match).ratio()
-                        matches.append((doid, score, label))
+                        
+                        # Boost score for anatomical matches
+                        boosted_score = score
+                        # Check for lung cancer matches
+                        if any(lung_term in term.lower() for lung_term in ["lung", "pulmonary", "non-small cell lung", "small cell lung"]) and "lung" in label.lower():
+                            boosted_score = min(1.0, score + 0.15)
+                        # Check for breast cancer matches
+                        elif any(breast_term in term.lower() for breast_term in ["breast", "mammary"]) and "breast" in label.lower():
+                            boosted_score = min(1.0, score + 0.15)
+                        # Check for prostate cancer matches
+                        elif "prostate" in term.lower() and "prostate" in label.lower():
+                            boosted_score = min(1.0, score + 0.15)
+                        # Check for colon cancer matches
+                        elif any(colon_term in term.lower() for colon_term in ["colon", "colorectal", "large intestine"]) and "colon" in label.lower():
+                            boosted_score = min(1.0, score + 0.15)
+                        
+                        matches.append((doid, boosted_score, label))
             
             # Also try matching against synonyms
             all_synonyms = []
@@ -208,7 +224,7 @@ class DiseaseEnricher:
             synonym_matches = difflib.get_close_matches(
                 term.lower(),
                 [synonym for _, synonym in all_synonyms],
-                n=3,
+                n=5,  # Increased to get more candidates
                 cutoff=CONFIG["FUZZY_CUTOFF"]
             )
             
@@ -217,7 +233,23 @@ class DiseaseEnricher:
                     if synonym == match:
                         score = difflib.SequenceMatcher(None, term.lower(), match).ratio()
                         label = self.doid_labels.get(doid, "")
-                        matches.append((doid, score, label))
+                        
+                        # Boost score for anatomical matches
+                        boosted_score = score
+                        # Check for lung cancer matches
+                        if any(lung_term in term.lower() for lung_term in ["lung", "pulmonary", "non-small cell lung", "small cell lung"]) and "lung" in label.lower():
+                            boosted_score = min(1.0, score + 0.15)
+                        # Check for breast cancer matches
+                        elif any(breast_term in term.lower() for breast_term in ["breast", "mammary"]) and "breast" in label.lower():
+                            boosted_score = min(1.0, score + 0.15)
+                        # Check for prostate cancer matches
+                        elif "prostate" in term.lower() and "prostate" in label.lower():
+                            boosted_score = min(1.0, score + 0.15)
+                        # Check for colon cancer matches
+                        elif any(colon_term in term.lower() for colon_term in ["colon", "colorectal", "large intestine"]) and "colon" in label.lower():
+                            boosted_score = min(1.0, score + 0.15)
+                        
+                        matches.append((doid, boosted_score, label))
         
         # Remove duplicates and sort by score
         unique_matches = {}

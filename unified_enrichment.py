@@ -458,19 +458,38 @@ class UnifiedEnrichmentPipeline:
                 # Store all diseases
                 disease_ontology["all_diseases"] = disease_ontology_list
                 
-                # Take the first disease as primary (most relevant)
-                first_disease = disease_ontology_list[0]
-                disease_ontology.update({
-                    "doid_id": first_disease.get("doid_id"),
-                    "doid_label": first_disease.get("doid_label"),
-                    "match_status": first_disease.get("match_status", "unknown"),
-                    "hierarchy_path": first_disease.get("hierarchy_paths", [])[0] if first_disease.get("hierarchy_paths") else []
-                })
+                # Find the best matched disease as primary (highest score, then exact match)
+                best_disease = None
+                best_score = -1
                 
-                # Add expanded terms as synonyms
-                expanded_terms = first_disease.get("expanded_terms", [])
-                if expanded_terms:
-                    disease_ontology["synonyms"] = expanded_terms
+                for disease in disease_ontology_list:
+                    score = disease.get("match_score", 0)
+                    status = disease.get("match_status", "unknown")
+                    
+                    # Prioritize exact matches, then highest scores
+                    if status == "exact_match" and (best_disease is None or best_disease.get("match_status") != "exact_match"):
+                        best_disease = disease
+                        best_score = score
+                    elif status != "exact_match" and score > best_score and best_disease is None:
+                        best_disease = disease
+                        best_score = score
+                
+                # If no good match found, use the first one
+                if best_disease is None and disease_ontology_list:
+                    best_disease = disease_ontology_list[0]
+                
+                if best_disease:
+                    disease_ontology.update({
+                        "doid_id": best_disease.get("doid_id"),
+                        "doid_label": best_disease.get("doid_label"),
+                        "match_status": best_disease.get("match_status", "unknown"),
+                        "hierarchy_path": best_disease.get("hierarchy_paths", [])[0] if best_disease.get("hierarchy_paths") else []
+                    })
+                    
+                    # Add expanded terms as synonyms
+                    expanded_terms = best_disease.get("expanded_terms", [])
+                    if expanded_terms:
+                        disease_ontology["synonyms"] = expanded_terms
         
         return disease_ontology
     

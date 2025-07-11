@@ -3,19 +3,19 @@
     "ChEMBL ID": "CHEMBL4297844",
     "Preferred Name": "TRASTUZUMAB DERUXTECAN",
     "All Aliases": [
+      "TRASTUZUMAB-DERUXTECAN (T-DXD, DS-8201)",
       "TRASTUZUMAB-DERUXTECAN (T-DXD)",
       "TRASTUZUMAB-DERUXTECAN",
-      "FAM-TRASTUZUMAB DERUXTECAN-NXKI (T-DXD)",
-      "TRASTUZUMAB DERUXTECAN (T-DXD)",
       "ENHERTU",
+      "MNC2-DERUXTECAN",
+      "DS8201",
       "DATOPOTOMAB DERUXTECAN (DATO-DXD)",
+      "FAM-TRASTUZUMAB DERUXTECAN-NXKI (T-DXD)",
       "TRASTUZUMAB DERUXTECAN",
-      "TRASTUZUMAB-DERUXTECAN (T-DXD, DS-8201)",
       "TRASTUZUMAB DERUXTECAN (ENHERTU)",
       "TRASTUZUMAB DERUXTECAN (T-DXD, ENHERTU)",
-      "TRASTUZUMAB-DERUXTECAN (DXD)",
-      "MNC2-DERUXTECAN",
-      "DS8201"
+      "TRASTUZUMAB DERUXTECAN (T-DXD)",
+      "TRASTUZUMAB-DERUXTECAN (DXD)"
     ],
     "Primary Target Name": "Receptor protein-tyrosine kinase erbB-2",
     "Molecule Info": {
@@ -189,8 +189,8 @@
     "ChEMBL ID": "CHEMBL4297939",
     "Preferred Name": "DATOPOTAMAB DERUXTECAN",
     "All Aliases": [
-      "DATO-DXD",
       "DATOPOTAMAB DERUXTECAN (DATO-DXD)",
+      "DATO-DXD",
       "DATOPOTAMAB DERUXTECAN"
     ],
     "Primary Target Name": "Tumor-associated calcium signal transducer 2",
@@ -274,21 +274,6 @@
     ],
     "Target Metadata": [
       {
-        "Target ChEMBL ID": "CHEMBL1781",
-        "Pref Name": "DNA topoisomerase I",
-        "Target Type": "SINGLE PROTEIN",
-        "Organism": "Homo sapiens",
-        "Target Components": [
-          {
-            "Accession": "P11387",
-            "Component Type": "PROTEIN",
-            "Organism": null,
-            "UniProt": "P11387",
-            "HGNC": null
-          }
-        ]
-      },
-      {
         "Target ChEMBL ID": "CHEMBL3856163",
         "Pref Name": "Tumor-associated calcium signal transducer 2",
         "Target Type": "SINGLE PROTEIN",
@@ -302,6 +287,21 @@
             "HGNC": null
           }
         ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL1781",
+        "Pref Name": "DNA topoisomerase I",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P11387",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P11387",
+            "HGNC": null
+          }
+        ]
       }
     ]
   },
@@ -309,10 +309,10 @@
     "ChEMBL ID": "CHEMBL3301589",
     "Preferred Name": "ENFORTUMAB VEDOTIN",
     "All Aliases": [
-      "PADCEV",
       "ENFORTUMAB VEDOTIN-EJFV",
-      "ENFORTUMAB-VEDOTIN",
-      "ENFORTUMAB VEDOTIN"
+      "ENFORTUMAB VEDOTIN",
+      "PADCEV",
+      "ENFORTUMAB-VEDOTIN"
     ],
     "Primary Target Name": "Nectin-4",
     "Molecule Info": {
@@ -408,6 +408,21 @@
       }
     ],
     "Target Metadata": [
+      {
+        "Target ChEMBL ID": "CHEMBL3712928",
+        "Pref Name": "Nectin-4",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "Q96NY8",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "Q96NY8",
+            "HGNC": null
+          }
+        ]
+      },
       {
         "Target ChEMBL ID": "CHEMBL2095182",
         "Pref Name": "Tubulin",
@@ -520,21 +535,6 @@
             "HGNC": "GTPase activity"
           }
         ]
-      },
-      {
-        "Target ChEMBL ID": "CHEMBL3712928",
-        "Pref Name": "Nectin-4",
-        "Target Type": "SINGLE PROTEIN",
-        "Organism": "Homo sapiens",
-        "Target Components": [
-          {
-            "Accession": "Q96NY8",
-            "Component Type": "PROTEIN",
-            "Organism": null,
-            "UniProt": "Q96NY8",
-            "HGNC": null
-          }
-        ]
       }
     ]
   },
@@ -542,14 +542,14 @@
     "ChEMBL ID": "CHEMBL1743082",
     "Preferred Name": "TRASTUZUMAB EMTANSINE",
     "All Aliases": [
-      "TRASTUZUMAB EMTANSINE (T-DM1)",
-      "TRASTUZUMAB EMTANSINE (T-DM1, KADCYLA)",
-      "KADCYLA",
-      "TRASTUZUMAB-EMTANSINE",
+      "ADO-TRASTUZUMAB EMTANSINE (T-DM1)",
       "TRASTUZUMAB-EMTANSINE (DM1)",
       "TRASTUZUMAB EMTANSINE",
-      "ADO-TRASTUZUMAB EMTANSINE (T-DM1)",
-      "TRASTUZUMAB-EMTANSINE (T-DM1)"
+      "TRASTUZUMAB EMTANSINE (T-DM1, KADCYLA)",
+      "TRASTUZUMAB-EMTANSINE (T-DM1)",
+      "TRASTUZUMAB EMTANSINE (T-DM1)",
+      "KADCYLA",
+      "TRASTUZUMAB-EMTANSINE"
     ],
     "Primary Target Name": "Receptor protein-tyrosine kinase erbB-2",
     "Molecule Info": {
@@ -821,9 +821,9 @@
     "ChEMBL ID": "CHEMBL2109399",
     "Preferred Name": "T-DM1",
     "All Aliases": [
+      "P-PEG6-DM1",
       "T-DM1",
-      "T-PEG6-DM1",
-      "P-PEG6-DM1"
+      "T-PEG6-DM1"
     ],
     "Primary Target Name": "Receptor protein-tyrosine kinase erbB-2",
     "Molecule Info": {
@@ -1059,9 +1059,9 @@
     "ChEMBL ID": "CHEMBL3545262",
     "Preferred Name": "SACITUZUMAB GOVITECAN",
     "All Aliases": [
+      "SACITUZUMAB-GOVITECAN",
       "SACITUZUMAB GOVITECAN (SG)",
-      "SACITUZUMAB GOVITECAN",
-      "SACITUZUMAB-GOVITECAN"
+      "SACITUZUMAB GOVITECAN"
     ],
     "Primary Target Name": "Tumor-associated calcium signal transducer 2",
     "Molecule Info": {
@@ -1207,21 +1207,6 @@
     ],
     "Target Metadata": [
       {
-        "Target ChEMBL ID": "CHEMBL1781",
-        "Pref Name": "DNA topoisomerase I",
-        "Target Type": "SINGLE PROTEIN",
-        "Organism": "Homo sapiens",
-        "Target Components": [
-          {
-            "Accession": "P11387",
-            "Component Type": "PROTEIN",
-            "Organism": null,
-            "UniProt": "P11387",
-            "HGNC": null
-          }
-        ]
-      },
-      {
         "Target ChEMBL ID": "CHEMBL3856163",
         "Pref Name": "Tumor-associated calcium signal transducer 2",
         "Target Type": "SINGLE PROTEIN",
@@ -1235,6 +1220,21 @@
             "HGNC": null
           }
         ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL1781",
+        "Pref Name": "DNA topoisomerase I",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P11387",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P11387",
+            "HGNC": null
+          }
+        ]
       }
     ]
   },
@@ -1242,8 +1242,8 @@
     "ChEMBL ID": "CHEMBL4297987",
     "Preferred Name": "ENAPOTAMAB VEDOTIN",
     "All Aliases": [
-      "ANTI-AXL ADC",
-      "TM4SF1-CMET MMAE BISPECIFIC ADC"
+      "TM4SF1-CMET MMAE BISPECIFIC ADC",
+      "ANTI-AXL ADC"
     ],
     "Primary Target Name": "Tubulin",
     "Molecule Info": {
@@ -2282,21 +2282,6 @@
     ],
     "Target Metadata": [
       {
-        "Target ChEMBL ID": "CHEMBL2121",
-        "Pref Name": "Folate receptor alpha",
-        "Target Type": "SINGLE PROTEIN",
-        "Organism": "Homo sapiens",
-        "Target Components": [
-          {
-            "Accession": "P15328",
-            "Component Type": "PROTEIN",
-            "Organism": null,
-            "UniProt": "P15328",
-            "HGNC": null
-          }
-        ]
-      },
-      {
         "Target ChEMBL ID": "CHEMBL2095182",
         "Pref Name": "Tubulin",
         "Target Type": "PROTEIN COMPLEX GROUP",
@@ -2406,6 +2391,21 @@
             "Organism": null,
             "UniProt": "GO:0003924",
             "HGNC": "GTPase activity"
+          }
+        ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL2121",
+        "Pref Name": "Folate receptor alpha",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P15328",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P15328",
+            "HGNC": null
           }
         ]
       }

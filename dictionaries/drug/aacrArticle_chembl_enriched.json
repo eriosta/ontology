@@ -2728,8 +2728,8 @@
         "doseEscalationNotesCanonicalized": "Single 10 mg/kg dose administered",
         "drugNameChembl": "TRASTUZUMAB EMTANSINE",
         "mechanismOfActionChembl": [
-          "Receptor protein-tyrosine kinase erbB-2 inhibitor",
-          "Tubulin inhibitor"
+          "Tubulin inhibitor",
+          "Receptor protein-tyrosine kinase erbB-2 inhibitor"
         ]
       }
     ],
@@ -2869,8 +2869,8 @@
         "diagnosticAssayCanonicalized": "qRT-PCR Based Clinical Trial Assay (CTA) For ADC TRS",
         "drugNameChembl": "ENFORTUMAB VEDOTIN",
         "mechanismOfActionChembl": [
-          "Tubulin inhibitor",
-          "Nectin-4 binding agent"
+          "Nectin-4 binding agent",
+          "Tubulin inhibitor"
         ]
       },
       {
@@ -3848,8 +3848,8 @@
         ],
         "drugNameChembl": "PATRITUMAB DERUXTECAN",
         "mechanismOfActionChembl": [
-          "DNA topoisomerase I inhibitor",
-          "Receptor tyrosine-protein kinase erbB-3 binding agent"
+          "Receptor tyrosine-protein kinase erbB-3 binding agent",
+          "DNA topoisomerase I inhibitor"
         ]
       }
     ],
@@ -5016,8 +5016,8 @@
         ],
         "drugNameChembl": "PATRITUMAB DERUXTECAN",
         "mechanismOfActionChembl": [
-          "DNA topoisomerase I inhibitor",
-          "Receptor tyrosine-protein kinase erbB-3 binding agent"
+          "Receptor tyrosine-protein kinase erbB-3 binding agent",
+          "DNA topoisomerase I inhibitor"
         ]
       }
     ],
@@ -6605,8 +6605,8 @@
         "phaseCanonicalized": "Preclinical",
         "drugNameChembl": "PATRITUMAB DERUXTECAN",
         "mechanismOfActionChembl": [
-          "DNA topoisomerase I inhibitor",
-          "Receptor tyrosine-protein kinase erbB-3 binding agent"
+          "Receptor tyrosine-protein kinase erbB-3 binding agent",
+          "DNA topoisomerase I inhibitor"
         ]
       }
     ],
@@ -7639,8 +7639,8 @@
         "efficacyResultsCanonicalized": "TGI 68% in SKOV-3 xenograft model; higher TGI and prolonged tumor remission in PDX models",
         "drugNameChembl": "TRASTUZUMAB EMTANSINE",
         "mechanismOfActionChembl": [
-          "Receptor protein-tyrosine kinase erbB-2 inhibitor",
-          "Tubulin inhibitor"
+          "Tubulin inhibitor",
+          "Receptor protein-tyrosine kinase erbB-2 inhibitor"
         ]
       },
       {
@@ -9440,8 +9440,8 @@
         "diagnosticAssayCanonicalized": "CellTiter-Glo 3D assay for cell viability; RNA sequencing/Affymetrix and IHC for Nectin-4 expression.",
         "drugNameChembl": "ENFORTUMAB VEDOTIN",
         "mechanismOfActionChembl": [
-          "Tubulin inhibitor",
-          "Nectin-4 binding agent"
+          "Nectin-4 binding agent",
+          "Tubulin inhibitor"
         ]
       }
     ],
@@ -9738,8 +9738,8 @@
         ],
         "drugNameChembl": "ENFORTUMAB VEDOTIN",
         "mechanismOfActionChembl": [
-          "Tubulin inhibitor",
-          "Nectin-4 binding agent"
+          "Nectin-4 binding agent",
+          "Tubulin inhibitor"
         ]
       }
     ],
@@ -10695,8 +10695,8 @@
         "diagnosticAssayCanonicalized": "VENTANA FOLR1 (FOLR1-2.1) RxDx Assay (FOLR1 CDx)",
         "drugNameChembl": "MIRVETUXIMAB SORAVTANSINE",
         "mechanismOfActionChembl": [
-          "Folate receptor alpha binding agent",
-          "Tubulin inhibitor"
+          "Tubulin inhibitor",
+          "Folate receptor alpha binding agent"
         ]
       }
     ],
@@ -13680,8 +13680,8 @@
         "biomarkerStrategyCanonicalized": "Expression of Nectin-4 is associated with sensitivity to enfortumab vedotin; lineage plasticity and histologic subtype affect Nectin-4 expression and thus ADC efficacy",
         "drugNameChembl": "ENFORTUMAB VEDOTIN",
         "mechanismOfActionChembl": [
-          "Tubulin inhibitor",
-          "Nectin-4 binding agent"
+          "Nectin-4 binding agent",
+          "Tubulin inhibitor"
         ]
       }
     ],
@@ -13954,8 +13954,8 @@
         "combinationDrugCanonicalized": "TB511",
         "drugNameChembl": "ENFORTUMAB VEDOTIN",
         "mechanismOfActionChembl": [
-          "Tubulin inhibitor",
-          "Nectin-4 binding agent"
+          "Nectin-4 binding agent",
+          "Tubulin inhibitor"
         ]
       }
     ],
@@ -15055,8 +15055,8 @@
         "doseEscalationNotesCanonicalized": "1 or 3 mg/kg experimental agent every 4 days for 8 doses",
         "drugNameChembl": "TELISOTUZUMAB VEDOTIN",
         "mechanismOfActionChembl": [
-          "Tubulin inhibitor",
-          "Hepatocyte growth factor receptor binding agent"
+          "Hepatocyte growth factor receptor binding agent",
+          "Tubulin inhibitor"
         ]
       }
     ],
@@ -17270,8 +17270,8 @@
         "efficacyResultsCanonicalized": "Exhibited greater specificity and efficacy compared to isotype controls in HER2-positive PDXO models.",
         "drugNameChembl": "TRASTUZUMAB EMTANSINE",
         "mechanismOfActionChembl": [
-          "Receptor protein-tyrosine kinase erbB-2 inhibitor",
-          "Tubulin inhibitor"
+          "Tubulin inhibitor",
+          "Receptor protein-tyrosine kinase erbB-2 inhibitor"
         ]
       }
     ],
@@ -18834,8 +18834,8 @@
         "safetyProfileCanonicalized": "Toxicity Analyses on Non-Tumor Cells and Bone Marrow Reveal Potential Off-Site Toxicity and Possible Effects on Hematopoietic Stem Cells",
         "drugNameChembl": "TRASTUZUMAB EMTANSINE",
         "mechanismOfActionChembl": [
-          "Receptor protein-tyrosine kinase erbB-2 inhibitor",
-          "Tubulin inhibitor"
+          "Tubulin inhibitor",
+          "Receptor protein-tyrosine kinase erbB-2 inhibitor"
         ]
       },
       {
@@ -21737,8 +21737,8 @@
         "diagnosticAssayCanonicalized": "Quantibrite PE beads and PE-conjugated ErbB2/HER2 antibody (flow cytometry)",
         "drugNameChembl": "TRASTUZUMAB EMTANSINE",
         "mechanismOfActionChembl": [
-          "Receptor protein-tyrosine kinase erbB-2 inhibitor",
-          "Tubulin inhibitor"
+          "Tubulin inhibitor",
+          "Receptor protein-tyrosine kinase erbB-2 inhibitor"
         ]
       },
       {
@@ -24053,8 +24053,8 @@
         "phaseCanonicalized": "Preclinical",
         "drugNameChembl": "TRASTUZUMAB EMTANSINE",
         "mechanismOfActionChembl": [
-          "Receptor protein-tyrosine kinase erbB-2 inhibitor",
-          "Tubulin inhibitor"
+          "Tubulin inhibitor",
+          "Receptor protein-tyrosine kinase erbB-2 inhibitor"
         ]
       },
       {
@@ -25958,8 +25958,8 @@
         ],
         "drugNameChembl": "TRASTUZUMAB EMTANSINE",
         "mechanismOfActionChembl": [
-          "Receptor protein-tyrosine kinase erbB-2 inhibitor",
-          "Tubulin inhibitor"
+          "Tubulin inhibitor",
+          "Receptor protein-tyrosine kinase erbB-2 inhibitor"
         ]
       },
       {
@@ -27599,8 +27599,8 @@
         "biomarkerStrategyCanonicalized": "Rab5A Expression as a Predictive Biomarker for Trastuzumab Emtansine Efficacy",
         "drugNameChembl": "TRASTUZUMAB EMTANSINE",
         "mechanismOfActionChembl": [
-          "Receptor protein-tyrosine kinase erbB-2 inhibitor",
-          "Tubulin inhibitor"
+          "Tubulin inhibitor",
+          "Receptor protein-tyrosine kinase erbB-2 inhibitor"
         ]
       },
       {
@@ -28225,8 +28225,8 @@
         ],
         "drugNameChembl": "TRASTUZUMAB EMTANSINE",
         "mechanismOfActionChembl": [
-          "Receptor protein-tyrosine kinase erbB-2 inhibitor",
-          "Tubulin inhibitor"
+          "Tubulin inhibitor",
+          "Receptor protein-tyrosine kinase erbB-2 inhibitor"
         ]
       }
     ],
@@ -29008,8 +29008,8 @@
         "phaseCanonicalized": "Preclinical",
         "drugNameChembl": "ENFORTUMAB VEDOTIN",
         "mechanismOfActionChembl": [
-          "Tubulin inhibitor",
-          "Nectin-4 binding agent"
+          "Nectin-4 binding agent",
+          "Tubulin inhibitor"
         ]
       }
     ],
@@ -29815,8 +29815,8 @@
         "regulatoryDesignationsCanonicalized": "FDA breakthrough therapy designation in c-Met overexpressing, 2nd Line+ EGFR wild-type, non-squamous, non-small cell lung cancer (NSCLC) patients",
         "drugNameChembl": "TELISOTUZUMAB VEDOTIN",
         "mechanismOfActionChembl": [
-          "Tubulin inhibitor",
-          "Hepatocyte growth factor receptor binding agent"
+          "Hepatocyte growth factor receptor binding agent",
+          "Tubulin inhibitor"
         ]
       }
     ],
@@ -30449,8 +30449,8 @@
         "phaseCanonicalized": "Preclinical",
         "drugNameChembl": "ENFORTUMAB VEDOTIN",
         "mechanismOfActionChembl": [
-          "Tubulin inhibitor",
-          "Nectin-4 binding agent"
+          "Nectin-4 binding agent",
+          "Tubulin inhibitor"
         ]
       },
       {
@@ -32207,8 +32207,8 @@
         "biomarkerStrategyCanonicalized": "Machine Learning Models Applied to H&E Images to Predict ADC Target Distribution and Support Biomarker Selection",
         "drugNameChembl": "ENFORTUMAB VEDOTIN",
         "mechanismOfActionChembl": [
-          "Tubulin inhibitor",
-          "Nectin-4 binding agent"
+          "Nectin-4 binding agent",
+          "Tubulin inhibitor"
         ]
       }
     ],
@@ -37998,8 +37998,8 @@
         "phaseCanonicalized": "Preclinical",
         "drugNameChembl": "ENFORTUMAB VEDOTIN",
         "mechanismOfActionChembl": [
-          "Tubulin inhibitor",
-          "Nectin-4 binding agent"
+          "Nectin-4 binding agent",
+          "Tubulin inhibitor"
         ]
       },
       {
@@ -38117,8 +38117,8 @@
         "doseEscalationNotesCanonicalized": "Toxicity study: 100 mg/kg T-DM1 injected weekly for two doses by intravenous injection",
         "drugNameChembl": "TRASTUZUMAB EMTANSINE",
         "mechanismOfActionChembl": [
-          "Receptor protein-tyrosine kinase erbB-2 inhibitor",
-          "Tubulin inhibitor"
+          "Tubulin inhibitor",
+          "Receptor protein-tyrosine kinase erbB-2 inhibitor"
         ]
       }
     ],
@@ -42745,8 +42745,8 @@
         "phaseCanonicalized": "Preclinical",
         "drugNameChembl": "ENFORTUMAB VEDOTIN",
         "mechanismOfActionChembl": [
-          "Tubulin inhibitor",
-          "Nectin-4 binding agent"
+          "Nectin-4 binding agent",
+          "Tubulin inhibitor"
         ]
       },
       {
@@ -42864,8 +42864,8 @@
         "doseEscalationNotesCanonicalized": "T-DM1 tested at 100 mg/kg weekly for two doses.",
         "drugNameChembl": "TRASTUZUMAB EMTANSINE",
         "mechanismOfActionChembl": [
-          "Receptor protein-tyrosine kinase erbB-2 inhibitor",
-          "Tubulin inhibitor"
+          "Tubulin inhibitor",
+          "Receptor protein-tyrosine kinase erbB-2 inhibitor"
         ]
       }
     ],
@@ -44281,8 +44281,8 @@
         "diagnosticAssayCanonicalized": "COMET Platform Integrated Assay (Multiplexed Immunofluorescence and RNAscope)",
         "drugNameChembl": "ENFORTUMAB VEDOTIN",
         "mechanismOfActionChembl": [
-          "Tubulin inhibitor",
-          "Nectin-4 binding agent"
+          "Nectin-4 binding agent",
+          "Tubulin inhibitor"
         ]
       }
     ],
@@ -46927,8 +46927,8 @@
         "combinationDrugCanonicalized": "Sacituzumab Govitecan",
         "drugNameChembl": "ENFORTUMAB VEDOTIN",
         "mechanismOfActionChembl": [
-          "Tubulin inhibitor",
-          "Nectin-4 binding agent"
+          "Nectin-4 binding agent",
+          "Tubulin inhibitor"
         ]
       }
     ],

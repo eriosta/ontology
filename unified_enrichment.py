@@ -39,7 +39,10 @@ CONFIG = {
         "antigen": "antigen.py",
         "disease": "disease_enhanced.py", 
         "drug": "drug.py",
-        "payload_linker": "payload_linker.py"
+        "payload_linker": "payload_linker.py",
+        "company": "company.py",
+        "trial_design": "trial_design.py",
+        "biomarker_strategy": "biomarker_strategy.py"
     },
     "REQUIRED_FILES": {
         "HGNC_TSV": "hgnc_complete_set.tsv",
@@ -68,6 +71,9 @@ class UnifiedEnrichmentPipeline:
         (self.dictionaries_folder / "disease").mkdir(exist_ok=True)
         (self.dictionaries_folder / "drug").mkdir(exist_ok=True)
         (self.dictionaries_folder / "payload_linker").mkdir(exist_ok=True)
+        (self.dictionaries_folder / "company").mkdir(exist_ok=True)
+        (self.dictionaries_folder / "trial_design").mkdir(exist_ok=True)
+        (self.dictionaries_folder / "biomarker").mkdir(exist_ok=True)
         
         logger.info(f"✅ Created directory structure in {self.dictionaries_folder}")
     
@@ -146,6 +152,30 @@ class UnifiedEnrichmentPipeline:
                 disease_data = json.load(f)
             self.merge_disease_enrichments(disease_data)
             logger.info(f"✅ Merged disease enrichments from {disease_file}")
+        
+        # Merge company enrichments
+        company_file = "aacrArticle_company_enriched.json"
+        if Path(company_file).exists():
+            with open(company_file, 'r') as f:
+                company_data = json.load(f)
+            self.merge_company_enrichments(company_data)
+            logger.info(f"✅ Merged company enrichments from {company_file}")
+        
+        # Merge trial design enrichments
+        trial_design_file = "aacrArticle_trial_design_enriched.json"
+        if Path(trial_design_file).exists():
+            with open(trial_design_file, 'r') as f:
+                trial_design_data = json.load(f)
+            self.merge_trial_design_enrichments(trial_design_data)
+            logger.info(f"✅ Merged trial design enrichments from {trial_design_file}")
+        
+        # Merge biomarker strategy enrichments
+        biomarker_file = "aacrArticle_biomarker_enriched.json"
+        if Path(biomarker_file).exists():
+            with open(biomarker_file, 'r') as f:
+                biomarker_data = json.load(f)
+            self.merge_biomarker_strategy_enrichments(biomarker_data)
+            logger.info(f"✅ Merged biomarker strategy enrichments from {biomarker_file}")
         
         return True
     
@@ -263,6 +293,87 @@ class UnifiedEnrichmentPipeline:
                         enrichments = disease_map[entry_id][drug_name]
                         drug["diseaseOntology"] = enrichments.get("diseaseOntology", [])
     
+    def merge_company_enrichments(self, company_data):
+        company_map = {}
+        for entry in company_data:
+            entry_id = entry.get("id")
+            if entry_id:
+                company_map[entry_id] = {}
+                for drug in entry.get("extractedDrugs", []):
+                    drug_name = drug.get("drugName")
+                    if drug_name:
+                        company_map[entry_id][drug_name] = {
+                            "companyCleaned": drug.get("companyCleaned"),
+                            "companyOriginal": drug.get("companyOriginal"),
+                            "companyConfidence": drug.get("companyConfidence")
+                        }
+        for entry in self.enriched_data:
+            entry_id = entry.get("id")
+            if entry_id in company_map:
+                for drug in entry.get("extractedDrugs", []):
+                    drug_name = drug.get("drugName")
+                    if drug_name in company_map[entry_id]:
+                        enrichments = company_map[entry_id][drug_name]
+                        if "ontology" not in drug:
+                            drug["ontology"] = {}
+                        drug["ontology"]["company"] = enrichments
+
+    def merge_trial_design_enrichments(self, trial_design_data):
+        trial_design_map = {}
+        for entry in trial_design_data:
+            entry_id = entry.get("id")
+            if entry_id:
+                trial_design_map[entry_id] = {}
+                for drug in entry.get("extractedDrugs", []):
+                    drug_name = drug.get("drugName")
+                    if drug_name:
+                        trial_design_map[entry_id][drug_name] = {
+                            "trialDesignCleaned": drug.get("trialDesignCleaned"),
+                            "trialDesignOriginal": drug.get("trialDesignOriginal"),
+                            "trialDesignCategories": drug.get("trialDesignCategories"),
+                            "trialDesignOrganizedCategories": drug.get("trialDesignOrganizedCategories"),
+                            "trialDesignConfidence": drug.get("trialDesignConfidence")
+                        }
+        for entry in self.enriched_data:
+            entry_id = entry.get("id")
+            if entry_id in trial_design_map:
+                for drug in entry.get("extractedDrugs", []):
+                    drug_name = drug.get("drugName")
+                    if drug_name in trial_design_map[entry_id]:
+                        enrichments = trial_design_map[entry_id][drug_name]
+                        if "ontology" not in drug:
+                            drug["ontology"] = {}
+                        drug["ontology"]["trial_design"] = enrichments
+
+    def merge_biomarker_strategy_enrichments(self, biomarker_data):
+        biomarker_map = {}
+        for entry in biomarker_data:
+            entry_id = entry.get("id")
+            if entry_id:
+                biomarker_map[entry_id] = {}
+                for drug in entry.get("extractedDrugs", []):
+                    drug_name = drug.get("drugName")
+                    if drug_name:
+                        biomarker_map[entry_id][drug_name] = {
+                            "biomarkerStrategyCleaned": drug.get("biomarkerStrategyCleaned"),
+                            "biomarkerStrategyOriginal": drug.get("biomarkerStrategyOriginal"),
+                            "biomarkerStrategyCategories": drug.get("biomarkerStrategyCategories"),
+                            "biomarkerTechnologies": drug.get("biomarkerTechnologies"),
+                            "biomarkerMolecules": drug.get("biomarkerMolecules"),
+                            "biomarkerComplexity": drug.get("biomarkerComplexity"),
+                            "biomarkerStrategyConfidence": drug.get("biomarkerStrategyConfidence")
+                        }
+        for entry in self.enriched_data:
+            entry_id = entry.get("id")
+            if entry_id in biomarker_map:
+                for drug in entry.get("extractedDrugs", []):
+                    drug_name = drug.get("drugName")
+                    if drug_name in biomarker_map[entry_id]:
+                        enrichments = biomarker_map[entry_id][drug_name]
+                        if "ontology" not in drug:
+                            drug["ontology"] = {}
+                        drug["ontology"]["biomarker_strategy"] = enrichments
+    
     def create_comprehensive_enrichment(self):
         """Create the final comprehensive enriched JSON with standardized structure"""
         logger.info("🔧 Creating comprehensive enrichment...")
@@ -343,8 +454,18 @@ class UnifiedEnrichmentPipeline:
         return enriched_entry
     
     def enrich_single_drug(self, drug: Dict[str, Any], dictionaries: Dict[str, Any]) -> Dict[str, Any]:
-        """Enrich a single drug with all ontology mappings"""
-        
+        # Start with all merged ontology fields (including company, trial_design, biomarker_strategy)
+        ontology = dict(drug.get("ontology", {}))
+        # Overwrite the core ontology fields with the latest enrichment
+        ontology["drug"] = self.get_drug_ontology(drug, dictionaries)
+        ontology["antigen"] = self.get_antigen_ontology(drug, dictionaries)
+        ontology["disease"] = self.get_disease_ontology(drug, dictionaries)
+        ontology["payload"] = self.get_payload_ontology(drug, dictionaries)
+        ontology["linker"] = self.get_linker_ontology(drug, dictionaries)
+        # Ensure enrichment keys are always present
+        for k in ["company", "trial_design", "biomarker_strategy"]:
+            if k not in ontology:
+                ontology[k] = {}
         enriched_drug = {
             # Original fields
             "extractedAt": drug.get("extractedAt"),
@@ -361,17 +482,13 @@ class UnifiedEnrichmentPipeline:
             "payload": drug.get("payload"),
             "linker": drug.get("linker"),
             "phase": drug.get("phase"),
-            
-            # Enriched ontology fields
-            "ontology": {
-                "drug": self.get_drug_ontology(drug, dictionaries),
-                "antigen": self.get_antigen_ontology(drug, dictionaries),
-                "disease": self.get_disease_ontology(drug, dictionaries),
-                "payload": self.get_payload_ontology(drug, dictionaries),
-                "linker": self.get_linker_ontology(drug, dictionaries)
-            }
+            "trialDesign": drug.get("trialDesign"),
+            "trialDesignConfidence": drug.get("trialDesignConfidence"),
+            "biomarkerStrategy": drug.get("biomarkerStrategy"),
+            "biomarkerStrategyConfidence": drug.get("biomarkerStrategyConfidence"),
+            # Enriched ontology fields (all under ontology)
+            "ontology": ontology
         }
-        
         return enriched_drug
     
     def get_drug_ontology(self, drug: Dict[str, Any], dictionaries: Dict[str, Any]) -> Dict[str, Any]:
@@ -424,10 +541,15 @@ class UnifiedEnrichmentPipeline:
                         "hgnc_symbol": hgnc_data.get("symbol"),
                         "hgnc_id": hgnc_data.get("hgnc_id"),
                         "ensembl_gene_id": hgnc_data.get("ensembl_gene_id"),
-                        "synonyms": hgnc_data.get("synonyms", []),
                         "locus_type": hgnc_data.get("locus"),
                         "gene_group": hgnc_data.get("family", "").split(", ") if hgnc_data.get("family") else []
                     })
+                    
+                    # Clean synonyms - filter out "nan" and empty values
+                    synonyms = hgnc_data.get("synonyms", [])
+                    if synonyms:
+                        cleaned_synonyms = [syn for syn in synonyms if syn and syn != "nan" and syn.strip()]
+                        antigen_ontology["synonyms"] = cleaned_synonyms
                 
                 if first_match.get("TACA"):
                     taca_data = first_match["TACA"]
@@ -486,10 +608,12 @@ class UnifiedEnrichmentPipeline:
                         "hierarchy_path": best_disease.get("hierarchy_paths", [])[0] if best_disease.get("hierarchy_paths") else []
                     })
                     
-                    # Add expanded terms as synonyms
+                    # Add expanded terms as synonyms, but clean them
                     expanded_terms = best_disease.get("expanded_terms", [])
                     if expanded_terms:
-                        disease_ontology["synonyms"] = expanded_terms
+                        # Clean synonyms - filter out "nan" and empty values
+                        cleaned_synonyms = [term for term in expanded_terms if term and term != "nan" and term.strip()]
+                        disease_ontology["synonyms"] = cleaned_synonyms
         
         return disease_ontology
     

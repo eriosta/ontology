@@ -159,9 +159,9 @@
               ]
             ],
             "expanded_terms": [
+              "non-small cell lung cancer",
               "NSCLC",
-              "Nsmall cell lung cancer",
-              "non-small cell lung cancer"
+              "Nsmall cell lung cancer"
             ]
           }
         ]
@@ -317,8 +317,8 @@
               ]
             ],
             "expanded_terms": [
-              "SCLC",
-              "small cell lung cancer"
+              "small cell lung cancer",
+              "SCLC"
             ]
           }
         ]
@@ -502,7 +502,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -1641,7 +1641,7 @@
             "input": "lung squamous cell carcinoma",
             "doid_id": "DOID:6510",
             "doid_label": "lung occult squamous cell carcinoma",
-            "match_score": 0.9888888888888888,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -2986,9 +2986,9 @@
               ]
             ],
             "expanded_terms": [
+              "non-small cell lung cancer",
               "NSCLC",
-              "Nsmall cell lung cancer",
-              "non-small cell lung cancer"
+              "Nsmall cell lung cancer"
             ]
           },
           {
@@ -3500,8 +3500,8 @@
             "input": "advanced breast cancer",
             "doid_id": "DOID:1614",
             "doid_label": "male breast cancer",
-            "match_score": 0.9,
-            "match_status": "fuzzy_match",
+            "match_score": 0.9500000000000001,
+            "match_status": "exact_match",
             "hierarchy_paths": [
               [
                 "disease",
@@ -3670,8 +3670,8 @@
             "input": "advanced breast cancer",
             "doid_id": "DOID:1614",
             "doid_label": "male breast cancer",
-            "match_score": 0.9,
-            "match_status": "fuzzy_match",
+            "match_score": 0.9500000000000001,
+            "match_status": "exact_match",
             "hierarchy_paths": [
               [
                 "disease",
@@ -3840,8 +3840,8 @@
             "input": "advanced breast cancer",
             "doid_id": "DOID:1614",
             "doid_label": "male breast cancer",
-            "match_score": 0.9,
-            "match_status": "fuzzy_match",
+            "match_score": 0.9500000000000001,
+            "match_status": "exact_match",
             "hierarchy_paths": [
               [
                 "disease",
@@ -4087,9 +4087,9 @@
               ]
             ],
             "expanded_terms": [
+              "non-small cell lung cancer",
               "NSCLC",
-              "Nsmall cell lung cancer",
-              "non-small cell lung cancer"
+              "Nsmall cell lung cancer"
             ]
           },
           {
@@ -4285,7 +4285,7 @@
             "input": "metastatic castration-resistant prostate cancer",
             "doid_id": "DOID:0080909",
             "doid_label": "castration-resistant prostate carcinoma",
-            "match_score": 0.9674698795180723,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -5235,19 +5235,19 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
-              "non-small cell lung cancer (non-small cell lung cancer)",
-              "non-small cell lung cancer (NSCLC)",
-              "non-small cell lung cancer non-small cell lung cancer",
               "non-small cell lung cancer (Nsmall cell lung cancer)",
+              "non-small cell lung cancer Nsmall cell lung cancer",
+              "non-small cell lung cancer (non-small cell lung cancer)",
               "non-small cell lung cancer NSCLC",
-              "non-small cell lung cancer Nsmall cell lung cancer"
+              "non-small cell lung cancer non-small cell lung cancer",
+              "non-small cell lung cancer (NSCLC)"
             ]
           },
           {
             "input": "hormone receptor positive breast cancer",
             "doid_id": "DOID:0060079",
             "doid_label": "Her2-receptor positive breast cancer",
-            "match_score": 0.98,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -5267,7 +5267,7 @@
             "input": "triple negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -5601,8 +5601,8 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2-positive lung cancer",
               "HER2-positive lung cancer",
+              "human epidermal growth factor receptor 2-positive lung cancer",
               "human epidermal growth factor receptor 2 negativepositive lung cancer"
             ]
           },
@@ -5610,7 +5610,7 @@
             "input": "HER2-low breast cancer",
             "doid_id": "DOID:7843",
             "doid_label": "female breast carcinoma",
-            "match_score": 0.8619047619047618,
+            "match_score": 0.9119047619047619,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -5624,9 +5624,9 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2-low breast cancer",
+              "human epidermal growth factor receptor 2 negativelow breast cancer",
               "HER2-low breast cancer",
-              "human epidermal growth factor receptor 2 negativelow breast cancer"
+              "human epidermal growth factor receptor 2-low breast cancer"
             ]
           }
         ]
@@ -6285,7 +6285,7 @@
             "input": "metastatic castration-resistant prostate cancer",
             "doid_id": "DOID:0080909",
             "doid_label": "castration-resistant prostate carcinoma",
-            "match_score": 0.9674698795180723,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -6890,9 +6890,9 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
+              "human epidermal growth factor receptor 2 negativeoverexpressing gastric cancer",
               "human epidermal growth factor receptor 2-overexpressing gastric cancer",
-              "HER2-overexpressing gastric cancer",
-              "human epidermal growth factor receptor 2 negativeoverexpressing gastric cancer"
+              "HER2-overexpressing gastric cancer"
             ]
           },
           {
@@ -7960,7 +7960,7 @@
             "input": "triple-negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -8305,7 +8305,7 @@
             "input": "HER2-low breast cancer",
             "doid_id": "DOID:7843",
             "doid_label": "female breast carcinoma",
-            "match_score": 0.8619047619047618,
+            "match_score": 0.9119047619047619,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -8319,16 +8319,16 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2-low breast cancer",
+              "human epidermal growth factor receptor 2 negativelow breast cancer",
               "HER2-low breast cancer",
-              "human epidermal growth factor receptor 2 negativelow breast cancer"
+              "human epidermal growth factor receptor 2-low breast cancer"
             ]
           },
           {
             "input": "HER2-ultralow breast cancer",
             "doid_id": "DOID:7843",
             "doid_label": "female breast carcinoma",
-            "match_score": 0.823404255319149,
+            "match_score": 0.873404255319149,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -8342,9 +8342,9 @@
               ]
             ],
             "expanded_terms": [
-              "HER2-ultralow breast cancer",
+              "human epidermal growth factor receptor 2 negativeultralow breast cancer",
               "human epidermal growth factor receptor 2-ultralow breast cancer",
-              "human epidermal growth factor receptor 2 negativeultralow breast cancer"
+              "HER2-ultralow breast cancer"
             ]
           },
           {
@@ -10693,11 +10693,11 @@
             "hierarchy_paths": [],
             "expanded_terms": [
               "EGFR-TKI resistant NSCLC",
+              "EGFR-tyrosine kinase inhibitor resistant NSCLC",
+              "EGFR tyrosine kinase inhibitor resistant NSCLC",
               "EGFR-tyrosine kinase inhibitor resistant non-small cell lung cancer",
               "EGFR-TKI resistant non-small cell lung cancer",
-              "EGFR-TKI resistant Nsmall cell lung cancer",
-              "EGFR tyrosine kinase inhibitor resistant NSCLC",
-              "EGFR-tyrosine kinase inhibitor resistant NSCLC"
+              "EGFR-TKI resistant Nsmall cell lung cancer"
             ]
           }
         ]
@@ -11027,7 +11027,7 @@
             "input": "colon cancer",
             "doid_id": "DOID:0080183",
             "doid_label": "medullary colon carcinoma",
-            "match_score": 0.8058823529411765,
+            "match_score": 0.8558823529411765,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -12215,7 +12215,7 @@
             "input": "triple-negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -12917,7 +12917,7 @@
             "input": "triple negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -12937,7 +12937,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -13168,7 +13168,7 @@
             "input": "triple negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -13188,7 +13188,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -14291,7 +14291,7 @@
             "input": "triple-negative breast cancer (TNBC)",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.8837837837837837,
+            "match_score": 0.9337837837837838,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -14649,7 +14649,7 @@
             "input": "HER2 positive breast cancer",
             "doid_id": "DOID:0060079",
             "doid_label": "Her2-receptor positive breast cancer",
-            "match_score": 0.9571428571428571,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -14662,8 +14662,8 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2 positive breast cancer",
-              "HER2 positive breast cancer"
+              "HER2 positive breast cancer",
+              "human epidermal growth factor receptor 2 positive breast cancer"
             ]
           }
         ]
@@ -15977,7 +15977,7 @@
             "input": "HER2 positive breast cancer",
             "doid_id": "DOID:0060079",
             "doid_label": "Her2-receptor positive breast cancer",
-            "match_score": 0.9571428571428571,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -15990,8 +15990,8 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2 positive breast cancer",
-              "HER2 positive breast cancer"
+              "HER2 positive breast cancer",
+              "human epidermal growth factor receptor 2 positive breast cancer"
             ]
           }
         ]
@@ -16375,7 +16375,7 @@
             "input": "metastatic castrate resistant prostate cancer (mCRPC)",
             "doid_id": "DOID:0080909",
             "doid_label": "castration-resistant prostate carcinoma",
-            "match_score": 0.8191011235955056,
+            "match_score": 0.8691011235955056,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -16391,9 +16391,9 @@
               ]
             ],
             "expanded_terms": [
-              "metastatic castrate resistant prostate cancer (mcastrate-resistant prostate cancer)",
+              "metastatic castrate resistant prostate cancer mcastrate-resistant prostate cancer",
               "metastatic castrate resistant prostate cancer (mCRPC)",
-              "metastatic castrate resistant prostate cancer mcastrate-resistant prostate cancer"
+              "metastatic castrate resistant prostate cancer (mcastrate-resistant prostate cancer)"
             ]
           }
         ]
@@ -16740,7 +16740,7 @@
             "input": "triple-negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -16784,7 +16784,7 @@
             "input": "prostate cancer",
             "doid_id": "DOID:7141",
             "doid_label": "prostate small cell carcinoma",
-            "match_score": 0.8317073170731707,
+            "match_score": 0.8817073170731707,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -16956,7 +16956,7 @@
             "input": "non-small cell lung carcinoma",
             "doid_id": "DOID:5414",
             "doid_label": "lung occult small cell carcinoma",
-            "match_score": 0.8213114754098361,
+            "match_score": 0.8713114754098361,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -18493,23 +18493,23 @@
           },
           {
             "input": "pulmonary large-cell neuroendocrine carcinoma",
-            "doid_id": "DOID:4555",
-            "doid_label": "ovarian large-cell neuroendocrine carcinoma",
-            "match_score": 0.8863636363636364,
-            "match_status": "fuzzy_match",
+            "doid_id": "DOID:7207",
+            "doid_label": "lung combined large cell neuroendocrine carcinoma",
+            "match_score": 0.9585106382978723,
+            "match_status": "exact_match",
             "hierarchy_paths": [
               [
                 "disease",
                 "disease of cellular proliferation",
                 "cancer",
                 "organ system cancer",
-                "reproductive organ cancer",
-                "female reproductive organ cancer",
-                "ovarian cancer",
-                "ovary epithelial cancer",
-                "malignant ovarian surface epithelial-stromal neoplasm",
-                "ovarian carcinoma",
-                "ovarian large-cell neuroendocrine carcinoma"
+                "respiratory system cancer",
+                "lung cancer",
+                "lung carcinoma",
+                "lung non-small cell carcinoma",
+                "lung large cell carcinoma",
+                "pulmonary large cell neuroendocrine carcinoma",
+                "lung combined large cell neuroendocrine carcinoma"
               ]
             ],
             "expanded_terms": [
@@ -20096,7 +20096,7 @@
             "input": "metastatic breast cancer",
             "doid_id": "DOID:1614",
             "doid_label": "male breast cancer",
-            "match_score": 0.8619047619047618,
+            "match_score": 0.9119047619047619,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -20116,8 +20116,8 @@
             "input": "ER+/HER2- metastatic breast cancer",
             "doid_id": "DOID:0060075",
             "doid_label": "estrogen-receptor positive breast cancer",
-            "match_score": 0.9041237113402062,
-            "match_status": "fuzzy_match",
+            "match_score": 0.9541237113402062,
+            "match_status": "exact_match",
             "hierarchy_paths": [
               [
                 "disease",
@@ -20129,18 +20129,18 @@
               ]
             ],
             "expanded_terms": [
-              "estrogen receptor positive/HER2- metastatic breast cancer",
-              "ER+/HER2- metastatic breast cancer",
               "estrogen receptor positive/human epidermal growth factor receptor 2- metastatic breast cancer",
+              "estrogen receptor positive/HER2- metastatic breast cancer",
               "ER+/human epidermal growth factor receptor 2- metastatic breast cancer",
-              "ER+/human epidermal growth factor receptor 2 negative metastatic breast cancer"
+              "ER+/human epidermal growth factor receptor 2 negative metastatic breast cancer",
+              "ER+/HER2- metastatic breast cancer"
             ]
           },
           {
             "input": "triple negative metastatic breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.8435897435897436,
+            "match_score": 0.8935897435897436,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -20290,9 +20290,9 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
-              "HER2-amplified metastatic breast cancer",
               "human epidermal growth factor receptor 2 negativeamplified metastatic breast cancer",
-              "human epidermal growth factor receptor 2-amplified metastatic breast cancer"
+              "human epidermal growth factor receptor 2-amplified metastatic breast cancer",
+              "HER2-amplified metastatic breast cancer"
             ]
           },
           {
@@ -20303,8 +20303,8 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
-              "HER2-low metastatic breast cancer",
               "human epidermal growth factor receptor 2-low metastatic breast cancer",
+              "HER2-low metastatic breast cancer",
               "human epidermal growth factor receptor 2 negativelow metastatic breast cancer"
             ]
           }
@@ -20498,9 +20498,9 @@
               ]
             ],
             "expanded_terms": [
+              "non-small cell lung cancer",
               "NSCLC",
-              "Nsmall cell lung cancer",
-              "non-small cell lung cancer"
+              "Nsmall cell lung cancer"
             ]
           },
           {
@@ -20532,8 +20532,8 @@
               ]
             ],
             "expanded_terms": [
-              "ESCC",
-              "esophageal squamous cell carcinoma"
+              "esophageal squamous cell carcinoma",
+              "ESCC"
             ]
           },
           {
@@ -20582,7 +20582,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -21806,7 +21806,7 @@
             "input": "triple negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -21943,7 +21943,7 @@
             "input": "triple negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -22094,7 +22094,7 @@
             "input": "HER2-positive breast cancer",
             "doid_id": "DOID:0060079",
             "doid_label": "Her2-receptor positive breast cancer",
-            "match_score": 0.9571428571428571,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -22107,9 +22107,9 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2 negativepositive breast cancer",
               "HER2-positive breast cancer",
-              "human epidermal growth factor receptor 2-positive breast cancer"
+              "human epidermal growth factor receptor 2-positive breast cancer",
+              "human epidermal growth factor receptor 2 negativepositive breast cancer"
             ]
           },
           {
@@ -22120,9 +22120,9 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
+              "HER2-positive non-small-cell lung cancer",
               "human epidermal growth factor receptor 2 negativepositive non-small-cell lung cancer",
-              "human epidermal growth factor receptor 2-positive non-small-cell lung cancer",
-              "HER2-positive non-small-cell lung cancer"
+              "human epidermal growth factor receptor 2-positive non-small-cell lung cancer"
             ]
           }
         ]
@@ -22249,7 +22249,7 @@
             "input": "HER2-positive breast cancer",
             "doid_id": "DOID:0060079",
             "doid_label": "Her2-receptor positive breast cancer",
-            "match_score": 0.9571428571428571,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -22262,9 +22262,9 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2 negativepositive breast cancer",
               "HER2-positive breast cancer",
-              "human epidermal growth factor receptor 2-positive breast cancer"
+              "human epidermal growth factor receptor 2-positive breast cancer",
+              "human epidermal growth factor receptor 2 negativepositive breast cancer"
             ]
           },
           {
@@ -22275,9 +22275,9 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
+              "HER2-positive non-small-cell lung cancer",
               "human epidermal growth factor receptor 2 negativepositive non-small-cell lung cancer",
-              "human epidermal growth factor receptor 2-positive non-small-cell lung cancer",
-              "HER2-positive non-small-cell lung cancer"
+              "human epidermal growth factor receptor 2-positive non-small-cell lung cancer"
             ]
           }
         ]
@@ -22463,10 +22463,10 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
+              "small cell lung cancer (SCLC)",
               "small cell lung cancer small cell lung cancer",
               "small cell lung cancer (small cell lung cancer)",
-              "small cell lung cancer SCLC",
-              "small cell lung cancer (SCLC)"
+              "small cell lung cancer SCLC"
             ]
           }
         ]
@@ -23695,9 +23695,9 @@
               ]
             ],
             "expanded_terms": [
+              "non-small cell lung cancer",
               "NSCLC",
-              "Nsmall cell lung cancer",
-              "non-small cell lung cancer"
+              "Nsmall cell lung cancer"
             ]
           }
         ]
@@ -24617,7 +24617,7 @@
             "input": "prostate cancer",
             "doid_id": "DOID:7141",
             "doid_label": "prostate small cell carcinoma",
-            "match_score": 0.8317073170731707,
+            "match_score": 0.8817073170731707,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -25103,10 +25103,10 @@
               ]
             ],
             "expanded_terms": [
-              "CRLF2-rearranged Ph-like B-ALL",
-              "CRLF2-rearranged Philadelphia chromosome-like B-ALL",
-              "CRLF2-rearranged Ph-like B-cell acute lymphoblastic leukemia",
               "CRLF2-rearranged Philadelphia chromosome-like B-acute lymphoblastic leukemia",
+              "CRLF2-rearranged Philadelphia chromosome-like B-ALL",
+              "CRLF2-rearranged Ph-like B-ALL",
+              "CRLF2-rearranged Ph-like B-cell acute lymphoblastic leukemia",
               "CRLF2-rearranged Ph-like B-acute lymphoblastic leukemia"
             ]
           }
@@ -25281,7 +25281,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -25535,7 +25535,7 @@
             "input": "HER2-positive breast cancer",
             "doid_id": "DOID:0060079",
             "doid_label": "Her2-receptor positive breast cancer",
-            "match_score": 0.9571428571428571,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -25548,9 +25548,9 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2 negativepositive breast cancer",
               "HER2-positive breast cancer",
-              "human epidermal growth factor receptor 2-positive breast cancer"
+              "human epidermal growth factor receptor 2-positive breast cancer",
+              "human epidermal growth factor receptor 2 negativepositive breast cancer"
             ]
           }
         ]
@@ -25687,7 +25687,7 @@
             "input": "HER2 positive metastatic breast cancer",
             "doid_id": "DOID:0060079",
             "doid_label": "Her2-receptor positive breast cancer",
-            "match_score": 0.8297297297297297,
+            "match_score": 0.8797297297297297,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -25996,7 +25996,7 @@
             "input": "triple negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -26757,7 +26757,7 @@
             "input": "HER2-positive breast cancer",
             "doid_id": "DOID:0060079",
             "doid_label": "Her2-receptor positive breast cancer",
-            "match_score": 0.9571428571428571,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -26770,9 +26770,9 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2 negativepositive breast cancer",
               "HER2-positive breast cancer",
-              "human epidermal growth factor receptor 2-positive breast cancer"
+              "human epidermal growth factor receptor 2-positive breast cancer",
+              "human epidermal growth factor receptor 2 negativepositive breast cancer"
             ]
           }
         ]
@@ -26910,7 +26910,7 @@
             "input": "HER2-positive breast cancer",
             "doid_id": "DOID:0060079",
             "doid_label": "Her2-receptor positive breast cancer",
-            "match_score": 0.9571428571428571,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -26923,9 +26923,9 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2 negativepositive breast cancer",
               "HER2-positive breast cancer",
-              "human epidermal growth factor receptor 2-positive breast cancer"
+              "human epidermal growth factor receptor 2-positive breast cancer",
+              "human epidermal growth factor receptor 2 negativepositive breast cancer"
             ]
           }
         ]
@@ -27122,7 +27122,7 @@
             "input": "metastatic breast cancer",
             "doid_id": "DOID:1614",
             "doid_label": "male breast cancer",
-            "match_score": 0.8619047619047618,
+            "match_score": 0.9119047619047619,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -27272,7 +27272,7 @@
             "input": "triple negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -27292,7 +27292,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -27474,7 +27474,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -28578,9 +28578,9 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2-positive cancers",
+              "human epidermal growth factor receptor 2 negativepositive cancers",
               "HER2-positive cancers",
-              "human epidermal growth factor receptor 2 negativepositive cancers"
+              "human epidermal growth factor receptor 2-positive cancers"
             ]
           },
           {
@@ -28748,9 +28748,9 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2-positive cancers",
+              "human epidermal growth factor receptor 2 negativepositive cancers",
               "HER2-positive cancers",
-              "human epidermal growth factor receptor 2 negativepositive cancers"
+              "human epidermal growth factor receptor 2-positive cancers"
             ]
           }
         ]
@@ -29198,7 +29198,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -29823,8 +29823,8 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
-              "CD30+ Hodgkin lymphoma",
-              "CD30 positive Hodgkin lymphoma"
+              "CD30 positive Hodgkin lymphoma",
+              "CD30+ Hodgkin lymphoma"
             ]
           }
         ]
@@ -29958,8 +29958,8 @@
             "input": "HER2+ breast cancer",
             "doid_id": "DOID:0060075",
             "doid_label": "estrogen-receptor positive breast cancer",
-            "match_score": 0.9125,
-            "match_status": "fuzzy_match",
+            "match_score": 0.9625,
+            "match_status": "exact_match",
             "hierarchy_paths": [
               [
                 "disease",
@@ -29971,8 +29971,8 @@
               ]
             ],
             "expanded_terms": [
-              "HER2+ breast cancer",
-              "human epidermal growth factor receptor 2+ breast cancer"
+              "human epidermal growth factor receptor 2+ breast cancer",
+              "HER2+ breast cancer"
             ]
           }
         ]
@@ -32519,7 +32519,7 @@
             "input": "prostate cancer",
             "doid_id": "DOID:7141",
             "doid_label": "prostate small cell carcinoma",
-            "match_score": 0.8317073170731707,
+            "match_score": 0.8817073170731707,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -32964,7 +32964,7 @@
             "input": "triple-negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -33453,7 +33453,7 @@
             "input": "HER2-positive breast cancer",
             "doid_id": "DOID:0060079",
             "doid_label": "Her2-receptor positive breast cancer",
-            "match_score": 0.9571428571428571,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -33466,9 +33466,9 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2 negativepositive breast cancer",
               "HER2-positive breast cancer",
-              "human epidermal growth factor receptor 2-positive breast cancer"
+              "human epidermal growth factor receptor 2-positive breast cancer",
+              "human epidermal growth factor receptor 2 negativepositive breast cancer"
             ]
           }
         ]
@@ -33599,7 +33599,7 @@
             "input": "HER2-positive breast cancer",
             "doid_id": "DOID:0060079",
             "doid_label": "Her2-receptor positive breast cancer",
-            "match_score": 0.9571428571428571,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -33612,16 +33612,16 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2 negativepositive breast cancer",
               "HER2-positive breast cancer",
-              "human epidermal growth factor receptor 2-positive breast cancer"
+              "human epidermal growth factor receptor 2-positive breast cancer",
+              "human epidermal growth factor receptor 2 negativepositive breast cancer"
             ]
           },
           {
             "input": "non-HER2+ breast cancer",
             "doid_id": "DOID:1614",
             "doid_label": "male breast cancer",
-            "match_score": 0.8317073170731707,
+            "match_score": 0.8817073170731707,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -33634,8 +33634,8 @@
               ]
             ],
             "expanded_terms": [
-              "non-HER2+ breast cancer",
-              "non-human epidermal growth factor receptor 2+ breast cancer"
+              "non-human epidermal growth factor receptor 2+ breast cancer",
+              "non-HER2+ breast cancer"
             ]
           }
         ]
@@ -34405,7 +34405,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -34506,7 +34506,7 @@
             "input": "prostate cancer",
             "doid_id": "DOID:7141",
             "doid_label": "prostate small cell carcinoma",
-            "match_score": 0.8317073170731707,
+            "match_score": 0.8817073170731707,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -34992,8 +34992,8 @@
             "input": "squamous NSCLC",
             "doid_id": "DOID:0080521",
             "doid_label": "lung non-squamous non-small cell carcinoma",
-            "match_score": 0.9108108108108108,
-            "match_status": "fuzzy_match",
+            "match_score": 0.9608108108108109,
+            "match_status": "exact_match",
             "hierarchy_paths": [
               [
                 "disease",
@@ -35008,9 +35008,9 @@
               ]
             ],
             "expanded_terms": [
-              "squamous NSCLC",
+              "squamous non-small cell lung cancer",
               "squamous Nsmall cell lung cancer",
-              "squamous non-small cell lung cancer"
+              "squamous NSCLC"
             ]
           },
           {
@@ -35803,7 +35803,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -35971,7 +35971,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -36139,7 +36139,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -36454,9 +36454,9 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
+              "HER2-positive unresectable or metastatic breast cancer",
               "human epidermal growth factor receptor 2 negativepositive unresectable or metastatic breast cancer",
-              "human epidermal growth factor receptor 2-positive unresectable or metastatic breast cancer",
-              "HER2-positive unresectable or metastatic breast cancer"
+              "human epidermal growth factor receptor 2-positive unresectable or metastatic breast cancer"
             ]
           },
           {
@@ -36594,9 +36594,9 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
+              "HER2-positive solid cancers",
               "human epidermal growth factor receptor 2-positive solid cancers",
-              "human epidermal growth factor receptor 2 negativepositive solid cancers",
-              "HER2-positive solid cancers"
+              "human epidermal growth factor receptor 2 negativepositive solid cancers"
             ]
           }
         ]
@@ -36757,15 +36757,15 @@
             "hierarchy_paths": [],
             "expanded_terms": [
               "HR+/human epidermal growth factor receptor 2 negativelow metastatic breast cancer",
-              "HR+/HER2-low metastatic breast cancer",
-              "HR+/human epidermal growth factor receptor 2-low metastatic breast cancer"
+              "HR+/human epidermal growth factor receptor 2-low metastatic breast cancer",
+              "HR+/HER2-low metastatic breast cancer"
             ]
           },
           {
             "input": "Triple Negative Breast Cancer (TNBC)",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.8837837837837837,
+            "match_score": 0.9337837837837838,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -36918,15 +36918,15 @@
             "hierarchy_paths": [],
             "expanded_terms": [
               "HR+/human epidermal growth factor receptor 2 negativelow metastatic breast cancer",
-              "HR+/HER2-low metastatic breast cancer",
-              "HR+/human epidermal growth factor receptor 2-low metastatic breast cancer"
+              "HR+/human epidermal growth factor receptor 2-low metastatic breast cancer",
+              "HR+/HER2-low metastatic breast cancer"
             ]
           },
           {
             "input": "Triple Negative Breast Cancer (TNBC)",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.8837837837837837,
+            "match_score": 0.9337837837837838,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -38445,8 +38445,8 @@
             "input": "non-squamous non-small cell lung cancer (NSCLC)",
             "doid_id": "DOID:0080521",
             "doid_label": "lung non-squamous non-small cell carcinoma",
-            "match_score": 0.9095238095238095,
-            "match_status": "fuzzy_match",
+            "match_score": 0.9595238095238096,
+            "match_status": "exact_match",
             "hierarchy_paths": [
               [
                 "disease",
@@ -38461,12 +38461,12 @@
               ]
             ],
             "expanded_terms": [
-              "non-squamous non-small cell lung cancer non-small cell lung cancer",
-              "non-squamous non-small cell lung cancer Nsmall cell lung cancer",
               "non-squamous non-small cell lung cancer (non-small cell lung cancer)",
-              "non-squamous non-small cell lung cancer NSCLC",
               "non-squamous non-small cell lung cancer (Nsmall cell lung cancer)",
-              "non-squamous non-small cell lung cancer (NSCLC)"
+              "non-squamous non-small cell lung cancer Nsmall cell lung cancer",
+              "non-squamous non-small cell lung cancer (NSCLC)",
+              "non-squamous non-small cell lung cancer non-small cell lung cancer",
+              "non-squamous non-small cell lung cancer NSCLC"
             ]
           }
         ]
@@ -38608,9 +38608,9 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
-              "HER2-expressing cancer",
               "human epidermal growth factor receptor 2-expressing cancer",
-              "human epidermal growth factor receptor 2 negativeexpressing cancer"
+              "human epidermal growth factor receptor 2 negativeexpressing cancer",
+              "HER2-expressing cancer"
             ]
           }
         ]
@@ -38738,9 +38738,9 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
-              "HER2-expressing cancer",
               "human epidermal growth factor receptor 2-expressing cancer",
-              "human epidermal growth factor receptor 2 negativeexpressing cancer"
+              "human epidermal growth factor receptor 2 negativeexpressing cancer",
+              "HER2-expressing cancer"
             ]
           }
         ]
@@ -39474,7 +39474,7 @@
             "input": "Castrate-resistant prostate cancer (CRPC)",
             "doid_id": "DOID:0080909",
             "doid_label": "castration-resistant prostate carcinoma",
-            "match_score": 0.9571428571428571,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -39491,8 +39491,8 @@
             ],
             "expanded_terms": [
               "Castrate-resistant prostate cancer (castrate-resistant prostate cancer)",
-              "Castrate-resistant prostate cancer (CRPC)",
-              "Castrate-resistant prostate cancer castrate-resistant prostate cancer"
+              "Castrate-resistant prostate cancer castrate-resistant prostate cancer",
+              "Castrate-resistant prostate cancer (CRPC)"
             ]
           }
         ]
@@ -39641,9 +39641,9 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2 negativemutated cancers",
               "HER2-mutated cancers",
-              "human epidermal growth factor receptor 2-mutated cancers"
+              "human epidermal growth factor receptor 2-mutated cancers",
+              "human epidermal growth factor receptor 2 negativemutated cancers"
             ]
           }
         ]
@@ -39781,9 +39781,9 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2 negativemutated cancers",
               "HER2-mutated cancers",
-              "human epidermal growth factor receptor 2-mutated cancers"
+              "human epidermal growth factor receptor 2-mutated cancers",
+              "human epidermal growth factor receptor 2 negativemutated cancers"
             ]
           }
         ]
@@ -39927,7 +39927,7 @@
             "input": "metastatic castration-resistant prostate cancer",
             "doid_id": "DOID:0080909",
             "doid_label": "castration-resistant prostate carcinoma",
-            "match_score": 0.9674698795180723,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -40323,7 +40323,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -40583,7 +40583,7 @@
             "input": "prostate cancer",
             "doid_id": "DOID:7141",
             "doid_label": "prostate small cell carcinoma",
-            "match_score": 0.8317073170731707,
+            "match_score": 0.8817073170731707,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -40605,7 +40605,7 @@
             "input": "metastatic castration-resistant prostate cancer (mCRPC)",
             "doid_id": "DOID:0080909",
             "doid_label": "castration-resistant prostate carcinoma",
-            "match_score": 0.8912087912087912,
+            "match_score": 0.9412087912087912,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -40621,9 +40621,9 @@
               ]
             ],
             "expanded_terms": [
-              "metastatic castration-resistant prostate cancer (mCRPC)",
               "metastatic castration-resistant prostate cancer mcastrate-resistant prostate cancer",
-              "metastatic castration-resistant prostate cancer (mcastrate-resistant prostate cancer)"
+              "metastatic castration-resistant prostate cancer (mcastrate-resistant prostate cancer)",
+              "metastatic castration-resistant prostate cancer (mCRPC)"
             ]
           }
         ]
@@ -41015,7 +41015,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -42284,7 +42284,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -42861,7 +42861,7 @@
             "input": "HER2-low breast cancer",
             "doid_id": "DOID:7843",
             "doid_label": "female breast carcinoma",
-            "match_score": 0.8619047619047618,
+            "match_score": 0.9119047619047619,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -42875,9 +42875,9 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2-low breast cancer",
+              "human epidermal growth factor receptor 2 negativelow breast cancer",
               "HER2-low breast cancer",
-              "human epidermal growth factor receptor 2 negativelow breast cancer"
+              "human epidermal growth factor receptor 2-low breast cancer"
             ]
           }
         ]
@@ -43057,7 +43057,7 @@
             "input": "Triple Negative Breast Cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -43609,7 +43609,7 @@
             "input": "triple-negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -43998,7 +43998,7 @@
             "input": "metastatic castration-resistant prostate cancer",
             "doid_id": "DOID:0080909",
             "doid_label": "castration-resistant prostate carcinoma",
-            "match_score": 0.9674698795180723,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -44321,7 +44321,7 @@
             "input": "metastatic castration-resistant prostate cancer",
             "doid_id": "DOID:0080909",
             "doid_label": "castration-resistant prostate carcinoma",
-            "match_score": 0.9674698795180723,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -45084,8 +45084,8 @@
             "input": "squamous non-small cell lung cancer",
             "doid_id": "DOID:0080521",
             "doid_label": "lung non-squamous non-small cell carcinoma",
-            "match_score": 0.9108108108108108,
-            "match_status": "fuzzy_match",
+            "match_score": 0.9608108108108109,
+            "match_status": "exact_match",
             "hierarchy_paths": [
               [
                 "disease",
@@ -45892,7 +45892,7 @@
             "input": "triple-negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -46151,7 +46151,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -46203,7 +46203,7 @@
             "input": "triple-negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -46625,9 +46625,9 @@
               ]
             ],
             "expanded_terms": [
+              "non-small cell lung cancer",
               "NSCLC",
-              "Nsmall cell lung cancer",
-              "non-small cell lung cancer"
+              "Nsmall cell lung cancer"
             ]
           },
           {
@@ -46651,8 +46651,8 @@
               ]
             ],
             "expanded_terms": [
-              "colorectal cancer",
-              "CRC"
+              "CRC",
+              "colorectal cancer"
             ]
           },
           {
@@ -46997,7 +46997,7 @@
             "input": "triple negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -47336,7 +47336,7 @@
             "input": "prostate cancer",
             "doid_id": "DOID:7141",
             "doid_label": "prostate small cell carcinoma",
-            "match_score": 0.8317073170731707,
+            "match_score": 0.8817073170731707,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -47358,7 +47358,7 @@
             "input": "metastatic castration-resistant prostate cancer",
             "doid_id": "DOID:0080909",
             "doid_label": "castration-resistant prostate carcinoma",
-            "match_score": 0.9674698795180723,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -47729,7 +47729,7 @@
             "input": "prostate cancer",
             "doid_id": "DOID:7141",
             "doid_label": "prostate small cell carcinoma",
-            "match_score": 0.8317073170731707,
+            "match_score": 0.8817073170731707,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -47796,7 +47796,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -49299,7 +49299,7 @@
             "input": "metastatic castration-resistant prostate cancer",
             "doid_id": "DOID:0080909",
             "doid_label": "castration-resistant prostate carcinoma",
-            "match_score": 0.9674698795180723,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -50018,9 +50018,9 @@
               ]
             ],
             "expanded_terms": [
+              "non-small cell lung cancer",
               "NSCLC",
-              "Nsmall cell lung cancer",
-              "non-small cell lung cancer"
+              "Nsmall cell lung cancer"
             ]
           },
           {
@@ -51117,8 +51117,8 @@
             "input": "metastatic castrate-resistant prostate cancer",
             "doid_id": "DOID:0080909",
             "doid_label": "castration-resistant prostate carcinoma",
-            "match_score": 0.9148148148148147,
-            "match_status": "fuzzy_match",
+            "match_score": 0.9648148148148148,
+            "match_status": "exact_match",
             "hierarchy_paths": [
               [
                 "disease",
@@ -51302,9 +51302,9 @@
               ]
             ],
             "expanded_terms": [
-              "Acute myeloid leukemia acute myeloid leukemia",
               "Acute myeloid leukemia (acute myeloid leukemia)",
-              "Acute myeloid leukemia (AML)"
+              "Acute myeloid leukemia (AML)",
+              "Acute myeloid leukemia acute myeloid leukemia"
             ]
           },
           {
@@ -51642,7 +51642,7 @@
             "input": "colon cancer",
             "doid_id": "DOID:0080183",
             "doid_label": "medullary colon carcinoma",
-            "match_score": 0.8058823529411765,
+            "match_score": 0.8558823529411765,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -52002,9 +52002,9 @@
               ]
             ],
             "expanded_terms": [
+              "non-small cell lung cancer",
               "NSCLC",
-              "Nsmall cell lung cancer",
-              "non-small cell lung cancer"
+              "Nsmall cell lung cancer"
             ]
           },
           {
@@ -52028,8 +52028,8 @@
               ]
             ],
             "expanded_terms": [
-              "colorectal cancer",
-              "CRC"
+              "CRC",
+              "colorectal cancer"
             ]
           },
           {
@@ -52860,7 +52860,7 @@
             "input": "triple negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -52880,7 +52880,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -53257,7 +53257,7 @@
             "input": "triple-negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -53816,7 +53816,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -54025,7 +54025,7 @@
             "input": "triple-negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -54310,8 +54310,8 @@
             "input": "human lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.9235294117647058,
-            "match_status": "fuzzy_match",
+            "match_score": 0.9735294117647059,
+            "match_status": "exact_match",
             "hierarchy_paths": [
               [
                 "disease",
@@ -54342,7 +54342,7 @@
             "input": "colon cancer",
             "doid_id": "DOID:0080183",
             "doid_label": "medullary colon carcinoma",
-            "match_score": 0.8058823529411765,
+            "match_score": 0.8558823529411765,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -54683,7 +54683,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -56014,9 +56014,9 @@
               ]
             ],
             "expanded_terms": [
-              "Acute myeloid leukemia acute myeloid leukemia",
               "Acute myeloid leukemia (acute myeloid leukemia)",
-              "Acute myeloid leukemia (AML)"
+              "Acute myeloid leukemia (AML)",
+              "Acute myeloid leukemia acute myeloid leukemia"
             ]
           },
           {
@@ -56735,7 +56735,7 @@
             "input": "prostate cancer",
             "doid_id": "DOID:7141",
             "doid_label": "prostate small cell carcinoma",
-            "match_score": 0.8317073170731707,
+            "match_score": 0.8817073170731707,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -56802,7 +56802,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -56997,7 +56997,7 @@
             "input": "prostate cancer",
             "doid_id": "DOID:7141",
             "doid_label": "prostate small cell carcinoma",
-            "match_score": 0.8317073170731707,
+            "match_score": 0.8817073170731707,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -57019,7 +57019,7 @@
             "input": "metastatic castration-resistant prostate cancer",
             "doid_id": "DOID:0080909",
             "doid_label": "castration-resistant prostate carcinoma",
-            "match_score": 0.9674698795180723,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -57808,7 +57808,7 @@
             "input": "triple negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -58037,8 +58037,8 @@
               ]
             ],
             "expanded_terms": [
-              "ESCC",
-              "esophageal squamous cell carcinoma"
+              "esophageal squamous cell carcinoma",
+              "ESCC"
             ]
           },
           {
@@ -58071,9 +58071,9 @@
             "match_status": "unknown",
             "hierarchy_paths": [],
             "expanded_terms": [
-              "Ewing Sarcoma (EWS)",
               "Ewing Sarcoma (Ewing sarcoma)",
-              "Ewing Sarcoma Ewing sarcoma"
+              "Ewing Sarcoma Ewing sarcoma",
+              "Ewing Sarcoma (EWS)"
             ]
           },
           {
@@ -58980,7 +58980,7 @@
             "input": "colon cancer",
             "doid_id": "DOID:0080183",
             "doid_label": "medullary colon carcinoma",
-            "match_score": 0.8058823529411765,
+            "match_score": 0.8558823529411765,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -59224,7 +59224,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -59298,7 +59298,7 @@
             "input": "triple-negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -59878,7 +59878,7 @@
             "input": "metastatic castration-resistant prostate cancer",
             "doid_id": "DOID:0080909",
             "doid_label": "castration-resistant prostate carcinoma",
-            "match_score": 0.9674698795180723,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -60222,8 +60222,8 @@
             "input": "squamous non-small cell lung cancer",
             "doid_id": "DOID:0080521",
             "doid_label": "lung non-squamous non-small cell carcinoma",
-            "match_score": 0.9108108108108108,
-            "match_status": "fuzzy_match",
+            "match_score": 0.9608108108108109,
+            "match_status": "exact_match",
             "hierarchy_paths": [
               [
                 "disease",
@@ -60725,7 +60725,7 @@
             "input": "HER2-low breast cancer",
             "doid_id": "DOID:7843",
             "doid_label": "female breast carcinoma",
-            "match_score": 0.8619047619047618,
+            "match_score": 0.9119047619047619,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -60739,9 +60739,9 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2-low breast cancer",
+              "human epidermal growth factor receptor 2 negativelow breast cancer",
               "HER2-low breast cancer",
-              "human epidermal growth factor receptor 2 negativelow breast cancer"
+              "human epidermal growth factor receptor 2-low breast cancer"
             ]
           }
         ]
@@ -60883,7 +60883,7 @@
             "input": "metastatic castration-resistant prostate cancer",
             "doid_id": "DOID:0080909",
             "doid_label": "castration-resistant prostate carcinoma",
-            "match_score": 0.9674698795180723,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -62451,7 +62451,7 @@
             "input": "Triple Negative Breast Cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [
@@ -62908,9 +62908,9 @@
               ]
             ],
             "expanded_terms": [
-              "human epidermal growth factor receptor 2-positive cancers",
+              "human epidermal growth factor receptor 2 negativepositive cancers",
               "HER2-positive cancers",
-              "human epidermal growth factor receptor 2 negativepositive cancers"
+              "human epidermal growth factor receptor 2-positive cancers"
             ]
           }
         ]
@@ -63085,9 +63085,9 @@
               ]
             ],
             "expanded_terms": [
+              "non-small cell lung cancer",
               "NSCLC",
-              "Nsmall cell lung cancer",
-              "non-small cell lung cancer"
+              "Nsmall cell lung cancer"
             ]
           },
           {
@@ -63274,7 +63274,7 @@
             "input": "lung cancer",
             "doid_id": "DOID:8207",
             "doid_label": "hilar lung carcinoma",
-            "match_score": 0.8857142857142857,
+            "match_score": 0.9357142857142857,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -63411,7 +63411,7 @@
             "input": "prostate cancer",
             "doid_id": "DOID:7141",
             "doid_label": "prostate small cell carcinoma",
-            "match_score": 0.8317073170731707,
+            "match_score": 0.8817073170731707,
             "match_status": "fuzzy_match",
             "hierarchy_paths": [
               [
@@ -63438,8 +63438,8 @@
             "hierarchy_paths": [],
             "expanded_terms": [
               "osimertinib-resistant NSCLC",
-              "osimertinib-resistant Nsmall cell lung cancer",
-              "osimertinib-resistant non-small cell lung cancer"
+              "osimertinib-resistant non-small cell lung cancer",
+              "osimertinib-resistant Nsmall cell lung cancer"
             ]
           }
         ]
@@ -63621,9 +63621,9 @@
               ]
             ],
             "expanded_terms": [
+              "non-small cell lung cancer",
               "NSCLC",
-              "Nsmall cell lung cancer",
-              "non-small cell lung cancer"
+              "Nsmall cell lung cancer"
             ]
           },
           {
@@ -63708,7 +63708,7 @@
             "input": "triple-negative breast cancer",
             "doid_id": "DOID:0060081",
             "doid_label": "triple-receptor negative breast cancer",
-            "match_score": 0.9656716417910447,
+            "match_score": 1.0,
             "match_status": "exact_match",
             "hierarchy_paths": [
               [

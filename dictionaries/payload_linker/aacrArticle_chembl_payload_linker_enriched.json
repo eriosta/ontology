@@ -157,11 +157,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -348,11 +348,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -699,8 +699,8 @@
             "ChEMBL ID": "CHEMBL1159823",
             "Preferred Name": "PROTEOLYTIC ENZYME INHIBITOR",
             "All Aliases": [
-              "ENZYME-CLEAVABLE LINKER",
               "PRIMELINK BIOTHERAPEUTICS PROPRIETARY ENZYME-CLEAVABLE LINKER",
+              "ENZYME-CLEAVABLE LINKER",
               "TRACELESS ENZYME-CLEAVABLE GLUCURONIDE LINKER"
             ],
             "Molecule Info": {
@@ -1381,8 +1381,8 @@
             "ChEMBL ID": "CHEMBL444814",
             "Preferred Name": "L-CITRULLINE",
             "All Aliases": [
-              "PROTEASE-CLEAVABLE VALINE-CITRULLINE PEPTIDE LINKER",
               "VALINE-CITRULLINE PEPTIDE LINKER",
+              "PROTEASE-CLEAVABLE VALINE-CITRULLINE PEPTIDE LINKER",
               "CLEAVABLE VALINE-CITRULLINE (VC) LINKER"
             ],
             "Molecule Info": {
@@ -1822,8 +1822,8 @@
             "ChEMBL ID": "CHEMBL57",
             "Preferred Name": "NEVIRAPINE",
             "All Aliases": [
-              "TMALIN\u00ae TECHNOLOGY (FOR TOPO1I PAYLOAD-LINKER); LYSINE SITE-SPECIFIC CONJUGATION (FOR TUBULIN INHIBITOR PAYLOAD-LINKER)",
-              "GLYCAN-LINKED (SYNAFFIX\u2019S GLYCOCONNECTTM TECHNOLOGY)"
+              "GLYCAN-LINKED (SYNAFFIX\u2019S GLYCOCONNECTTM TECHNOLOGY)",
+              "TMALIN\u00ae TECHNOLOGY (FOR TOPO1I PAYLOAD-LINKER); LYSINE SITE-SPECIFIC CONJUGATION (FOR TUBULIN INHIBITOR PAYLOAD-LINKER)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL57",
@@ -2377,11 +2377,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -3904,11 +3904,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -5558,11 +5558,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -8129,11 +8129,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -8973,11 +8973,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -9150,8 +9150,8 @@
             "ChEMBL ID": "CHEMBL444814",
             "Preferred Name": "L-CITRULLINE",
             "All Aliases": [
-              "PROTEASE-CLEAVABLE VALINE-CITRULLINE PEPTIDE LINKER",
               "VALINE-CITRULLINE PEPTIDE LINKER",
+              "PROTEASE-CLEAVABLE VALINE-CITRULLINE PEPTIDE LINKER",
               "CLEAVABLE VALINE-CITRULLINE (VC) LINKER"
             ],
             "Molecule Info": {
@@ -10616,11 +10616,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -11188,8 +11188,8 @@
             "ChEMBL ID": "CHEMBL1159823",
             "Preferred Name": "PROTEOLYTIC ENZYME INHIBITOR",
             "All Aliases": [
-              "ENZYME-CLEAVABLE LINKER",
               "PRIMELINK BIOTHERAPEUTICS PROPRIETARY ENZYME-CLEAVABLE LINKER",
+              "ENZYME-CLEAVABLE LINKER",
               "TRACELESS ENZYME-CLEAVABLE GLUCURONIDE LINKER"
             ],
             "Molecule Info": {
@@ -11354,11 +11354,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -11533,9 +11533,9 @@
             "ChEMBL ID": "CHEMBL4802227",
             "Preferred Name": "ACTIVE ALKYLATING AGENT CANFOSFAMIDE",
             "All Aliases": [
+              "MICROTUBULE-DISRUPTING AGENT",
               "ANTIMITOTIC AGENT",
-              "NOVEL MICROTUBULE TARGETING AGENT (NOT AURISTATIN DERIVATIVES)",
-              "MICROTUBULE-DISRUPTING AGENT"
+              "NOVEL MICROTUBULE TARGETING AGENT (NOT AURISTATIN DERIVATIVES)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL4802227",
@@ -12255,11 +12255,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -13580,11 +13580,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -13753,8 +13753,8 @@
             "ChEMBL ID": "CHEMBL1159823",
             "Preferred Name": "PROTEOLYTIC ENZYME INHIBITOR",
             "All Aliases": [
-              "ENZYME-CLEAVABLE LINKER",
               "PRIMELINK BIOTHERAPEUTICS PROPRIETARY ENZYME-CLEAVABLE LINKER",
+              "ENZYME-CLEAVABLE LINKER",
               "TRACELESS ENZYME-CLEAVABLE GLUCURONIDE LINKER"
             ],
             "Molecule Info": {
@@ -14068,11 +14068,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -15981,11 +15981,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -16008,8 +16008,8 @@
             "ChEMBL ID": "CHEMBL57",
             "Preferred Name": "NEVIRAPINE",
             "All Aliases": [
-              "TMALIN\u00ae TECHNOLOGY (FOR TOPO1I PAYLOAD-LINKER); LYSINE SITE-SPECIFIC CONJUGATION (FOR TUBULIN INHIBITOR PAYLOAD-LINKER)",
-              "GLYCAN-LINKED (SYNAFFIX\u2019S GLYCOCONNECTTM TECHNOLOGY)"
+              "GLYCAN-LINKED (SYNAFFIX\u2019S GLYCOCONNECTTM TECHNOLOGY)",
+              "TMALIN\u00ae TECHNOLOGY (FOR TOPO1I PAYLOAD-LINKER); LYSINE SITE-SPECIFIC CONJUGATION (FOR TUBULIN INHIBITOR PAYLOAD-LINKER)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL57",
@@ -16602,11 +16602,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -16761,11 +16761,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -18739,11 +18739,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -19194,11 +19194,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -20189,11 +20189,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -22115,11 +22115,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -22832,11 +22832,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -24686,11 +24686,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -26127,11 +26127,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -26459,11 +26459,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -27287,11 +27287,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -27437,11 +27437,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -27900,11 +27900,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -28345,11 +28345,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -30398,9 +30398,9 @@
             "ChEMBL ID": "CHEMBL4802227",
             "Preferred Name": "ACTIVE ALKYLATING AGENT CANFOSFAMIDE",
             "All Aliases": [
+              "MICROTUBULE-DISRUPTING AGENT",
               "ANTIMITOTIC AGENT",
-              "NOVEL MICROTUBULE TARGETING AGENT (NOT AURISTATIN DERIVATIVES)",
-              "MICROTUBULE-DISRUPTING AGENT"
+              "NOVEL MICROTUBULE TARGETING AGENT (NOT AURISTATIN DERIVATIVES)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL4802227",
@@ -31726,11 +31726,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -32601,11 +32601,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -33159,8 +33159,8 @@
             "ChEMBL ID": "CHEMBL444814",
             "Preferred Name": "L-CITRULLINE",
             "All Aliases": [
-              "PROTEASE-CLEAVABLE VALINE-CITRULLINE PEPTIDE LINKER",
               "VALINE-CITRULLINE PEPTIDE LINKER",
+              "PROTEASE-CLEAVABLE VALINE-CITRULLINE PEPTIDE LINKER",
               "CLEAVABLE VALINE-CITRULLINE (VC) LINKER"
             ],
             "Molecule Info": {
@@ -34018,11 +34018,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -35486,11 +35486,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -36494,11 +36494,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -36689,9 +36689,9 @@
             "ChEMBL ID": "CHEMBL4802227",
             "Preferred Name": "ACTIVE ALKYLATING AGENT CANFOSFAMIDE",
             "All Aliases": [
+              "MICROTUBULE-DISRUPTING AGENT",
               "ANTIMITOTIC AGENT",
-              "NOVEL MICROTUBULE TARGETING AGENT (NOT AURISTATIN DERIVATIVES)",
-              "MICROTUBULE-DISRUPTING AGENT"
+              "NOVEL MICROTUBULE TARGETING AGENT (NOT AURISTATIN DERIVATIVES)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL4802227",
@@ -37008,11 +37008,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -40156,11 +40156,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -40317,11 +40317,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -41934,9 +41934,9 @@
             "ChEMBL ID": "CHEMBL4802227",
             "Preferred Name": "ACTIVE ALKYLATING AGENT CANFOSFAMIDE",
             "All Aliases": [
+              "MICROTUBULE-DISRUPTING AGENT",
               "ANTIMITOTIC AGENT",
-              "NOVEL MICROTUBULE TARGETING AGENT (NOT AURISTATIN DERIVATIVES)",
-              "MICROTUBULE-DISRUPTING AGENT"
+              "NOVEL MICROTUBULE TARGETING AGENT (NOT AURISTATIN DERIVATIVES)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL4802227",
@@ -42095,11 +42095,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -45907,11 +45907,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -47084,11 +47084,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",
@@ -47546,11 +47546,11 @@
             "ChEMBL ID": "CHEMBL3989759",
             "Preferred Name": "EXATECAN MESYLATE",
             "All Aliases": [
-              "DXD (EXATECAN DERIVATIVE)",
+              "EXATECAN (XTC)",
               "EXATECAN",
               "EXATECAN DERIVATIVE DXD",
               "EXATECAN DERIVATIVE",
-              "EXATECAN (XTC)"
+              "DXD (EXATECAN DERIVATIVE)"
             ],
             "Molecule Info": {
               "ChEMBL ID": "CHEMBL3989759",

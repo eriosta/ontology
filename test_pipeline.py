@@ -28,7 +28,7 @@ def analyze_enriched_data(data):
     
     total_entries = len(data)
     total_drugs = 0
-    ontology_stats = defaultdict(lambda: {"matched": 0, "unknown": 0})
+    ontology_stats = defaultdict(lambda: {"matched": 0, "unknown": 0, "total_with_input": 0})
     
     # Collect statistics
     for entry in data:
@@ -36,12 +36,43 @@ def analyze_enriched_data(data):
             total_drugs += 1
             ontology = drug.get("ontology", {})
             
+                # Check for input data for each ontology type
+    has_drug_input = drug.get("drugName") and drug.get("drugName") != "unknown"
+    has_antigen_input = drug.get("targetAntigen") and drug.get("targetAntigen") != ["unknown"]
+    has_disease_input = drug.get("cancerIndication") and drug.get("cancerIndication") != ["unknown"]
+    has_payload_input = drug.get("payload") and drug.get("payload") != ["unknown"]
+    has_linker_input = drug.get("linker") and drug.get("linker") != "unknown"
+    has_company_input = drug.get("company") and drug.get("company") != "unknown"
+    has_trial_design_input = drug.get("trialDesign") and drug.get("trialDesign") != "unknown"
+    has_biomarker_input = drug.get("biomarkerStrategy") and drug.get("biomarkerStrategy") != "unknown"
+    
+    # Map ontology types to their input availability
+    input_availability = {
+        "drug": has_drug_input,
+        "antigen": has_antigen_input,
+        "disease": has_disease_input,
+        "payload": has_payload_input,
+        "linker": has_linker_input,
+        "company": has_company_input,
+        "trial_design": has_trial_design_input,
+        "biomarker_strategy": has_biomarker_input
+    }
+    
+    for entry in data:
+        for drug in entry.get("extractedDrugs", []):
+            total_drugs += 1
+            ontology = drug.get("ontology", {})
+            
             for ontology_type, ontology_data in ontology.items():
                 match_status = ontology_data.get("match_status", "unknown")
-                if match_status != "unknown":
-                    ontology_stats[ontology_type]["matched"] += 1
-                else:
-                    ontology_stats[ontology_type]["unknown"] += 1
+                
+                # Only count if there was input data for this ontology type
+                if input_availability.get(ontology_type, False):
+                    ontology_stats[ontology_type]["total_with_input"] += 1
+                    if match_status != "unknown":
+                        ontology_stats[ontology_type]["matched"] += 1
+                    else:
+                        ontology_stats[ontology_type]["unknown"] += 1
     
     # Print results
     print(f"📈 Summary Statistics:")
@@ -49,14 +80,74 @@ def analyze_enriched_data(data):
     print(f"   • Total drugs: {total_drugs}")
     print()
     
-    print("🎯 Ontology Match Rates:")
+    print("🎯 Ontology Match Rates (based on drugs with input data):")
     for ontology_type, stats in ontology_stats.items():
-        total = stats["matched"] + stats["unknown"]
-        if total > 0:
-            match_rate = stats["matched"] / total * 100
-            print(f"   • {ontology_type}: {match_rate:.1f}% ({stats['matched']}/{total})")
+        total_with_input = stats["total_with_input"]
+        if total_with_input > 0:
+            match_rate = stats["matched"] / total_with_input * 100
+            print(f"   • {ontology_type}: {match_rate:.1f}% ({stats['matched']}/{total_with_input})")
+        else:
+            print(f"   • {ontology_type}: No input data available")
     
     return ontology_stats
+
+def analyze_enriched_fields(data):
+    """Analyze the enriched fields (company, trial design, biomarker strategy)"""
+    print("📊 Analyzing enriched fields...")
+    
+    total_entries = len(data)
+    total_drugs = 0
+    enriched_stats = defaultdict(lambda: {"cleaned": 0, "unknown": 0, "total_with_input": 0})
+    
+    # Collect statistics
+    for entry in data:
+        for drug in entry.get("extractedDrugs", []):
+            total_drugs += 1
+            ontology = drug.get("ontology", {})
+            # Check company enrichment
+            has_company_input = drug.get("company") and drug.get("company") != "unknown"
+            company_data = ontology.get("company", {})
+            company_cleaned = company_data.get("companyCleaned") if isinstance(company_data, dict) else None
+            if has_company_input:
+                enriched_stats["company"]["total_with_input"] += 1
+                if company_cleaned and company_cleaned != "unknown":
+                    enriched_stats["company"]["cleaned"] += 1
+                else:
+                    enriched_stats["company"]["unknown"] += 1
+            # Check trial design enrichment
+            has_trial_design_input = drug.get("trialDesign") and drug.get("trialDesign") != "unknown"
+            trial_design_data = ontology.get("trial_design", {})
+            trial_design_cleaned = trial_design_data.get("trialDesignCleaned") if isinstance(trial_design_data, dict) else None
+            if has_trial_design_input:
+                enriched_stats["trial_design"]["total_with_input"] += 1
+                if trial_design_cleaned and trial_design_cleaned != "unknown":
+                    enriched_stats["trial_design"]["cleaned"] += 1
+                else:
+                    enriched_stats["trial_design"]["unknown"] += 1
+            # Check biomarker strategy enrichment
+            has_biomarker_input = drug.get("biomarkerStrategy") and drug.get("biomarkerStrategy") != "unknown"
+            biomarker_data = ontology.get("biomarker_strategy", {})
+            biomarker_cleaned = biomarker_data.get("biomarkerStrategyCleaned") if isinstance(biomarker_data, dict) else None
+            if has_biomarker_input:
+                enriched_stats["biomarker_strategy"]["total_with_input"] += 1
+                if biomarker_cleaned and biomarker_cleaned != "unknown":
+                    enriched_stats["biomarker_strategy"]["cleaned"] += 1
+                else:
+                    enriched_stats["biomarker_strategy"]["unknown"] += 1
+    # Print results
+    print(f"📈 Enriched Fields Statistics:")
+    print(f"   • Total entries: {total_entries}")
+    print(f"   • Total drugs: {total_drugs}")
+    print()
+    print("🎯 Enriched Fields Success Rates:")
+    for field_type, stats in enriched_stats.items():
+        total_with_input = stats["total_with_input"]
+        if total_with_input > 0:
+            success_rate = stats["cleaned"] / total_with_input * 100
+            print(f"   • {field_type}: {success_rate:.1f}% ({stats['cleaned']}/{total_with_input})")
+        else:
+            print(f"   • {field_type}: No input data available")
+    return enriched_stats
 
 def validate_dictionaries():
     """Validate that all dictionary files exist and are valid JSON"""
@@ -67,7 +158,10 @@ def validate_dictionaries():
         "dictionaries/disease/doid_cancer_leaf_paths.json", 
         "dictionaries/drug/chembl_drug_dictionary.json",
         "dictionaries/payload_linker/chembl_payload_dictionary.json",
-        "dictionaries/payload_linker/chembl_linker_dictionary.json"
+        "dictionaries/payload_linker/chembl_linker_dictionary.json",
+        "dictionaries/company/company_dictionary.json",
+        "dictionaries/trial_design/trial_design_dictionary.json",
+        "dictionaries/biomarker/biomarker_strategy_dictionary.json"
     ]
     
     valid_files = 0
@@ -87,7 +181,7 @@ def check_data_structure(data):
     print("🔧 Validating data structure...")
     
     required_fields = ["id", "extractedDrugs"]
-    ontology_fields = ["drug", "antigen", "disease", "payload", "linker"]
+    ontology_fields = ["drug", "antigen", "disease", "payload", "linker", "company", "trial_design", "biomarker_strategy"]
     
     structure_errors = []
     
@@ -106,8 +200,12 @@ def check_data_structure(data):
                     structure_errors.append(f"Entry {i}, Drug {j}: Missing ontology field '{ontology_type}'")
                 else:
                     ontology_data = ontology[ontology_type]
-                    if "match_status" not in ontology_data:
-                        structure_errors.append(f"Entry {i}, Drug {j}: Missing match_status in {ontology_type}")
+                    if ontology_type in ["drug", "antigen", "disease", "payload", "linker"]:
+                        if "match_status" not in ontology_data:
+                            structure_errors.append(f"Entry {i}, Drug {j}: Missing match_status in {ontology_type}")
+                    else:
+                        if not isinstance(ontology_data, dict):
+                            structure_errors.append(f"Entry {i}, Drug {j}: '{ontology_type}' is not a dictionary")
     
     if structure_errors:
         print("   ❌ Structure validation failed:")
@@ -171,6 +269,7 @@ def main():
     
     # Run tests
     ontology_stats = analyze_enriched_data(data)
+    enriched_stats = analyze_enriched_fields(data)
     dict_valid = validate_dictionaries()
     structure_valid = check_data_structure(data)
     sample_analysis(data)
@@ -180,11 +279,15 @@ def main():
     print("📋 TEST SUMMARY")
     print("=" * 50)
     
-    total_tests = 3
+    total_tests = 4
     passed_tests = 0
     
     if ontology_stats:
-        print("✅ Data analysis completed")
+        print("✅ Ontology analysis completed")
+        passed_tests += 1
+    
+    if enriched_stats:
+        print("✅ Enriched fields analysis completed")
         passed_tests += 1
     
     if dict_valid:

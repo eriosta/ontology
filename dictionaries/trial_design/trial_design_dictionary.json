@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "total_designs": 5,
+    "known_designs": [
+      "Randomized controlled trial",
+      "Preclinical study",
+      "Open-label, dose-escalation and expansion",
+      "Dose-escalation study",
+      "Expansion study"
+    ],
+    "categories": [
+      "preclinical",
+      "first_in_human",
+      "phase_1",
+      "phase_2",
+      "phase_3",
+      "phase_4",
+      "randomized",
+      "non_randomized",
+      "open_label",
+      "single_blind",
+      "double_blind",
+      "placebo_controlled",
+      "single_center",
+      "multicenter",
+      "parallel_group",
+      "crossover",
+      "sequential",
+      "cluster_randomized",
+      "stepped_wedge",
+      "dose_escalation",
+      "dose_expansion",
+      "basket_trial",
+      "umbrella_trial",
+      "platform_trial",
+      "adaptive_trial",
+      "enrichment_design",
+      "n_of_1_trial",
+      "superiority",
+      "non_inferiority",
+      "equivalence",
+      "pragmatic",
+      "registry_based",
+      "observational",
+      "case_crossover",
+      "factorial",
+      "split_body",
+      "withdrawal_design",
+      "delayed_start"
+    ],
+    "category_descriptions": {
+      "preclinical": "Preclinical studies in animals or in vitro models",
+      "first_in_human": "First-in-human studies",
+      "phase_1": "Phase 1 clinical trials",
+      "phase_2": "Phase 2 clinical trials",
+      "phase_3": "Phase 3 clinical trials",
+      "phase_4": "Phase 4 post-marketing studies",
+      "randomized": "Randomized trials",
+      "non_randomized": "Non-randomized trials",
+      "open_label": "Open-label trials",
+      "single_blind": "Single-blind trials",
+      "double_blind": "Double-blind trials",
+      "placebo_controlled": "Placebo-controlled trials",
+      "single_center": "Single-center trials",
+      "multicenter": "Multicenter trials",
+      "parallel_group": "Parallel-group trials",
+      "crossover": "Crossover trials",
+      "sequential": "Sequential trials",
+      "cluster_randomized": "Cluster-randomized trials",
+      "stepped_wedge": "Stepped-wedge trials",
+      "dose_escalation": "Dose-escalation studies",
+      "dose_expansion": "Dose-expansion studies",
+      "basket_trial": "Basket trials",
+      "umbrella_trial": "Umbrella trials",
+      "platform_trial": "Platform trials",
+      "adaptive_trial": "Adaptive trials",
+      "enrichment_design": "Enrichment design trials",
+      "n_of_1_trial": "N-of-1 trials",
+      "superiority": "Superiority trials",
+      "non_inferiority": "Non-inferiority trials",
+      "equivalence": "Equivalence trials",
+      "pragmatic": "Pragmatic/real-world trials",
+      "registry_based": "Registry-based trials",
+      "observational": "Observational studies",
+      "case_crossover": "Case-crossover studies",
+      "factorial": "Factorial trials",
+      "split_body": "Split-body trials",
+      "withdrawal_design": "Withdrawal design trials",
+      "delayed_start": "Delayed-start trials"
+    }
+  },
+  "designs": {
+    "Preclinical study": 289,
+    "Open-label, dose-escalation and expansion": 1,
+    "Dose-escalation study": 16,
+    "Randomized controlled trial": 2,
+    "Expansion study": 2
+  },
+  "categories": {
+    "preclinical": {
+      "count": 289,
+      "examples": [
+        "Preclinical study"
+      ]
+    },
+    "open_label": {
+      "count": 1,
+      "examples": [
+        "Open-label, dose-escalation and expansion"
+      ]
+    },
+    "dose_escalation": {
+      "count": 17,
+      "examples": [
+        "Open-label, dose-escalation and expansion",
+        "Dose-escalation study"
+      ]
+    },
+    "dose_expansion": {
+      "count": 3,
+      "examples": [
+        "Open-label, dose-escalation and expansion",
+        "Expansion study"
+      ]
+    },
+    "randomized": {
+      "count": 2,
+      "examples": [
+        "Randomized controlled trial"
+      ]
+    },
+    "first_in_human": {
+      "count": 0,
+      "examples": []
+    },
+    "phase_1": {
+      "count": 0,
+      "examples": []
+    },
+    "phase_2": {
+      "count": 0,
+      "examples": []
+    },
+    "phase_3": {
+      "count": 0,
+      "examples": []
+    },
+    "phase_4": {
+      "count": 0,
+      "examples": []
+    },
+    "non_randomized": {
+      "count": 0,
+      "examples": []
+    },
+    "single_blind": {
+      "count": 0,
+      "examples": []
+    },
+    "double_blind": {
+      "count": 0,
+      "examples": []
+    },
+    "placebo_controlled": {
+      "count": 0,
+      "examples": []
+    },
+    "single_center": {
+      "count": 0,
+      "examples": []
+    },
+    "multicenter": {
+      "count": 0,
+      "examples": []
+    },
+    "parallel_group": {
+      "count": 0,
+      "examples": []
+    },
+    "crossover": {
+      "count": 0,
+      "examples": []
+    },
+    "sequential": {
+      "count": 0,
+      "examples": []
+    },
+    "cluster_randomized": {
+      "count": 0,
+      "examples": []
+    },
+    "stepped_wedge": {
+      "count": 0,
+      "examples": []
+    },
+    "basket_trial": {
+      "count": 0,
+      "examples": []
+    },
+    "umbrella_trial": {
+      "count": 0,
+      "examples": []
+    },
+    "platform_trial": {
+      "count": 0,
+      "examples": []
+    },
+    "adaptive_trial": {
+      "count": 0,
+      "examples": []
+    },
+    "enrichment_design": {
+      "count": 0,
+      "examples": []
+    },
+    "n_of_1_trial": {
+      "count": 0,
+      "examples": []
+    },
+    "superiority": {
+      "count": 0,
+      "examples": []
+    },
+    "non_inferiority": {
+      "count": 0,
+      "examples": []
+    },
+    "equivalence": {
+      "count": 0,
+      "examples": []
+    },
+    "pragmatic": {
+      "count": 0,
+      "examples": []
+    },
+    "registry_based": {
+      "count": 0,
+      "examples": []
+    },
+    "observational": {
+      "count": 0,
+      "examples": []
+    },
+    "case_crossover": {
+      "count": 0,
+      "examples": []
+    },
+    "factorial": {
+      "count": 0,
+      "examples": []
+    },
+    "split_body": {
+      "count": 0,
+      "examples": []
+    },
+    "withdrawal_design": {
+      "count": 0,
+      "examples": []
+    },
+    "delayed_start": {
+      "count": 0,
+      "examples": []
+    }
+  },
+  "organized_categories": {
+    "study_phase": {
+      "preclinical": 289,
+      "first_in_human": 0,
+      "phase_1": 0,
+      "phase_2": 0,
+      "phase_3": 0,
+      "phase_4": 0
+    },
+    "randomization_blinding": {
+      "randomized": 2,
+      "non_randomized": 0,
+      "open_label": 1,
+      "single_blind": 0,
+      "double_blind": 0,
+      "placebo_controlled": 0
+    },
+    "structure_setting": {
+      "single_center": 0,
+      "multicenter": 0,
+      "parallel_group": 0,
+      "crossover": 0,
+      "sequential": 0,
+      "cluster_randomized": 0,
+      "stepped_wedge": 0
+    },
+    "dose_finding_expansion": {
+      "dose_escalation": 17,
+      "dose_expansion": 3
+    },
+    "master_protocols_precision": {
+      "basket_trial": 0,
+      "umbrella_trial": 0,
+      "platform_trial": 0,
+      "adaptive_trial": 0,
+      "enrichment_design": 0,
+      "n_of_1_trial": 0
+    },
+    "purpose_population": {
+      "superiority": 0,
+      "non_inferiority": 0,
+      "equivalence": 0,
+      "pragmatic": 0,
+      "registry_based": 0,
+      "observational": 0,
+      "case_crossover": 0
+    },
+    "analysis_allocation": {
+      "factorial": 0,
+      "split_body": 0,
+      "withdrawal_design": 0,
+      "delayed_start": 0
+    }
+  }
+}

@@ -39,7 +39,10 @@ def check_prerequisites():
         "antigen.py",
         "disease.py",
         "drug.py", 
-        "payload_linker.py"
+        "payload_linker.py",
+        "company.py",
+        "trial_design.py",
+        "biomarker_strategy.py"
     ]
     
     missing_files = []
@@ -100,6 +103,10 @@ def main():
             print("     - disease: DOID/NCIT mappings")
             print("     - payload: ChEMBL small molecule mappings")
             print("     - linker: ChEMBL small molecule mappings")
+            print("   • Additional enriched fields:")
+            print("     - company: Cleaned company names")
+            print("     - trial design: Categorized trial designs")
+            print("     - biomarker strategy: ADC-specific categories")
             print("=" * 60)
         else:
             print("\n" + "=" * 60)

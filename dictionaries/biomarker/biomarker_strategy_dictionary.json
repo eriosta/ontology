@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "total_strategies": 44,
+    "known_strategies": [
+      "Designed to be effective in tumors with low HER2 expression (low TPS %, low IHC score).",
+      "Flow cytometry quantification of HER2 levels to predict response to T-DXd",
+      "HER2 expression at baseline did not predict response to T-DXd. GSEA analysis identified different gene sets associated with T-DXd resistance, including KRAS signaling, EMT and hypoxia.",
+      "Machine learning models applied to H&E images to predict ADC target distribution and support biomarker selection",
+      "FR\u03b1 expression levels used to stratify response in PDX models.",
+      "CA242 expression determined by immunohistochemistry and quantitative flow cytometry for patient selection.",
+      "Targeting cancers with elevated TRPM4 expression or estrogen receptor positivity; selecting antigens with low gastrointestinal expression.",
+      "TROP2 expression required for sensitivity; intrinsic payload resistance as a predictor of response",
+      "Functional screening in organoid models to identify responder/non-responder profiles and guide biomarker identification for patient stratification.",
+      "Gene expression profiling using Nanostring",
+      "Investigating Rab GTPases as predictive biomarkers for Trastuzumab deruxtecan",
+      "Patient selection using highly specific proprietary diagnostic antibody for LRRC15",
+      "FGFR2b detected by IHC for patient selection",
+      "Targeting variable CDH6-expressing cancers",
+      "Investigating Rab GTPases as predictive biomarkers for Sacituzumab Govitecan",
+      "Rab5A expression as a predictive biomarker for Trastuzumab emtansine efficacy",
+      "ctDNA tumor fraction monitoring in urine and blood",
+      "Binding affinity to EGFR was adjusted to be weaker than c-MET to enhance selectivity for EGFR-cMET-co-expressing tumors and minimize toxicity on normal tissues.",
+      "ADC TRS status (qRT-PCR based clinical trial assay) used to predict ADC clinical benefit.",
+      "Patient selection based on GPC1 expression in tumor samples.",
+      "No CLDN18.2 IHC selection required; targets both CDH17 and CLDN18.2 to overcome tumor heterogeneity.",
+      "Efficacy correlated with Trop2 expression; selective cytotoxicity in Trop2-positive cells.",
+      "Selective targeting of CD25hi intratumoral Tregs while sparing peripheral Tregs",
+      "High Cathepsin L expression in tumor and stromal compartments, independent of HER2 levels",
+      "FR\u03b1 expression (\u22651% tumor cells with FR\u03b1 membrane staining at any intensity)",
+      "No CLDN18.2 IHC selection required; targets both CDH17 and CLDN18.2 to address tumor heterogeneity.",
+      "Target expression (mRNA and protein) did not correlate with drug efficacy; functional testing is important for efficacy prediction.",
+      "CDH17 IHC assay used to assess patient tissue expression for biomarker-driven development.",
+      "Biomarker-guided patient selection based on cMET expression by IHC-QCS; optimized cMET cutoff with AUC 0.73.",
+      "Target engagement verified via ELISA",
+      "Payload capture was antigen-dependent and proportional to receptor density; slower antigen internalization extended tumor exposure.",
+      "Eligibility for MIRV is currently evaluated by FR\u03b1 expression as assessed by the immunohistochemical VENTANA FOLR1 (FOLR1-2.1) RxDx Assay (FOLR1 CDx).",
+      "Patient selection based on TAG72 expression",
+      "HER2 3+ and ERBB2 amplification are associated with exceptional response to T-DXd treatment; sensitivity to exatecan is more predictive of response than HER2 expression level.",
+      "Targeting tumors with high extracellular DNA and/or ENT2 overexpression; enhanced effect in DDR-deficient tumors.",
+      "FR\u03b1 expression by IHC staining",
+      "Patient selection based on CEACAM5 expression in tumor cells",
+      "Nectin-4 expression quantified by RNA sequencing/Affymetrix and IHC; resistance models assessed for Nectin-4 expression and efflux transporter upregulation.",
+      "Assessment of tumor-infiltrating lymphocytes (CD3+, CD8+, CD4+ T cells) and ABC transporter expression",
+      "expression of Nectin-4 is associated with sensitivity to enfortumab vedotin; lineage plasticity and histologic subtype affect Nectin-4 expression and thus ADC efficacy",
+      "Candidate antibodies identified for potential development into IHC companion diagnostic assay.",
+      "TROP2 expression used to select and stratify USC cell lines for preclinical testing.",
+      "TROP2 Normalized Membrane Ratio (NMR) as an exploratory predictive biomarker for Dato-DXd in NSCLC.",
+      "Companion diagnostic assay developed for L100 to validate target expression"
+    ],
+    "categories": [
+      "target_antigen_expression",
+      "pharmacokinetic_profiling",
+      "multigene_expression_signatures",
+      "resistance_mechanisms",
+      "molecular_imaging",
+      "immunohistochemistry",
+      "in_vitro_assays",
+      "exploratory_biomarkers"
+    ],
+    "category_descriptions": {
+      "target_antigen_expression": "Target antigen expression assessment for patient selection and response prediction",
+      "pharmacokinetic_profiling": "Multianalyte PK profiling including total antibody, conjugated ADC, and free payload",
+      "multigene_expression_signatures": "Multigene expression signatures integrating target expression with tumor biology features",
+      "resistance_mechanisms": "Biomarkers for ADC resistance mechanisms and escape pathways",
+      "molecular_imaging": "Molecular imaging for target quantification and visualization",
+      "immunohistochemistry": "IHC-based target antigen assessment",
+      "in_vitro_assays": "In vitro assays for target antigen assessment",
+      "exploratory_biomarkers": "Exploratory and investigational biomarker approaches"
+    },
+    "category_examples": {
+      "target_antigen_expression": [
+        "HER2 expression",
+        "folate receptor alpha expression",
+        "TROP2 expression",
+        "target antigen verification"
+      ],
+      "pharmacokinetic_profiling": [
+        "Total antibody quantification",
+        "Conjugated ADC measurement",
+        "Free payload analysis",
+        "PK analyte profiling"
+      ],
+      "multigene_expression_signatures": [
+        "ADC Treatment Response Score (ADC-TRS)",
+        "multigene expression signature",
+        "transcriptional profiling"
+      ],
+      "resistance_mechanisms": [
+        "SLC46A3 expression",
+        "resistance mechanism",
+        "escape pathway"
+      ],
+      "molecular_imaging": [
+        "PET imaging",
+        "molecular imaging",
+        "target quantification"
+      ],
+      "immunohistochemistry": [
+        "IHC analysis",
+        "immunohistochemistry",
+        "tissue staining"
+      ],
+      "in_vitro_assays": [
+        "In vitro binding assay",
+        "cell culture assay",
+        "affinity measurement"
+      ],
+      "exploratory_biomarkers": [
+        "Exploratory biomarker",
+        "novel approach",
+        "investigational biomarker"
+      ]
+    }
+  },
+  "strategies": {
+    "Target engagement verified via ELISA": 1,
+    "Gene expression profiling using Nanostring": 1,
+    "ADC TRS status (qRT-PCR based clinical trial assay) used to predict ADC clinical benefit.": 3,
+    "TROP2 Normalized Membrane Ratio (NMR) as an exploratory predictive biomarker for Dato-DXd in NSCLC.": 1,
+    "TROP2 expression required for sensitivity; intrinsic payload resistance as a predictor of response": 1,
+    "High Cathepsin L expression in tumor and stromal compartments, independent of HER2 levels": 1,
+    "ctDNA tumor fraction monitoring in urine and blood": 1,
+    "Payload capture was antigen-dependent and proportional to receptor density; slower antigen internalization extended tumor exposure.": 1,
+    "Binding affinity to EGFR was adjusted to be weaker than c-MET to enhance selectivity for EGFR-cMET-co-expressing tumors and minimize toxicity on normal tissues.": 1,
+    "FR\u03b1 expression levels used to stratify response in PDX models.": 1,
+    "Nectin-4 expression quantified by RNA sequencing/Affymetrix and IHC; resistance models assessed for Nectin-4 expression and efflux transporter upregulation.": 1,
+    "Patient selection using highly specific proprietary diagnostic antibody for LRRC15": 1,
+    "Patient selection based on CEACAM5 expression in tumor cells": 2,
+    "Eligibility for MIRV is currently evaluated by FR\u03b1 expression as assessed by the immunohistochemical VENTANA FOLR1 (FOLR1-2.1) RxDx Assay (FOLR1 CDx).": 1,
+    "Flow cytometry quantification of HER2 levels to predict response to T-DXd": 1,
+    "FR\u03b1 expression by IHC staining": 1,
+    "FR\u03b1 expression (\u22651% tumor cells with FR\u03b1 membrane staining at any intensity)": 1,
+    "HER2 3+ and ERBB2 amplification are associated with exceptional response to T-DXd treatment; sensitivity to exatecan is more predictive of response than HER2 expression level.": 1,
+    "expression of Nectin-4 is associated with sensitivity to enfortumab vedotin; lineage plasticity and histologic subtype affect Nectin-4 expression and thus ADC efficacy": 1,
+    "Assessment of tumor-infiltrating lymphocytes (CD3+, CD8+, CD4+ T cells) and ABC transporter expression": 1,
+    "HER2 expression at baseline did not predict response to T-DXd. GSEA analysis identified different gene sets associated with T-DXd resistance, including KRAS signaling, EMT and hypoxia.": 2,
+    "TROP2 expression used to select and stratify USC cell lines for preclinical testing.": 1,
+    "Companion diagnostic assay developed for L100 to validate target expression": 1,
+    "Targeting variable CDH6-expressing cancers": 1,
+    "Efficacy correlated with Trop2 expression; selective cytotoxicity in Trop2-positive cells.": 1,
+    "CA242 expression determined by immunohistochemistry and quantitative flow cytometry for patient selection.": 1,
+    "Targeting cancers with elevated TRPM4 expression or estrogen receptor positivity; selecting antigens with low gastrointestinal expression.": 1,
+    "Designed to be effective in tumors with low HER2 expression (low TPS %, low IHC score).": 1,
+    "Targeting tumors with high extracellular DNA and/or ENT2 overexpression; enhanced effect in DDR-deficient tumors.": 1,
+    "Patient selection based on GPC1 expression in tumor samples.": 1,
+    "Rab5A expression as a predictive biomarker for Trastuzumab emtansine efficacy": 1,
+    "Investigating Rab GTPases as predictive biomarkers for Trastuzumab deruxtecan": 1,
+    "Investigating Rab GTPases as predictive biomarkers for Sacituzumab Govitecan": 1,
+    "CDH17 IHC assay used to assess patient tissue expression for biomarker-driven development.": 1,
+    "Candidate antibodies identified for potential development into IHC companion diagnostic assay.": 1,
+    "Machine learning models applied to H&E images to predict ADC target distribution and support biomarker selection": 1,
+    "FGFR2b detected by IHC for patient selection": 2,
+    "No CLDN18.2 IHC selection required; targets both CDH17 and CLDN18.2 to overcome tumor heterogeneity.": 1,
+    "Functional screening in organoid models to identify responder/non-responder profiles and guide biomarker identification for patient stratification.": 1,
+    "Biomarker-guided patient selection based on cMET expression by IHC-QCS; optimized cMET cutoff with AUC 0.73.": 2,
+    "Patient selection based on TAG72 expression": 1,
+    "Target expression (mRNA and protein) did not correlate with drug efficacy; functional testing is important for efficacy prediction.": 1,
+    "Selective targeting of CD25hi intratumoral Tregs while sparing peripheral Tregs": 1,
+    "No CLDN18.2 IHC selection required; targets both CDH17 and CLDN18.2 to address tumor heterogeneity.": 1
+  },
+  "categories": {
+    "multigene_expression_signatures": {
+      "count": 3,
+      "examples": [
+        "Gene expression profiling using Nanostring",
+        "HER2 expression at baseline did not predict response to T-DXd. GSEA analysis identified different gene sets associated with T-DXd resistance, including KRAS signaling, EMT and hypoxia."
+      ]
+    },
+    "in_vitro_assays": {
+      "count": 9,
+      "examples": [
+        "ADC TRS status (qRT-PCR based clinical trial assay) used to predict ADC clinical benefit.",
+        "Binding affinity to EGFR was adjusted to be weaker than c-MET to enhance selectivity for EGFR-cMET-co-expressing tumors and minimize toxicity on normal tissues.",
+        "Eligibility for MIRV is currently evaluated by FR\u03b1 expression as assessed by the immunohistochemical VENTANA FOLR1 (FOLR1-2.1) RxDx Assay (FOLR1 CDx).",
+        "TROP2 expression used to select and stratify USC cell lines for preclinical testing.",
+        "Companion diagnostic assay developed for L100 to validate target expression",
+        "CDH17 IHC assay used to assess patient tissue expression for biomarker-driven development.",
+        "Candidate antibodies identified for potential development into IHC companion diagnostic assay."
+      ]
+    },
+    "target_antigen_expression": {
+      "count": 19,
+      "examples": [
+        "TROP2 Normalized Membrane Ratio (NMR) as an exploratory predictive biomarker for Dato-DXd in NSCLC.",
+        "TROP2 expression required for sensitivity; intrinsic payload resistance as a predictor of response",
+        "High Cathepsin L expression in tumor and stromal compartments, independent of HER2 levels",
+        "Binding affinity to EGFR was adjusted to be weaker than c-MET to enhance selectivity for EGFR-cMET-co-expressing tumors and minimize toxicity on normal tissues.",
+        "Patient selection based on CEACAM5 expression in tumor cells",
+        "Flow cytometry quantification of HER2 levels to predict response to T-DXd",
+        "HER2 3+ and ERBB2 amplification are associated with exceptional response to T-DXd treatment; sensitivity to exatecan is more predictive of response than HER2 expression level.",
+        "HER2 expression at baseline did not predict response to T-DXd. GSEA analysis identified different gene sets associated with T-DXd resistance, including KRAS signaling, EMT and hypoxia.",
+        "TROP2 expression used to select and stratify USC cell lines for preclinical testing.",
+        "Companion diagnostic assay developed for L100 to validate target expression",
+        "Efficacy correlated with Trop2 expression; selective cytotoxicity in Trop2-positive cells.",
+        "Designed to be effective in tumors with low HER2 expression (low TPS %, low IHC score).",
+        "FGFR2b detected by IHC for patient selection",
+        "Biomarker-guided patient selection based on cMET expression by IHC-QCS; optimized cMET cutoff with AUC 0.73.",
+        "Target expression (mRNA and protein) did not correlate with drug efficacy; functional testing is important for efficacy prediction."
+      ]
+    },
+    "exploratory_biomarkers": {
+      "count": 1,
+      "examples": [
+        "TROP2 Normalized Membrane Ratio (NMR) as an exploratory predictive biomarker for Dato-DXd in NSCLC."
+      ]
+    },
+    "resistance_mechanisms": {
+      "count": 4,
+      "examples": [
+        "TROP2 expression required for sensitivity; intrinsic payload resistance as a predictor of response",
+        "Nectin-4 expression quantified by RNA sequencing/Affymetrix and IHC; resistance models assessed for Nectin-4 expression and efflux transporter upregulation.",
+        "HER2 expression at baseline did not predict response to T-DXd. GSEA analysis identified different gene sets associated with T-DXd resistance, including KRAS signaling, EMT and hypoxia."
+      ]
+    },
+    "pharmacokinetic_profiling": {
+      "count": 1,
+      "examples": [
+        "Payload capture was antigen-dependent and proportional to receptor density; slower antigen internalization extended tumor exposure."
+      ]
+    },
+    "immunohistochemistry": {
+      "count": 12,
+      "examples": [
+        "Nectin-4 expression quantified by RNA sequencing/Affymetrix and IHC; resistance models assessed for Nectin-4 expression and efflux transporter upregulation.",
+        "FR\u03b1 expression by IHC staining",
+        "CA242 expression determined by immunohistochemistry and quantitative flow cytometry for patient selection.",
+        "Designed to be effective in tumors with low HER2 expression (low TPS %, low IHC score).",
+        "CDH17 IHC assay used to assess patient tissue expression for biomarker-driven development.",
+        "Candidate antibodies identified for potential development into IHC companion diagnostic assay.",
+        "FGFR2b detected by IHC for patient selection",
+        "No CLDN18.2 IHC selection required; targets both CDH17 and CLDN18.2 to overcome tumor heterogeneity.",
+        "Biomarker-guided patient selection based on cMET expression by IHC-QCS; optimized cMET cutoff with AUC 0.73.",
+        "No CLDN18.2 IHC selection required; targets both CDH17 and CLDN18.2 to address tumor heterogeneity."
+      ]
+    }
+  },
+  "technologies": {
+    "ELISA": 1,
+    "Nanostring": 1,
+    "PCR": 3,
+    "RT-PCR": 3,
+    "CT": 37,
+    "ctDNA": 1,
+    "IHC": 11,
+    "Flow cytometry": 2
+  }
+}

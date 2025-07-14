@@ -3,19 +3,19 @@
     "ChEMBL ID": "CHEMBL4297844",
     "Preferred Name": "TRASTUZUMAB DERUXTECAN",
     "All Aliases": [
-      "TRASTUZUMAB-DERUXTECAN (T-DXD, DS-8201)",
+      "TRASTUZUMAB-DERUXTECAN (DXD)",
       "TRASTUZUMAB-DERUXTECAN (T-DXD)",
-      "TRASTUZUMAB-DERUXTECAN",
-      "ENHERTU",
-      "MNC2-DERUXTECAN",
-      "DS8201",
-      "DATOPOTOMAB DERUXTECAN (DATO-DXD)",
-      "FAM-TRASTUZUMAB DERUXTECAN-NXKI (T-DXD)",
       "TRASTUZUMAB DERUXTECAN",
-      "TRASTUZUMAB DERUXTECAN (ENHERTU)",
+      "DATOPOTOMAB DERUXTECAN (DATO-DXD)",
       "TRASTUZUMAB DERUXTECAN (T-DXD, ENHERTU)",
-      "TRASTUZUMAB DERUXTECAN (T-DXD)",
-      "TRASTUZUMAB-DERUXTECAN (DXD)"
+      "TRASTUZUMAB-DERUXTECAN",
+      "TRASTUZUMAB-DERUXTECAN (T-DXD, DS-8201)",
+      "TRASTUZUMAB DERUXTECAN (ENHERTU)",
+      "ENHERTU",
+      "DS8201",
+      "FAM-TRASTUZUMAB DERUXTECAN-NXKI (T-DXD)",
+      "MNC2-DERUXTECAN",
+      "TRASTUZUMAB DERUXTECAN (T-DXD)"
     ],
     "Primary Target Name": "Receptor protein-tyrosine kinase erbB-2",
     "Molecule Info": {
@@ -154,21 +154,6 @@
     ],
     "Target Metadata": [
       {
-        "Target ChEMBL ID": "CHEMBL1781",
-        "Pref Name": "DNA topoisomerase I",
-        "Target Type": "SINGLE PROTEIN",
-        "Organism": "Homo sapiens",
-        "Target Components": [
-          {
-            "Accession": "P11387",
-            "Component Type": "PROTEIN",
-            "Organism": null,
-            "UniProt": "P11387",
-            "HGNC": null
-          }
-        ]
-      },
-      {
         "Target ChEMBL ID": "CHEMBL1824",
         "Pref Name": "Receptor protein-tyrosine kinase erbB-2",
         "Target Type": "SINGLE PROTEIN",
@@ -182,6 +167,21 @@
             "HGNC": "cell surface receptor signaling pathway"
           }
         ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL1781",
+        "Pref Name": "DNA topoisomerase I",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P11387",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P11387",
+            "HGNC": null
+          }
+        ]
       }
     ]
   },
@@ -189,8 +189,8 @@
     "ChEMBL ID": "CHEMBL4297939",
     "Preferred Name": "DATOPOTAMAB DERUXTECAN",
     "All Aliases": [
-      "DATOPOTAMAB DERUXTECAN (DATO-DXD)",
       "DATO-DXD",
+      "DATOPOTAMAB DERUXTECAN (DATO-DXD)",
       "DATOPOTAMAB DERUXTECAN"
     ],
     "Primary Target Name": "Tumor-associated calcium signal transducer 2",
@@ -309,8 +309,8 @@
     "ChEMBL ID": "CHEMBL3301589",
     "Preferred Name": "ENFORTUMAB VEDOTIN",
     "All Aliases": [
-      "ENFORTUMAB VEDOTIN-EJFV",
       "ENFORTUMAB VEDOTIN",
+      "ENFORTUMAB VEDOTIN-EJFV",
       "PADCEV",
       "ENFORTUMAB-VEDOTIN"
     ],
@@ -408,21 +408,6 @@
       }
     ],
     "Target Metadata": [
-      {
-        "Target ChEMBL ID": "CHEMBL3712928",
-        "Pref Name": "Nectin-4",
-        "Target Type": "SINGLE PROTEIN",
-        "Organism": "Homo sapiens",
-        "Target Components": [
-          {
-            "Accession": "Q96NY8",
-            "Component Type": "PROTEIN",
-            "Organism": null,
-            "UniProt": "Q96NY8",
-            "HGNC": null
-          }
-        ]
-      },
       {
         "Target ChEMBL ID": "CHEMBL2095182",
         "Pref Name": "Tubulin",
@@ -535,6 +520,21 @@
             "HGNC": "GTPase activity"
           }
         ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL3712928",
+        "Pref Name": "Nectin-4",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "Q96NY8",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "Q96NY8",
+            "HGNC": null
+          }
+        ]
       }
     ]
   },
@@ -542,13 +542,13 @@
     "ChEMBL ID": "CHEMBL1743082",
     "Preferred Name": "TRASTUZUMAB EMTANSINE",
     "All Aliases": [
-      "ADO-TRASTUZUMAB EMTANSINE (T-DM1)",
-      "TRASTUZUMAB-EMTANSINE (DM1)",
-      "TRASTUZUMAB EMTANSINE",
-      "TRASTUZUMAB EMTANSINE (T-DM1, KADCYLA)",
-      "TRASTUZUMAB-EMTANSINE (T-DM1)",
       "TRASTUZUMAB EMTANSINE (T-DM1)",
       "KADCYLA",
+      "TRASTUZUMAB-EMTANSINE (DM1)",
+      "TRASTUZUMAB-EMTANSINE (T-DM1)",
+      "TRASTUZUMAB EMTANSINE (T-DM1, KADCYLA)",
+      "ADO-TRASTUZUMAB EMTANSINE (T-DM1)",
+      "TRASTUZUMAB EMTANSINE",
       "TRASTUZUMAB-EMTANSINE"
     ],
     "Primary Target Name": "Receptor protein-tyrosine kinase erbB-2",
@@ -688,6 +688,21 @@
     ],
     "Target Metadata": [
       {
+        "Target ChEMBL ID": "CHEMBL1824",
+        "Pref Name": "Receptor protein-tyrosine kinase erbB-2",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P04626",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "GO:0007166",
+            "HGNC": "cell surface receptor signaling pathway"
+          }
+        ]
+      },
+      {
         "Target ChEMBL ID": "CHEMBL2095182",
         "Pref Name": "Tubulin",
         "Target Type": "PROTEIN COMPLEX GROUP",
@@ -799,21 +814,6 @@
             "HGNC": "GTPase activity"
           }
         ]
-      },
-      {
-        "Target ChEMBL ID": "CHEMBL1824",
-        "Pref Name": "Receptor protein-tyrosine kinase erbB-2",
-        "Target Type": "SINGLE PROTEIN",
-        "Organism": "Homo sapiens",
-        "Target Components": [
-          {
-            "Accession": "P04626",
-            "Component Type": "PROTEIN",
-            "Organism": null,
-            "UniProt": "GO:0007166",
-            "HGNC": "cell surface receptor signaling pathway"
-          }
-        ]
       }
     ]
   },
@@ -821,9 +821,9 @@
     "ChEMBL ID": "CHEMBL2109399",
     "Preferred Name": "T-DM1",
     "All Aliases": [
-      "P-PEG6-DM1",
       "T-DM1",
-      "T-PEG6-DM1"
+      "T-PEG6-DM1",
+      "P-PEG6-DM1"
     ],
     "Primary Target Name": "Receptor protein-tyrosine kinase erbB-2",
     "Molecule Info": {
@@ -926,6 +926,21 @@
     ],
     "Target Metadata": [
       {
+        "Target ChEMBL ID": "CHEMBL3712881",
+        "Pref Name": "Carcinoembryonic antigen-related cell adhesion molecule 5",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P06731",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P06731",
+            "HGNC": null
+          }
+        ]
+      },
+      {
         "Target ChEMBL ID": "CHEMBL2095182",
         "Pref Name": "Tubulin",
         "Target Type": "PROTEIN COMPLEX GROUP",
@@ -1035,21 +1050,6 @@
             "Organism": null,
             "UniProt": "GO:0003924",
             "HGNC": "GTPase activity"
-          }
-        ]
-      },
-      {
-        "Target ChEMBL ID": "CHEMBL3712881",
-        "Pref Name": "Carcinoembryonic antigen-related cell adhesion molecule 5",
-        "Target Type": "SINGLE PROTEIN",
-        "Organism": "Homo sapiens",
-        "Target Components": [
-          {
-            "Accession": "P06731",
-            "Component Type": "PROTEIN",
-            "Organism": null,
-            "UniProt": "P06731",
-            "HGNC": null
           }
         ]
       }
@@ -1276,21 +1276,6 @@
     "Drug Indications": [],
     "Target Metadata": [
       {
-        "Target ChEMBL ID": "CHEMBL4895",
-        "Pref Name": "Tyrosine-protein kinase receptor UFO",
-        "Target Type": "SINGLE PROTEIN",
-        "Organism": "Homo sapiens",
-        "Target Components": [
-          {
-            "Accession": "P30530",
-            "Component Type": "PROTEIN",
-            "Organism": null,
-            "UniProt": "P30530",
-            "HGNC": null
-          }
-        ]
-      },
-      {
         "Target ChEMBL ID": "CHEMBL2095182",
         "Pref Name": "Tubulin",
         "Target Type": "PROTEIN COMPLEX GROUP",
@@ -1400,6 +1385,21 @@
             "Organism": null,
             "UniProt": "GO:0003924",
             "HGNC": "GTPase activity"
+          }
+        ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL4895",
+        "Pref Name": "Tyrosine-protein kinase receptor UFO",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "P30530",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "P30530",
+            "HGNC": null
           }
         ]
       }
@@ -1598,8 +1598,8 @@
     "ChEMBL ID": "CHEMBL4594611",
     "Preferred Name": "PATRITUMAB DERUXTECAN",
     "All Aliases": [
-      "PATRITUMAB DERUXTECAN",
-      "U3-1402"
+      "U3-1402",
+      "PATRITUMAB DERUXTECAN"
     ],
     "Primary Target Name": "Receptor tyrosine-protein kinase erbB-3",
     "Molecule Info": {
@@ -1751,21 +1751,6 @@
     ],
     "Target Metadata": [
       {
-        "Target ChEMBL ID": "CHEMBL4523587",
-        "Pref Name": "Tumor necrosis factor receptor superfamily member 17",
-        "Target Type": "SINGLE PROTEIN",
-        "Organism": "Homo sapiens",
-        "Target Components": [
-          {
-            "Accession": "Q02223",
-            "Component Type": "PROTEIN",
-            "Organism": null,
-            "UniProt": "Q02223",
-            "HGNC": null
-          }
-        ]
-      },
-      {
         "Target ChEMBL ID": "CHEMBL2095182",
         "Pref Name": "Tubulin",
         "Target Type": "PROTEIN COMPLEX GROUP",
@@ -1875,6 +1860,21 @@
             "Organism": null,
             "UniProt": "GO:0003924",
             "HGNC": "GTPase activity"
+          }
+        ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL4523587",
+        "Pref Name": "Tumor necrosis factor receptor superfamily member 17",
+        "Target Type": "SINGLE PROTEIN",
+        "Organism": "Homo sapiens",
+        "Target Components": [
+          {
+            "Accession": "Q02223",
+            "Component Type": "PROTEIN",
+            "Organism": null,
+            "UniProt": "Q02223",
+            "HGNC": null
           }
         ]
       }
@@ -2126,13 +2126,6 @@
     ],
     "Target Metadata": [
       {
-        "Target ChEMBL ID": "CHEMBL2311221",
-        "Pref Name": "DNA",
-        "Target Type": "NUCLEIC-ACID",
-        "Organism": "Homo sapiens",
-        "Target Components": []
-      },
-      {
         "Target ChEMBL ID": "CHEMBL3390821",
         "Pref Name": "B-lymphocyte antigen CD19",
         "Target Type": "SINGLE PROTEIN",
@@ -2146,6 +2139,13 @@
             "HGNC": null
           }
         ]
+      },
+      {
+        "Target ChEMBL ID": "CHEMBL2311221",
+        "Pref Name": "DNA",
+        "Target Type": "NUCLEIC-ACID",
+        "Organism": "Homo sapiens",
+        "Target Components": []
       }
     ]
   },
